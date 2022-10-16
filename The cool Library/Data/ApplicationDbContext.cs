@@ -15,10 +15,12 @@ namespace The_cool_Library.Data
         {
         }
 
+        public DbSet<Admin> Admins { get; set; }
+
         public DbSet<Customer> Customers { get; set; }
 
         /*
-        public DbSet<Admin> Admins { get; set; }
+        
         public DbSet<StoreOwner> StoreOwners { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<Order> Orders { get; set; }
