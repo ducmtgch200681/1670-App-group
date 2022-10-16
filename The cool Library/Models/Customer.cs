@@ -5,7 +5,8 @@ namespace The_cool_Library.Models
 {
     public class Customer
     {
-        public int Id { get; set; }
+        [Key]
+        public int Cus_id { get; set; }
 
         [Required]
         [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !"), 
