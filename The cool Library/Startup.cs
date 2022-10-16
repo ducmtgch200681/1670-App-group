@@ -34,6 +34,10 @@ namespace The_cool_Library
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            ////Add by DMT
+            //services.AddDefaultIdentity<IdentityUser>()
+            //        .AddRoles<IdentityRole>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

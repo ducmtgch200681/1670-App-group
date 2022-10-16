@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using The_cool_Library.Data;
-using The_cool_Library.Models;
+using The_cool_Library.Models; //cho chac - DMT
 
 namespace The_cool_Library.Controllers
 {

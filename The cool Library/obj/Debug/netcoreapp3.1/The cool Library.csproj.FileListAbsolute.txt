@@ -779,3 +779,4 @@ E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs

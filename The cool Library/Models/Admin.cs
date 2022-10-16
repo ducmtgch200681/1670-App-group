@@ -4,7 +4,7 @@ namespace The_cool_Library.Models
 {
     public class Admin
     {
-        public int Ad_id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !"),

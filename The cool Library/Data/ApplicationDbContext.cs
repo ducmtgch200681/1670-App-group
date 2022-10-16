@@ -31,6 +31,8 @@ namespace The_cool_Library.Data
         {
             base.OnModelCreating(builder);
 
+
+            //Bonus form
             //Note: add dữ liệu cho bảng chứa PK trước (University)
             //rồi add dữ liệu cho bảng chứa FK sau (Student)
 
@@ -39,6 +41,11 @@ namespace The_cool_Library.Data
 
             //add dữ liệu khởi tạo (initial data) cho bảng Student
             //SeedStudent(builder);
+
+
+
+
+
 
             //add dữ liệu cho bảng User
             SeedUser(builder);
@@ -93,6 +100,8 @@ namespace The_cool_Library.Data
             builder.Entity<IdentityUser>().HasData(admin, customer, storeOwner);
         }
 
+
+        //Add Role
         private void SeedRole(ModelBuilder builder)
         {
             //1. tạo các role cho hệ thống
@@ -121,6 +130,8 @@ namespace The_cool_Library.Data
             builder.Entity<IdentityRole>().HasData(admin, customer, storeOwner);
         }
 
+
+        //Conect role with user
         private void SeedUserRole(ModelBuilder builder)
         {
             builder.Entity<IdentityUserRole<string>>().HasData(
