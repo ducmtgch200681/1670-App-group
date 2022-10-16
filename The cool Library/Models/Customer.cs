@@ -1,31 +1,38 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
     public class Customer
     {
-        public int id { get; set; }
+        public int Cus_id { get; set; }
 
         [Required]
-        [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !"), MaxLength(30, ErrorMessage = "Fullname maximum is 30 characters !")]
-        public string fullname { get; set; }
+        [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !"), 
+        MaxLength(30, ErrorMessage = "Fullname maximum is 30 characters !")]
+        public string Cus_name { get; set; }
 
         [Required]
-        [Range(4,6, ErrorMessage = "Gender range must from 4-6 characters !")]
-        public string gender { get; set; }
-
-        [Required]
-        [Phone]
-        public int phone { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime Cus_dob { get; set; }
 
         [Required]
         [EmailAddress]
-        public string email { get; set; }
+        public string Cus_email { get; set; }
+
+        [Required (ErrorMessage = "Please input your address !")]
+        public string Cus_address { get; set; }
 
         [Required]
-        public string username { get; set; }
+        [Phone] 
+        public string Cus_phone { get; set; }
 
-        [Required]
-        public string password { get; set; }
+
+        [Required (ErrorMessage = "Please input your gender !")]
+        public char gender { get; set; }
+
+
+
+       
     }
 }

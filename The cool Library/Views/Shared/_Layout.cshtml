@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - The_cool_Library</title>
+    <title>The Cool Library</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">The_cool_Library</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">The Cool Library</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,10 +20,30 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+                        <div class="btn-group">
+                            <a asp-controller="Customer" asp-action="Homepage"></a>
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" >
+                                Book
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Comic Book</a>
+                                <a class="dropdown-item" href="#">Detective Book</a>
+                                <a class="dropdown-item" href="#">Fiction Novel</a>
+                                <a class="dropdown-item" href="#">Literary Book</a>
+                                <a class="dropdown-item" href="#">Romance Book</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="Homepage">All Book</a>
+                            </div>
+                        </div>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Privacy">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Privacy">Help</a>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +58,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - The_cool_Library - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2022 - The Cool Library - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
