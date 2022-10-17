@@ -5,7 +5,7 @@ namespace The_cool_Library.Controllers
 {
     public class AdminController : Controller
     {
-        [Route ("/")]
+        
         public IActionResult Index()
         {
             return View();

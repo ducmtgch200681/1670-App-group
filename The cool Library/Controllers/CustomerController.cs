@@ -14,7 +14,13 @@ namespace The_cool_Library.Controllers
         //    this.context = context;
         //}
 
-        public IActionResult Homepage()
+        [Route("/")]
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }
