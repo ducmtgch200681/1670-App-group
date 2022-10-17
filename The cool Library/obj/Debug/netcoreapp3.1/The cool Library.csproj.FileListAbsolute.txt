@@ -1281,3 +1281,4 @@ F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\net
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Layout_Register.cshtml.g.cs
