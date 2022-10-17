@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
@@ -9,5 +11,7 @@ namespace The_cool_Library.Models
 
         [Required(ErrorMessage = "Enter category")]
         public string Cate_name { get; set; }
+
+        public ICollection<Book> Books { get; set; }
     }
 }

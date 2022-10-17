@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models;
@@ -76,5 +78,7 @@ namespace The_cool_Library.Controllers
         {
             return View(applicationDbContext.Categories.Find(id));
         }
+
+        //----------------------------------------------------------------------------------
     }
 }

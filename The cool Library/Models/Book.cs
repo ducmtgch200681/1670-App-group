@@ -35,8 +35,10 @@ namespace The_cool_Library.Models
         [Required(ErrorMessage ="Enter book description here")]
         public string Book_description { get; set; }
 
-        //Cần bổ sung khóa phụ của category id: Cate_id sau 
-
+        // bổ sung khóa phụ của category id: Cate_id sau 
+        [Required]
+        public int Cate_id { get; set; }
+        public Category Category { get; set; }
 
 
         
