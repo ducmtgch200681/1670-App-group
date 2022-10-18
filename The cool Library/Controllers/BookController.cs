@@ -17,12 +17,14 @@ namespace The_cool_Library.Controllers
         }
 
         //-------------------------------------------------------------
+
         public IActionResult Index()
         {
             return View(applicationDbContext.Books.ToList());
         }
 
         //-----------------------------------------------------------------
+
         public IActionResult Detail(int id)
         {
             //phần này lm sau khi đã tạo xong FK category
@@ -47,6 +49,15 @@ namespace The_cool_Library.Controllers
         }
 
         //----------------------------------------------------------------
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            var categories = applicationDbContext.Categories.ToList();
+            ViewBag.Categories = categories;
+            return View();
+        }
+
         [HttpPost]        
         public IActionResult Add(Book book)
         {
@@ -61,15 +72,16 @@ namespace The_cool_Library.Controllers
             }
         }
 
+        //-------------------------------------------------------------------------------
+
         [HttpGet]
-        public IActionResult Add()
+        public IActionResult Edit(int id)
         {
             var categories = applicationDbContext.Categories.ToList();
-            ViewBag.Categories = categories;
-            return View();
+            ViewBag.Category = categories;
+            return View(applicationDbContext.Books.Find(id));
         }
 
-        //-------------------------------------------------------------------------------
         [HttpPost]
         public IActionResult Edit(Book book)
         {
@@ -84,12 +96,6 @@ namespace The_cool_Library.Controllers
             }
         }
 
-        [HttpGet]
-        public IActionResult Edit(int id)
-        {
-            var categories = applicationDbContext.Categories.ToList();
-            ViewBag.Category = categories;
-            return View(applicationDbContext.Books.Find(id));
-        }
+        
     }
 }

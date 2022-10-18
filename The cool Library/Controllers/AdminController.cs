@@ -17,11 +17,15 @@ namespace The_cool_Library.Controllers
             this.context = context;
         }
 
+        //-----------------------------------------------------------------
+
         public IActionResult Index()
         {
             var universities = context.Admins.ToList();
             return View(universities);
         }
+
+        //-----------------------------------------------------------------
 
         //public IActionResult Info(int? id)
         //{
@@ -41,13 +45,15 @@ namespace The_cool_Library.Controllers
         //    //return View(university);
         //}
 
-        public IActionResult Remove(int id)
-        {
-            var admin = context.Admins.Find(id);
-            context.Admins.Remove(admin);
-            context.SaveChanges();
-            return RedirectToAction("Index");
-        }
+        //-----------------------------------------------------------------
+
+        //public IActionResult Remove(int id)
+        //{
+        //    var admin = context.Admins.Find(id);
+        //    context.Admins.Remove(admin);
+        //    context.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
 
         //--------------------------------------------------------
 
@@ -97,6 +103,8 @@ namespace The_cool_Library.Controllers
             return View(admin);
         }
 
+        //-----------------------------------------------------------------
+
         //[Authorize(Roles = "Administrator")]
         public IActionResult Delete(int? id)
         {
@@ -114,7 +122,7 @@ namespace The_cool_Library.Controllers
                 context.SaveChanges();
 
                 //notify with Tempdata if redirect
-                TempData["Message"] = "Delete student successfully !";
+                TempData["Message"] = "Delete admin successfully !";
 
                 //return
                 return RedirectToAction("Index");
