@@ -10,8 +10,8 @@ using The_cool_Library.Data;
 namespace The_cool_Library.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221018130533_ABC")]
-    partial class ABC
+    [Migration("20221018170220_abc")]
+    partial class abc
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,21 +51,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "120fce5f-1bad-47a8-8e1f-2a88496abfd8",
+                            ConcurrencyStamp = "bcbd863f-e433-4981-8486-57814ac131de",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "c39904e2-390b-42f6-8ba7-4a62700a9aed",
+                            ConcurrencyStamp = "57775096-5fb1-4773-b4b5-bc72dc5ff2c0",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "44cd91e9-c4b7-4ce7-96f4-969c4eaa97dc",
+                            ConcurrencyStamp = "428a9f35-d333-4460-b864-1588b5b0ae99",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -164,14 +164,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d73a0440-9465-4adb-a082-3651ebb0c2c4",
+                            ConcurrencyStamp = "248133cf-770e-4ea9-ac1f-08d55f97a341",
                             Email = "admin@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAbd7HUfZLcc5MdmYVNfCiYiDU5dD4Xd0pcMKZxAxVwKdLKnJZJxJOik9CDj5v05xw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECBc3U8ww7ia+IEn/sZB5egFvn38k8MMPl4OG4IOkx/FKA/rKL4EIBpz0gk/VpjlqA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f5d71865-224a-4f35-9acb-6c525da1853d",
+                            SecurityStamp = "50f66b62-8c0c-442c-9ebc-64df7e03bc30",
                             TwoFactorEnabled = false,
                             UserName = "admin@fpt.com"
                         },
@@ -179,14 +179,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c7985a35-36f2-4412-8319-386b385e62dc",
+                            ConcurrencyStamp = "14bdf1cb-3a9c-4678-9bca-c47925df4fa6",
                             Email = "customer@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOsLHftJlE8fjUuluX/mHyOTYi8LCZ71hR9u3yjb1lSupQH4vbTxdkf0/i/Z6dVhUA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECEz84xE4zB8bWIfK1wCcs1FRA7w4ne0Mmwu6dw/o9KSAaaYXMkDcJLTKsITw05dVw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "05a015be-5338-4d2b-ba09-196d1fa489f9",
+                            SecurityStamp = "20ed2d8c-63d3-4ddb-89cf-db4314d8130a",
                             TwoFactorEnabled = false,
                             UserName = "customer@fpt.com"
                         },
@@ -194,14 +194,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "48f9301a-ca55-47c4-a506-391cf6e54837",
+                            ConcurrencyStamp = "1d17d552-e306-4a16-b126-95092ec37a35",
                             Email = "storeOwner@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeOwner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAELybjIbQkv6/clfoFP0aOn++j8kYYxb/fsZb0PpULIp7lHuRjgFn82Xj2//USlJ35Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAuvGphEvJD5hGNlcRjRTd7eYdTA1cMQntpjnghW+9/Q3nJ+k+Qc5OpWK82HKVGAJA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "72021584-a480-4769-a932-62c25fea10c6",
+                            SecurityStamp = "ebbd2f47-b0a0-4cf0-aee9-9a5d46c3c72d",
                             TwoFactorEnabled = false,
                             UserName = "storeOwner@fpt.com"
                         });

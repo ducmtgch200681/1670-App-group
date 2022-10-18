@@ -86,7 +86,6 @@ namespace The_cool_Library.Data
                 EmailConfirmed = true
             };
 
-
             //Khai báo thư viện để mã hóa mk
             var hashed = new PasswordHasher<IdentityUser>();
 
