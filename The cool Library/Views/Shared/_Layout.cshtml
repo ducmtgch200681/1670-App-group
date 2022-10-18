@@ -4,24 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Cool Library</title>
-    @*4.3.3
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    4.3.1*@
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/style.css" />
-    <link rel="stylesheet" href="~/fonts/icomoon/style.css">
-
-    @*Test section*@
-    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />*@
-
-    @*sai chinh ta - DMT
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/style.css">*@
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
 
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
@@ -96,8 +90,8 @@
                                     </li>
                                     <li><a href="#about-section" class="nav-link">Contact</a></li>
                                     <li><a href="#events-section" class="nav-link">Help</a></li>
-                                        <li><a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Sign in</a></li>
-                                        <li><a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Sign up</a></li>
+                                    <li><a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Sign in</a></li>
+                                    <li><a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Sign up</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -118,7 +112,6 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
     </header>
-
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -128,7 +121,7 @@
     <hr style="color:red" />
 
     <footer>
-    <div class="container-fluid mt-5" style="background-color: dimgray">
+    <div class="container-fluid mt-5" style="background-color:dim-gray">
         <div class="card mx-5">
             <div class="row mb-4 ">
                 <div class="col-md-4 col-sm-11 col-xs-11">

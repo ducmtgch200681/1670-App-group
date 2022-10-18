@@ -14,15 +14,15 @@ namespace The_cool_Library.Controllers
         //    this.context = context;
         //}
 
-        //[Route("/")]
-        public IActionResult Index()
-        {
-            return View();
-        }
+        [Route("/")]
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
-        public IActionResult Register()
-        {
-            return View();
-        }
+        //public IActionResult Register()
+        //{
+        //    return View();
+        //}
     }
 }
