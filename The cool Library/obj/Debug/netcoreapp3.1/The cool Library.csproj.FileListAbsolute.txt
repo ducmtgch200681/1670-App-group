@@ -359,7 +359,6 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.output.cache
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorCoreGenerate.cache
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
