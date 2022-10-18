@@ -32,7 +32,6 @@ namespace The_cool_Library.Controllers
         }
 
         //----------------------------------------------------------------
-
         public IActionResult Delete(int? id)
         {
             if (id == null)

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <title>The Cool Library</title>
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -14,52 +15,17 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">   
+=======
+    <title>@ViewData["Title"] - The_cool_Library</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+>>>>>>> d4327697aec7658617b66d4e2ed1e0c53c6100ee
 </head>
 <body>
-
     <header>
-
-    <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-            <div class="site-mobile-menu-close mt-3">
-                <span class="icon-close2 js-menu-toggle"></span>
-            </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-
-
-    <div class="site-navbar-wrap">
-        <div class="site-navbar-top">
-            <div class="container py-3">
-                <div class="row align-items-center">
-                    <div class="col-6">
-                        <div class="d-flex mr-auto">
-                            <a href="#" class="d-flex align-items-center mr-4">
-                                <span class="icon-envelope mr-2"></span>
-                                <span class="d-none d-md-inline-block">thecoollibrary@gmail.com</span>
-                            </a>
-                            <a href="#" class="d-flex align-items-center mr-auto">
-                                <span class="icon-phone mr-2"></span>
-                                <span class="d-none d-md-inline-block">+84 123 456 789</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-6 text-right">
-                        <div class="mr-auto">
-                            <a href="#" class="p-2 pl-0"><span class="icon-person"></span></a>
-                            <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
-                            <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-                            <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
-                            <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="site-navbar site-navbar-target js-sticky-header">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
+<<<<<<< HEAD
                 <div class="row align-items-center">
                     <div class="col-2">
                         <h1 class="my-0 site-logo"></h1>
@@ -98,29 +64,34 @@
                             </div>
                         </nav>
                     </div>
+=======
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">The_cool_Library</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+>>>>>>> d4327697aec7658617b66d4e2ed1e0c53c6100ee
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <div class="hero" style="background-image: url('images/The.png');"></div>
-
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
+        </nav>
     </header>
-
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
+<<<<<<< HEAD
     <hr style="color:red" />
 
     <footer>
@@ -191,12 +162,13 @@
                     </div>
                 </div>
             </div>
+=======
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - The_cool_Library - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+>>>>>>> d4327697aec7658617b66d4e2ed1e0c53c6100ee
         </div>
-    </div>
     </footer>
-
-
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
