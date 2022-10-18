@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "b029ad6f83602a408e87557bd7975199eb82becc"
+=======
+#pragma checksum "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "a60b9ef004245e8c3630828fa166125038fefb9c"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "a60b9ef004245e8c3630828fa166125038fefb9c"
 >>>>>>> Stashed changes
@@ -85,9 +89,15 @@ using The_cool_Library.Models;
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc10319", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>The Cool Library</title>\r\n    ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b029ad6f83602a408e87557bd7975199eb82becc10739", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c7762", async() => {
+                WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>The Cool Library</title>\r\n    ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a60b9ef004245e8c3630828fa166125038fefb9c8181", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c7762", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>The Cool Library</title>\r\n    ");
@@ -110,7 +120,11 @@ using The_cool_Library.Models;
                 WriteLiteral("\r\n");
                 WriteLiteral("    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b029ad6f83602a408e87557bd7975199eb82becc11992", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a60b9ef004245e8c3630828fa166125038fefb9c9394", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a60b9ef004245e8c3630828fa166125038fefb9c9394", async() => {
 >>>>>>> Stashed changes
@@ -171,7 +185,11 @@ using The_cool_Library.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc16247", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c11512", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c11512", async() => {
 >>>>>>> Stashed changes
@@ -233,7 +251,11 @@ using The_cool_Library.Models;
                                     <ul class=""site-menu main-menu js-clone-nav d-none d-lg-block"">
                                         <li class=""active"">");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc19674", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c14939", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c14939", async() => {
 >>>>>>> Stashed changes
@@ -276,7 +298,11 @@ using The_cool_Library.Models;
                                         <li><a href=""#events-section"" class=""nav-link"">Help</a></li>
                                         <li>");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc22956", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c18221", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c18221", async() => {
 >>>>>>> Stashed changes
@@ -299,7 +325,11 @@ using The_cool_Library.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("</li>\r\n                                        <li>");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc24519", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c19784", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c19784", async() => {
 >>>>>>> Stashed changes
@@ -408,7 +438,11 @@ using The_cool_Library.Models;
                 WriteLiteral("\r\n    </header>\r\n\r\n    <div class=\"container\">\r\n        <main role=\"main\" class=\"pb-3\">\r\n            ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 121 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
+=======
+#line 120 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 120 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
 >>>>>>> Stashed changes
@@ -502,7 +536,11 @@ using The_cool_Library.Models;
 
     ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc36057", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c26020", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c26020", async() => {
 >>>>>>> Stashed changes
@@ -520,7 +558,11 @@ using The_cool_Library.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc37158", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c27120", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c27120", async() => {
 >>>>>>> Stashed changes
@@ -538,7 +580,11 @@ using The_cool_Library.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b029ad6f83602a408e87557bd7975199eb82becc38259", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c28221", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a60b9ef004245e8c3630828fa166125038fefb9c28221", async() => {
 >>>>>>> Stashed changes
@@ -552,7 +598,11 @@ using The_cool_Library.Models;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_18);
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 203 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
+=======
+#line 202 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 202 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
 >>>>>>> Stashed changes
@@ -572,7 +622,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 204 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
+=======
+#line 203 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 203 "E:\GitHub\1670-App-group\The cool Library\Views\Shared\Layout_Register.cshtml"
 >>>>>>> Stashed changes

@@ -735,7 +735,10 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Libra
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorCoreGenerate.cache
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 >>>>>>> Stashed changes
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
