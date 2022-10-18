@@ -20,7 +20,7 @@ namespace The_cool_Library.Controllers
             return View();
         }
 
-        public IActionResult Register()
+        public IActionResult About()
         {
             return View();
         }
