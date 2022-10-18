@@ -17,12 +17,14 @@ namespace The_cool_Library.Controllers
         }
 
         //------------------------------------------------------------------------------------------------
+
         public IActionResult Index()
         {
             return View(applicationDbContext.Categories.ToList());
         }
 
         //-------------------------------------------------------------------------------------------------
+
         public IActionResult Delete(int? id)
         {
             if(id == null)
@@ -37,6 +39,13 @@ namespace The_cool_Library.Controllers
         }
 
         //-------------------------------------------------------------------------------------------------
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Add(Category category)
         {
@@ -52,13 +61,14 @@ namespace The_cool_Library.Controllers
             }
         }
 
+        //--------------------------------------------------------------------------------------------------------
+
         [HttpGet]
-        public IActionResult Add()
+        public IActionResult Edit(int id)
         {
-            return View();
+            return View(applicationDbContext.Categories.Find(id));
         }
 
-        //--------------------------------------------------------------------------------------------------------
         [HttpPost]
         public IActionResult Edit(Category category)
         {
@@ -71,12 +81,6 @@ namespace The_cool_Library.Controllers
             {
                 return View (category);
             }
-        }
-
-        [HttpGet]
-        public IActionResult Edit(int id)
-        {
-            return View(applicationDbContext.Categories.Find(id));
         }
 
         //----------------------------------------------------------------------------------
