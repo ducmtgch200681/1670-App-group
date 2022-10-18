@@ -30,7 +30,6 @@ namespace The_cool_Library.Data
         {
             base.OnModelCreating(builder);
 
-
             //Bonus form
             //Note: add dữ liệu cho bảng chứa PK trước (University)
             //rồi add dữ liệu cho bảng chứa FK sau (Student)
@@ -40,11 +39,7 @@ namespace The_cool_Library.Data
 
             //add dữ liệu khởi tạo (initial data) cho bảng Student
             //SeedStudent(builder);
-
-
-
-
-
+            //----------------------------------------------------
 
             //add dữ liệu cho bảng User
             SeedUser(builder);
