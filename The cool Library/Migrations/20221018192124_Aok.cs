@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace The_cool_Library.Migrations
 {
-    public partial class abc : Migration
+    public partial class Aok : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,7 +14,8 @@ namespace The_cool_Library.Migrations
                     Admin_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Ad_name = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    Ad_email = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Ad_email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Ad_pass = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -244,9 +245,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "A", "bcbd863f-e433-4981-8486-57814ac131de", "Administrator", "Administrator" },
-                    { "B", "57775096-5fb1-4773-b4b5-bc72dc5ff2c0", "Customer", "Customer" },
-                    { "C", "428a9f35-d333-4460-b864-1588b5b0ae99", "StoreOwner", "StoreOwner" }
+                    { "A", "05249740-d273-49a4-81b1-42e6eb3f3aa3", "Administrator", "Administrator" },
+                    { "B", "d5a78596-7fff-4495-afe8-1fc05c96a45c", "Customer", "Customer" },
+                    { "C", "cc44c737-d7fa-48a1-8386-3e17395215e1", "StoreOwner", "StoreOwner" }
                 });
 
             migrationBuilder.InsertData(
@@ -254,9 +255,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "248133cf-770e-4ea9-ac1f-08d55f97a341", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAECBc3U8ww7ia+IEn/sZB5egFvn38k8MMPl4OG4IOkx/FKA/rKL4EIBpz0gk/VpjlqA==", null, false, "50f66b62-8c0c-442c-9ebc-64df7e03bc30", false, "admin@fpt.com" },
-                    { "2", 0, "14bdf1cb-3a9c-4678-9bca-c47925df4fa6", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAECEz84xE4zB8bWIfK1wCcs1FRA7w4ne0Mmwu6dw/o9KSAaaYXMkDcJLTKsITw05dVw==", null, false, "20ed2d8c-63d3-4ddb-89cf-db4314d8130a", false, "customer@fpt.com" },
-                    { "3", 0, "1d17d552-e306-4a16-b126-95092ec37a35", "storeOwner@fpt.com", true, false, null, null, "storeOwner@fpt.com", "AQAAAAEAACcQAAAAEAuvGphEvJD5hGNlcRjRTd7eYdTA1cMQntpjnghW+9/Q3nJ+k+Qc5OpWK82HKVGAJA==", null, false, "ebbd2f47-b0a0-4cf0-aee9-9a5d46c3c72d", false, "storeOwner@fpt.com" }
+                    { "1", 0, "c42bc3cd-c45e-47e3-91b0-2620f65be5cd", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEAEon4dVoExm1oJeht7epFF6WqgdwH9u6JTlU0mjYDPJbwtCkX9sp1+DMmWbxx0hbg==", null, false, "51903280-95bf-4754-9bd1-d5c60965dbc9", false, "admin@fpt.com" },
+                    { "2", 0, "1d5dde5d-c611-4ae5-bb19-4ff7bfb2833b", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEGJHJdkpjlREX+FnkKJJuXtZo0IKaSNoVCOr/YH+jaWOOwlKkQ0uhPvs3bvwgRaI5Q==", null, false, "866bccd6-7d86-4de3-91b3-8ed3245f81b4", false, "customer@fpt.com" },
+                    { "3", 0, "da676947-3410-49ab-9c40-33a239c8937a", "storeOwner@fpt.com", true, false, null, null, "storeOwner@fpt.com", "AQAAAAEAACcQAAAAEJfbF/cjxfMGB5LtngWFRc3IDovCJkjH81C4V9JkBH6Bb2CH4MvmBLx/nzBn9+08tw==", null, false, "f6abc321-4a2d-401a-a45a-b1f3e072d9ac", false, "storeOwner@fpt.com" }
                 });
 
             migrationBuilder.InsertData(
