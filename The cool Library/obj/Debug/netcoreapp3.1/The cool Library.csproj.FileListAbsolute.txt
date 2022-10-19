@@ -1805,3 +1805,4 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Raz
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Index.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutRegister.cshtml.g.cs
