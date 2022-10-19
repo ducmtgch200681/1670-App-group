@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = The_cool_Library
+<<<<<<< HEAD
 build_property.ProjectDir = F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\
+=======
+build_property.ProjectDir = G:\Git\1670-App-group\The cool Library\
+>>>>>>> 5a42d1358cc44f9627f487afaf6e164a12571a5a
