@@ -1,12 +1,13 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
-    public class StoreOwner
+    public class StoreOwner : IdentityUser
     {
-        [Key]
-        public int So_id { get; set; }
+        //[Key]
+        //public int So_id { get; set; }
 
         [Required(ErrorMessage ="Please enter store owner username")]
         [MinLength(5, ErrorMessage ="Username must at least 5 characters")]

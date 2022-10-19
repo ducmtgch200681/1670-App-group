@@ -1,12 +1,13 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
-    public class Admin
+    public class Admin : IdentityUser
     {
-        [Key]
-        public int Admin_id { get; set; }
+        //[Key]
+        //public int Admin_id { get; set; }
 
         [Required]
         [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !"),

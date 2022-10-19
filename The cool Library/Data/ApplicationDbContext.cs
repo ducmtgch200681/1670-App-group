@@ -14,7 +14,7 @@ namespace The_cool_Library.Data
             : base(options)
         {
         }
-        public DbSet<IdentityUser> IU { get; set; }
+        public DbSet<IdentityUser> IUs { get; set; }
 
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Customer> Customers { get; set; }
@@ -129,43 +129,44 @@ namespace The_cool_Library.Data
 
         private void SeedUser(ModelBuilder builder)
         {
-            var admin = new IdentityUser
+            var admin = new Admin
             {
                 Id = "1",
+                Ad_name = "Duc",
                 UserName = "admin@fpt.com",
                 Email = "admin@fpt.com",
                 NormalizedUserName = "admin@fpt.com",
                 EmailConfirmed = true
             };
 
-            var customer = new IdentityUser
-            {
-                Id = "2",
-                UserName = "customer@fpt.com",
-                Email = "customer@fpt.com",
-                NormalizedUserName = "customer@fpt.com",
-                EmailConfirmed = true
-            };
+            //var customer = new IdentityUser
+            //{
+            //    Id = "2",
+            //    UserName = "customer@fpt.com",
+            //    Email = "customer@fpt.com",
+            //    NormalizedUserName = "customer@fpt.com",
+            //    EmailConfirmed = true
+            //};
 
-            var storeOwner = new IdentityUser
-            {
-                Id = "3",
-                UserName = "storeOwner@fpt.com",
-                Email = "storeOwner@fpt.com",
-                NormalizedUserName = "storeOwner@fpt.com",
-                EmailConfirmed = true
-            };
+            //var storeOwner = new IdentityUser
+            //{
+            //    Id = "3",
+            //    UserName = "storeOwner@fpt.com",
+            //    Email = "storeOwner@fpt.com",
+            //    NormalizedUserName = "storeOwner@fpt.com",
+            //    EmailConfirmed = true
+            //};
 
             //Khai báo thư viện để mã hóa mk
             var hashed = new PasswordHasher<IdentityUser>();
 
             //Thiết lập để mã hóa từng tài khoản
             admin.PasswordHash = hashed.HashPassword(admin, "12345");
-            customer.PasswordHash = hashed.HashPassword(customer, "12345");
-            storeOwner.PasswordHash = hashed.HashPassword(storeOwner, "12345");
+            //customer.PasswordHash = hashed.HashPassword(customer, "12345");
+            //storeOwner.PasswordHash = hashed.HashPassword(storeOwner, "12345");
 
             //Add tài khoản vào DB
-            builder.Entity<IdentityUser>().HasData(admin, customer, storeOwner);
+            builder.Entity<IdentityUser>().HasData(admin);
         }
 
         //Add Role
@@ -235,16 +236,16 @@ namespace The_cool_Library.Data
                     UserId = "1",
                     RoleId = "A"
                 },
-                new IdentityUserRole<string>
-                {
-                    UserId = "2",
-                    RoleId = "B"
-                },
-                new IdentityUserRole<string>
-                {
-                    UserId = "3",
-                    RoleId = "C"
-                }
+                //new IdentityUserRole<string>
+                //{
+                //    UserId = "2",
+                //    RoleId = "B"
+                //},
+                //new IdentityUserRole<string>
+                //{
+                //    UserId = "3",
+                //    RoleId = "C"
+                //}
              );
         }
     }
