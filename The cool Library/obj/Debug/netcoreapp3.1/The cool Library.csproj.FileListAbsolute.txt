@@ -1,378 +1,12 @@
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.StaticWebAssets.xml
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.exe
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.deps.json
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.runtimeconfig.json
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.runtimeconfig.dev.json
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.pdb
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\netstandard.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Console.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Web.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.pdb
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.AssemblyReference.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.GeneratedMSBuildEditorConfig.editorconfig
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfoInputs.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfo.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CoreCompileInputs.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.Manifest.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.xml
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.input.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.output.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorCoreGenerate.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorTargetAssemblyInfo.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorTargetAssemblyInfo.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.Views.pdb
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CopyComplete
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.AssemblyReference.cache
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfoInputs.cache
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfo.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CoreCompileInputs.cache
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cache
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cache
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cs
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.json
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.StaticWebAssets.xml
@@ -458,7 +92,9 @@ E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
@@ -644,6 +280,7 @@ E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xm
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.pdb
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Humanizer.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -685,6 +322,7 @@ E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Iden
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
@@ -718,25 +356,27 @@ E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.C
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.AssemblyReference.cache
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.GeneratedMSBuildEditorConfig.editorconfig
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfoInputs.cache
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfo.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CoreCompileInputs.cache
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cache
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cache
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.Manifest.cache
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.xml
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.input.cache
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.output.cache
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorCoreGenerate.cache
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Homepage.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Product.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -750,42 +390,370 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Libra
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Humanizer.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_Register.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.StaticWebAssets.xml
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.exe
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.deps.json
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.runtimeconfig.json
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.runtimeconfig.dev.json
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.pdb
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.pdb
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Humanizer.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Product.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -794,12 +762,48 @@ D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Mic
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
@@ -826,458 +830,55 @@ D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Application\Group\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.AssemblyReference.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfoInputs.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfo.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CoreCompileInputs.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.Manifest.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.xml
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.input.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.output.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorCoreGenerate.cache
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.Development.json
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.json
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.StaticWebAssets.xml
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.exe
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.deps.json
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.runtimeconfig.json
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.runtimeconfig.dev.json
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\netstandard.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Console.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Data.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Web.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.Views.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Humanizer.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.AssemblyReference.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.GeneratedMSBuildEditorConfig.editorconfig
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfoInputs.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.AssemblyInfo.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CoreCompileInputs.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.MvcApplicationPartsAssemblyInfo.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorAssemblyInfo.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.Manifest.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\staticwebassets\The cool Library.StaticWebAssets.xml
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.input.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.TagHelpers.output.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorCoreGenerate.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Product.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorTargetAssemblyInfo.cache
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorTargetAssemblyInfo.cs
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.Views.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CopyComplete
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
-F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\About.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Product.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_Register.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorTargetAssemblyInfo.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.RazorTargetAssemblyInfo.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.Views.pdb
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.csproj.CopyComplete
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Register.cshtml.g.cs

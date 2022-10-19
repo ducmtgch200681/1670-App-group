@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cool Library</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+
+
+    <div class="site-navbar-wrap">
+        <div class="site-navbar-top">
+            <div class="container py-3">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="d-flex mr-auto">
+                            <a href="#" class="d-flex align-items-center mr-4">
+                                <span class="icon-envelope mr-2"></span>
+                                <span class="d-none d-md-inline-block">thecoollibrary@gmail.com</span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center mr-auto">
+                                <span class="icon-phone mr-2"></span>
+                                <span class="d-none d-md-inline-block">+84 123 456 789</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 text-right">
+                        <div class="mr-auto">
+                            <a href="#" class="p-2 pl-0"><span class="icon-person"></span></a>
+                            <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                            <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                            <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
+                            <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-navbar site-navbar-target js-sticky-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <h1 class="my-0 site-logo"></h1>
+                    </div>
+                    <div class="col-10">
+                        <nav class="site-navigation text-right" role="navigation">
+                            <div class="container">
+                                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+                                <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                                    <li class="active"><a  class="nav-link" asp-controller="Customer" asp-action="Index">Home</a></li>
+                                    <li><a href="#classes-section" class="nav-link">About</a></li>
+                                    <li class="has-children">
+                                        <a href="#" class="nav-link">Book</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="#" class="nav-link">Comic Book</a></li>
+                                            <li><a href="#" class="nav-link">Detective Book</a></li>
+                                            <li><a href="#" class="nav-link">Fiction Novel</a></li>
+                                            <li><a href="#" class="nav-link">Literary Book</a></li>
+                                            <li><a href="#" class="nav-link">Romance Book</a></li>
+                                            <li class="has-children">
+                                                <a href="#">Other Book</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">All Book</a></li>
+                                                    @*<li><a href="#">Menu Two</a></li>
+                                                    <li><a href="#">Menu Three</a></li>*@
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#about-section" class="nav-link">Contact</a></li>
+                                    <li><a href="#events-section" class="nav-link">Help</a></li>
+                                    <li><a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Sign in</a></li>
+                                    <li><a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Sign up</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hero" style="background-image: url('images/The.png');"></div>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <hr style="color:red" />
+
+    <footer>
+    <div class="container-fluid mt-5" style="background-color:dim-gray">
+        <div class="card mx-5">
+            <div class="row mb-4 ">
+                <div class="col-md-4 col-sm-11 col-xs-11">
+                    <div class="footer-text pull-left">
+                        <div class="d-flex">
+                            <h1 class="font-weight-bold mr-2 px-3" style="color:#16151a; background-color:#957bda"> T </h1>
+                            <h1 style="color: #957bda">Book</h1>
+                        </div>
+                        <p class="card-text">Good books, like good friends, are few and chosen; the more select, the more enjoyable - Louisa May Alcott</p>
+                        <div class="social mt-2 mb-3">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-instagram"></i>
+                            <i class="icon-twitter"></i>
+                            <i class="icon-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <h5 class="heading">Services</h5>
+                    <ul>
+                        <li>IT Consulting</li>
+                        <li>Development</li>
+                        <li>Cloud</li>
+                        <li>DevOps & Support</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <h5 class="heading">About</h5>
+                    <ul class="card-text">
+                        <li>Finance</li>
+                        <li>Public Sector</li>
+                        <li>Smart Office</li>
+                        <li>Retail</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <h5 class="heading">Help</h5>
+                    <ul class="card-text">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li>Join Us</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divider mb-4">
+            </div>
+            <div class="row" style="font-size:10px;">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="pull-left">
+                        <p><i class="icon-copyright"></i> 2022 thelibrarybook</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="pull-right mr-4 d-flex policy">
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <div>Terms of Use</div>
+                        <div>Privacy Policy</div>
+                        <div>Cookie Policy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

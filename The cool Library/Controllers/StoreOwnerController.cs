@@ -15,12 +15,14 @@ namespace The_cool_Library.Controllers
         }
 
         //-------------------------------------------------------------------------------------
+
         public IActionResult Index()
         {
             return View(applicationDbContext.StoreOwners.ToList());
         }
 
         //-------------------------------------------------------------------------------------
+
         public IActionResult Detail(int? id)
         {
             if(id == null)
@@ -36,6 +38,7 @@ namespace The_cool_Library.Controllers
         }
 
         //----------------------------------------------------------------------------------------
+
         public IActionResult Delete(int? id)
         {
             if(id == null)
@@ -51,6 +54,13 @@ namespace The_cool_Library.Controllers
         }
 
         //------------------------------------------------------------------------------------------
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Add(StoreOwner storeOwner)
         {
@@ -64,13 +74,9 @@ namespace The_cool_Library.Controllers
                 return View(storeOwner);
             }
         }
-        [HttpGet]
-        public IActionResult Add()
-        {
-            return View();
-        }
 
         //---------------------------------------------------------------------------------------------
+
         [HttpGet]
         public IActionResult Edit(int id)
         {
