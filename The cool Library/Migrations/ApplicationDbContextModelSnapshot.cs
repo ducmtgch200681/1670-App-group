@@ -15,6 +15,7 @@ namespace The_cool_Library.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("Identity")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.10")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -49,21 +50,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "4271b2ff-acbf-40ab-8ced-621403289536",
+                            ConcurrencyStamp = "9f6f5721-035b-42fc-b5ce-3e0dfa2fdf6d",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "0e95c457-670e-4541-838a-f116b791be15",
+                            ConcurrencyStamp = "ccf8b949-9cb9-42aa-a532-5e5e32bb0e58",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "7893cdd6-5776-4303-9146-84dffc790c95",
+                            ConcurrencyStamp = "e64cbe13-b9e9-490d-8f9e-13a8a75f3a67",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -103,6 +104,10 @@ namespace The_cool_Library.Migrations
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -155,21 +160,23 @@ namespace The_cool_Library.Migrations
                         .HasDatabaseName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
-                    b.ToTable("AspNetUsers");
+                    b.ToTable("User");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
 
                     b.HasData(
                         new
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a1c8eb7e-d5f1-4346-9859-2777abec5a48",
+                            ConcurrencyStamp = "3e546465-8e7d-46b7-a6bf-1551b66d4977",
                             Email = "admin@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBMk0Lz+gGN+hJiyrz31UNOpm69FBNgo18i1dYx/g6uEbkPIMzFWsPFhC8Q1Ol5SlA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIWSkgIvNPlBK2HUdy/cGBf530MP+gTKhICxoddsyjKAAHiYDJG/DWN6TyMBDYp/NA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "19a1431c-ca38-43a6-afde-e7dfa9d19479",
+                            SecurityStamp = "114d3cd8-a909-4c75-a6c9-3c2dc9a54247",
                             TwoFactorEnabled = false,
                             UserName = "admin@fpt.com"
                         },
@@ -177,14 +184,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e3fdab91-4b90-4101-ab66-a8746377b1b0",
+                            ConcurrencyStamp = "a0ee4df5-4bd7-479f-8104-e86e935c1f68",
                             Email = "customer@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDo5fus+/vSQdWdVLQDpwVhqzVyQ5iVLmSKP1x53nJTSIcoLjzv0koBPTlK6/T1H4Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB5QhqacZMWjj0fQ0DbQy2ignCkpoH/2DCV4N7hCEKnYlpUpTaULSOAvJf2UnKj8OA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "bdb5063a-8e5a-403d-94e1-aece0ddea185",
+                            SecurityStamp = "a8ec29a1-e181-441b-b6f3-9e4132fd238d",
                             TwoFactorEnabled = false,
                             UserName = "customer@fpt.com"
                         },
@@ -192,14 +199,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b116b4c6-6be9-4587-919c-a77d3271e2be",
+                            ConcurrencyStamp = "58825386-b508-4405-8648-51641cd23c39",
                             Email = "storeOwner@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeOwner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEqFmKJma7m/QiBaRN7IOS4lgCLCIgBHG98WrO5CBhBWKxZBLCjSEMsf/BcNAqw/Ow==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFRBSSeP7bIMkP1oPJOLkKtQ9fTAOG98IrZl1Nzn706+S9Jh8FIgb8ONX24NtBGsCQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3d895420-05fd-455e-becc-7c63ebecdddd",
+                            SecurityStamp = "0a96d431-8841-435a-9f29-4c05a490e712",
                             TwoFactorEnabled = false,
                             UserName = "storeOwner@fpt.com"
                         });
@@ -401,12 +408,35 @@ namespace The_cool_Library.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("The_cool_Library.Models.Customer", b =>
+            modelBuilder.Entity("The_cool_Library.Models.StoreOwner", b =>
                 {
-                    b.Property<int>("Cus_id")
+                    b.Property<int>("So_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("So_email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("So_name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("So_username")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("So_id");
+
+                    b.ToTable("StoreOwners");
+                });
+
+            modelBuilder.Entity("The_cool_Library.Models.Customer", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("Cus_address")
                         .IsRequired()
@@ -432,35 +462,7 @@ namespace The_cool_Library.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(1)");
 
-                    b.HasKey("Cus_id");
-
-                    b.ToTable("Customers");
-                });
-
-            modelBuilder.Entity("The_cool_Library.Models.StoreOwner", b =>
-                {
-                    b.Property<int>("So_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("So_email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("So_name")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<string>("So_username")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.HasKey("So_id");
-
-                    b.ToTable("StoreOwners");
+                    b.HasDiscriminator().HasValue("Customer");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

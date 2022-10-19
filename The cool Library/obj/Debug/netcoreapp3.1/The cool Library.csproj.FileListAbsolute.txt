@@ -1773,3 +1773,17 @@ F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\net
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Add.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Add.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Detail.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Edit.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Index.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\List.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs

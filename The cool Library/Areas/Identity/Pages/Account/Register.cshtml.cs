@@ -13,8 +13,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using The_cool_Library.Data;
-using The_cool_Library.Models; //cho chac - DMT
 
 namespace The_cool_Library.Areas.Identity.Pages.Account
 {
@@ -26,23 +24,16 @@ namespace The_cool_Library.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
-        //----------------------------------------------
-        private readonly ApplicationDbContext context;
-        //----------------------------------------------
-
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender,
-            ApplicationDbContext context // he he he
-            )
+            IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
-            this.context = context; // he he he he
         }
 
         [BindProperty]
