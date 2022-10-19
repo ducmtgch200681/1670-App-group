@@ -32,7 +32,7 @@ namespace The_cool_Library.Controllers
             {
                 return View
                     (
-                    applicationDbContext.StoreOwners.FirstOrDefault(so => so.So_id == id)
+                    //applicationDbContext.StoreOwners.FirstOrDefault(so => so.So_id == id)
                     );
             }
         }

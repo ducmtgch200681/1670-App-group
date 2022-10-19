@@ -166,7 +166,7 @@ namespace The_cool_Library.Data
             //storeOwner.PasswordHash = hashed.HashPassword(storeOwner, "12345");
 
             //Add tài khoản vào DB
-            builder.Entity<IdentityUser>().HasData(admin);
+            builder.Entity<Admin>().HasData(admin);
         }
 
         //Add Role
@@ -235,7 +235,7 @@ namespace The_cool_Library.Data
                 {
                     UserId = "1",
                     RoleId = "A"
-                },
+                }
                 //new IdentityUserRole<string>
                 //{
                 //    UserId = "2",
