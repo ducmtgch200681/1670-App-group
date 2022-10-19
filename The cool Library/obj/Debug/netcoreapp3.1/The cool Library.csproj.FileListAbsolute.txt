@@ -869,7 +869,6 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Raz
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Product.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_Register.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -882,3 +881,4 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Register.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAbout.cshtml.g.cs
