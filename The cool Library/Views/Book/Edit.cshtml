@@ -1,0 +1,62 @@
+﻿@model The_cool_Library.Models.Book
+
+<form method="post" asp-action="Edit" asp-controller="Book">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label class="h4 text-success" asp-for="@Model.Book_id"></label>
+            <input class="form-control" asp-for="@Model.Book_id">
+            <span class="text-danger" asp-validation-for="@Model.Book_id"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="h4 text-success">Book Name</label>
+            <input class="form-control" asp-for="@Model.Book_name" placeholder="Email">
+            <span class="text-danger" asp-validation-for="@Model.Book_name"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="h4 text-success">Author</label>
+            <input class="form-control" asp-for="@Model.Book_author" placeholder="Author">
+            <span class="text-danger" asp-validation-for="@Model.Book_author"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="h4 text-success">Publisher</label>
+            <input class="form-control" asp-for="@Model.Book_publisher" placeholder="Publisher">
+            <span class="text-danger" asp-validation-for="@Model.Book_publisher"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="h4 text-success">Price</label>
+            <input class="form-control" asp-for="@Model.Book_price" placeholder="Price">
+            <span class="text-danger" asp-validation-for="@Model.Book_price"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="h4 text-success">Quantity</label>
+            <input class="form-control" asp-for="@Model.Book_quantity" placeholder="Quantity">
+            <span class="text-danger" asp-validation-for="@Model.Book_quantity"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="h4 text-success">Date</label>
+            <input class="form-control" asp-for="@Model.Book_date" placeholder="Date">
+            <span class="text-danger" asp-validation-for="@Model.Book_date"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="h4 text-success" asp-for="@Model.Book_image"></label><br>
+        <img src="@Model.Book_image" width="80" height="80" /><br />
+        <input class="form-control mt-3" asp-for="@Model.Book_image" />
+        <span class="text-danger" asp-validation-for="@Model.Book_image"></span>
+    </div>
+
+    <div class="form-group">
+        <label class="h4 text-success">Category</label>
+        <select class="list-group-item"
+                asp-for="Cate_id"
+                asp-items="@(new SelectList(ViewBag.Categories,"Cate_id","Cate_name"))">
+            <option>Select a category</option>
+        </select>
+        <span class="text-danger" asp-validation-for="Cate_id"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Edit" />
+        <a class="btn btn-secondary" asp-action="Index" asp-controller="Book">Cancel</a>
+    </div>
+</form>

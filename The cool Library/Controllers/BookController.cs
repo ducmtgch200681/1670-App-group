@@ -25,6 +25,12 @@ namespace The_cool_Library.Controllers
 
         //-----------------------------------------------------------------
 
+        public IActionResult List()
+        {
+            return View(applicationDbContext.Books.ToList());
+        }
+
+        //--------------------------------------------------------------------
         public IActionResult Detail(int id)
         {
             //phần này lm sau khi đã tạo xong FK category

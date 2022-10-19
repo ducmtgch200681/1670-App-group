@@ -1,0 +1,75 @@
+﻿@model The_cool_Library.Models.Book
+
+<section style="background-color: #eee;">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <div class="card text-black">
+                    <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
+                    <img src="@Model.Book_image"
+                         class="card-img-top"  />
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">ID: @Model.Book_id</h5>
+                            <p class="text-muted mb-4">Name: @Model.Book_name</p>
+
+                            <a class="btn btn-success" asp-action="Edit" asp-controller="Book" asp-route-id="@Model.Book_id">Edit</a>
+                            <a class="btn btn-warning" asp-action="Delete" asp-controller="Book" asp-route-id="@Model.Book_id" onclick="return confirm('Do you want delete this book @Model.Book_name? ');">Delete</a>
+                        </div>
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <span>Author</span><span>@Model.Book_author</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Publisher</span><span>@Model.Book_publisher</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Publisher date</span><span>@Model.Book_date</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Price</span><span>@Model.Book_price</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Quantity</span><span>@Model.Book_quantity</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Category</span>
+                                <span>
+                                    <a asp-action="Detail" asp-controller="Category" asp-route-id="@Model.Category.Cate_id"> @Model.Category.Cate_name</a>
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Description</span> 
+                                <span>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Enter
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Description</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @Model.Book_description
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

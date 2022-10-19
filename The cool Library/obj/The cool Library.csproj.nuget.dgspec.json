@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Application\\Group\\1670-App-group\\The cool Library\\The cool Library.csproj": {}
+    "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\The cool Library.csproj": {}
   },
   "projects": {
-    "D:\\Application\\Group\\1670-App-group\\The cool Library\\The cool Library.csproj": {
+    "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\The cool Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Application\\Group\\1670-App-group\\The cool Library\\The cool Library.csproj",
+        "projectUniqueName": "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\The cool Library.csproj",
         "projectName": "The cool Library",
-        "projectPath": "D:\\Application\\Group\\1670-App-group\\The cool Library\\The cool Library.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Application\\Group\\1670-App-group\\The cool Library\\obj\\",
+        "projectPath": "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\The cool Library.csproj",
+        "packagesPath": "C:\\Users\\KKK\\.nuget\\packages\\",
+        "outputPath": "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KKK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
