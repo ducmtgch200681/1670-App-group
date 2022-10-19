@@ -24,7 +24,7 @@
                                 <span>Publisher</span><span>@Model.Book_publisher</span>
                             </div>
                             <div class="d-flex justify-content-between">
-                                <span>Publisher date</span><span>@Model.Book_date</span>
+                                <span>Publisher date</span><span>@Model.Book_date.ToShortDateString()</span>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <span>Price</span><span>@Model.Book_price</span>
