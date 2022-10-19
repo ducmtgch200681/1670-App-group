@@ -1,0 +1,15 @@
+﻿@model The_cool_Library.Models.Category
+
+
+<form method="post" asp-action="Edit" asp-controller="Category">
+    <h2> Add new category </h2>
+    <div class="form-group">
+        <label class="h4 text-success">Update category</label>
+        <input class="form-control" asp-for="@Model.Cate_name" />
+        <span class="text-danger" asp-validation-for="@Model.Cate_name"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-warning" value="Edit" />
+        <a class="btn btn-secondary" asp-action="Index" asp-controller="Category">Cancel</a>
+    </div>
+</form>

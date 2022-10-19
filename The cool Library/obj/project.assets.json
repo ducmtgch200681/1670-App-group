@@ -9496,16 +9496,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\KKK\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
->>>>>>> 5a42d1358cc44f9627f487afaf6e164a12571a5a
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\The cool Library.csproj",
       "projectName": "The cool Library",
       "projectPath": "F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\The cool Library.csproj",
@@ -9514,16 +9509,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KKK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj",
-      "projectName": "The cool Library",
-      "projectPath": "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "G:\\Git\\1670-App-group\\The cool Library\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 5a42d1358cc44f9627f487afaf6e164a12571a5a
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9602,5 +9587,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\HW\\BT Semester 5\\1670\\ASM_coppy\\1670-App-group\\The cool Library\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

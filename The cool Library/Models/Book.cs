@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
@@ -24,7 +25,7 @@ namespace The_cool_Library.Models
 
         [Required(ErrorMessage ="Date of publisher is required")]
         [DataType(DataType.Date)]
-        public string Book_date { get; set; }
+        public DateTime Book_date { get; set; }
 
         [Required(ErrorMessage ="Enter book price here")]
         public double Book_price { get; set; }

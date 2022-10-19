@@ -1,0 +1,42 @@
+﻿@model List<Category>
+
+    @if (TempData["Message"] != null) {
+    <h5 class="alert alert-info">@TempData["Message"]</h5>
+}
+
+@if (Model.Count == 0) {
+    <h2 class="alert alert-danger">No Category</h2>
+    <a class="btn btn-success" asp-controller="Category" asp-action="Add">
+        Add
+    </a>
+} else {
+    <div class="container mt-3 text-center">
+    <table class="table-bordered text-center mt-3 mb-3 bg-light">
+        <tr>
+            <th class="h3 text-primary" colspan="4">Category List</th>
+            <th>
+                <a class="btn btn-success" asp-controller="Category" asp-action="Add">
+                    Add
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Menu</th>
+        </tr>
+
+    @foreach(var cate in Model){
+                <tr>
+                    <td>@cate.Cate_id</td>
+                    <td>@cate.Cate_name</td>
+                    <td>
+                        <a class="btn btn-success" asp-action="Edit" asp-controller="Cate" asp-route-id="@cate.Cate_id">Edit</a>
+                        <a class="btn btn-warning" asp-action="Delete" asp-controller="Book" asp-route-id="@cate.Cate_id" onclick="return confirm('Do you want delete this book @book.Book_name? ');">Delete</a>
+                    </td>
+                </tr>
+    }
+
+    </table>
+    </div>
+}

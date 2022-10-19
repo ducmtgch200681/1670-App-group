@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace The_cool_Library.Migrations
 {
-    public partial class Aok : Migration
+    public partial class @new : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -226,6 +226,7 @@ namespace The_cool_Library.Migrations
                     Book_price = table.Column<double>(type: "float", nullable: false),
                     Book_image = table.Column<double>(type: "float", nullable: false),
                     Book_description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Book_quantity = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cate_id = table.Column<int>(type: "int", nullable: false),
                     CategoryCate_id = table.Column<int>(type: "int", nullable: true)
                 },
@@ -245,9 +246,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "A", "05249740-d273-49a4-81b1-42e6eb3f3aa3", "Administrator", "Administrator" },
-                    { "B", "d5a78596-7fff-4495-afe8-1fc05c96a45c", "Customer", "Customer" },
-                    { "C", "cc44c737-d7fa-48a1-8386-3e17395215e1", "StoreOwner", "StoreOwner" }
+                    { "A", "4271b2ff-acbf-40ab-8ced-621403289536", "Administrator", "Administrator" },
+                    { "B", "0e95c457-670e-4541-838a-f116b791be15", "Customer", "Customer" },
+                    { "C", "7893cdd6-5776-4303-9146-84dffc790c95", "StoreOwner", "StoreOwner" }
                 });
 
             migrationBuilder.InsertData(
@@ -255,9 +256,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "c42bc3cd-c45e-47e3-91b0-2620f65be5cd", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEAEon4dVoExm1oJeht7epFF6WqgdwH9u6JTlU0mjYDPJbwtCkX9sp1+DMmWbxx0hbg==", null, false, "51903280-95bf-4754-9bd1-d5c60965dbc9", false, "admin@fpt.com" },
-                    { "2", 0, "1d5dde5d-c611-4ae5-bb19-4ff7bfb2833b", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEGJHJdkpjlREX+FnkKJJuXtZo0IKaSNoVCOr/YH+jaWOOwlKkQ0uhPvs3bvwgRaI5Q==", null, false, "866bccd6-7d86-4de3-91b3-8ed3245f81b4", false, "customer@fpt.com" },
-                    { "3", 0, "da676947-3410-49ab-9c40-33a239c8937a", "storeOwner@fpt.com", true, false, null, null, "storeOwner@fpt.com", "AQAAAAEAACcQAAAAEJfbF/cjxfMGB5LtngWFRc3IDovCJkjH81C4V9JkBH6Bb2CH4MvmBLx/nzBn9+08tw==", null, false, "f6abc321-4a2d-401a-a45a-b1f3e072d9ac", false, "storeOwner@fpt.com" }
+                    { "1", 0, "a1c8eb7e-d5f1-4346-9859-2777abec5a48", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEBMk0Lz+gGN+hJiyrz31UNOpm69FBNgo18i1dYx/g6uEbkPIMzFWsPFhC8Q1Ol5SlA==", null, false, "19a1431c-ca38-43a6-afde-e7dfa9d19479", false, "admin@fpt.com" },
+                    { "2", 0, "e3fdab91-4b90-4101-ab66-a8746377b1b0", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEDo5fus+/vSQdWdVLQDpwVhqzVyQ5iVLmSKP1x53nJTSIcoLjzv0koBPTlK6/T1H4Q==", null, false, "bdb5063a-8e5a-403d-94e1-aece0ddea185", false, "customer@fpt.com" },
+                    { "3", 0, "b116b4c6-6be9-4587-919c-a77d3271e2be", "storeOwner@fpt.com", true, false, null, null, "storeOwner@fpt.com", "AQAAAAEAACcQAAAAEEqFmKJma7m/QiBaRN7IOS4lgCLCIgBHG98WrO5CBhBWKxZBLCjSEMsf/BcNAqw/Ow==", null, false, "3d895420-05fd-455e-becc-7c63ebecdddd", false, "storeOwner@fpt.com" }
                 });
 
             migrationBuilder.InsertData(

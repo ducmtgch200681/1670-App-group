@@ -9,6 +9,7 @@ namespace The_cool_Library.Controllers
 {
     public class BookController : Controller
     {
+        //cần add quyền sau
         private readonly ApplicationDbContext applicationDbContext;
 
         public BookController(ApplicationDbContext applicationDbContext)
@@ -18,14 +19,14 @@ namespace The_cool_Library.Controllers
 
         //-------------------------------------------------------------
 
-        public IActionResult Index()
+        public IActionResult Index() 
         {
             return View(applicationDbContext.Books.ToList());
         }
 
         //-----------------------------------------------------------------
 
-        public IActionResult List()
+        public IActionResult List() //for customer
         {
             return View(applicationDbContext.Books.ToList());
         }
