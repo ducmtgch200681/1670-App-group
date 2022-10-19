@@ -571,3 +571,7 @@ hr {
 .divider {
     border-top: 2px solid
 }
+
+.nav-link {
+    color: red
+}
