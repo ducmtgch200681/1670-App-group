@@ -1,4 +1,4 @@
-﻿@model List<Admin>
+﻿
 
 @if (TempData["Message"] != null)
 {
@@ -28,7 +28,7 @@ else
                 <th>Admin Id</th>
                 <th>Admin Name</th>
             </tr>
-            @foreach (var admin in Model)
+            @*@foreach (var admin in Model)
             {
                 <tr>
                     <td>@admin.Id</td>
@@ -39,18 +39,18 @@ else
                     <td>
                         <a class="btn btn-warning" asp-controller="Admin" asp-action="Update" asp-route-id="@admin.Id">
                             Edit
-                        </a>
+                        </a>*@
                         @*@if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))*@
                         @*{*@
-                            <a class="btn btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-id="@admin.Id"
+                           @* <a class="btn btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-id="@admin.Id"
                                 onclick="return confirm('Are you sure to delete this student?');">
                                 Delete
-                            </a>
+                            </a>*@
                         @*}*@
 
-                    </td>
+             @*       </td>
                 </tr>
-            }
+            }*@
         </table>
     </div>
 }

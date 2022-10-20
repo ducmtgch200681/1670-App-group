@@ -18,7 +18,7 @@ namespace The_cool_Library.Controllers
 
         public IActionResult Index()
         {
-            var admins = context.Admins.ToList();
+            var admins = context.IUs.ToList();
             return View(admins);
         }
 
@@ -30,7 +30,7 @@ namespace The_cool_Library.Controllers
             {
                 return NotFound();
             }
-            var admin = context.Admins.Find(id);
+            var admin = context.IUs.Find(id);
 
             return View(admin);
         }
@@ -47,84 +47,84 @@ namespace The_cool_Library.Controllers
 
         //--------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Add()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult Add()
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
-        public IActionResult Add(Admin admin)
-        {
-            //check
-            if (ModelState.IsValid)
-            {
-                context.Admins.Add(admin);
-                //save
-                context.SaveChanges();
-                //return
-                return RedirectToAction("Index");
-            }
-            return View(admin);
-        }
+        //[HttpPost]
+        //public IActionResult Add(Admin admin)
+        //{
+        //    //check
+        //    if (ModelState.IsValid)
+        //    {
+        //        context.Admins.Add(admin);
+        //        //save
+        //        context.SaveChanges();
+        //        //return
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(admin);
+        //}
 
         //--------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Update(string id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                var admin = context.Admins.Find(id);
-                return View(admin);
-            }
+        //[HttpGet]
+        //public IActionResult Update(string id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    else
+        //    {
+        //        var admin = context.Admins.Find(id);
+        //        return View(admin);
+        //    }
 
-        }
+        //}
 
-        [HttpPost]
-        public IActionResult Update(Admin admin)
-        {
-            //check
-            if (ModelState.IsValid)
-            {
-                context.Admins.Update(admin);
-                //save
-                context.SaveChanges();
-                //return
-                return RedirectToAction("Index");
-                //return RedirectToAction(nameof(Index));
-            }
-            return View(admin);
-        }
+        //[HttpPost]
+        //public IActionResult Update(Admin admin)
+        //{
+        //    //check
+        //    if (ModelState.IsValid)
+        //    {
+        //        context.Admins.Update(admin);
+        //        //save
+        //        context.SaveChanges();
+        //        //return
+        //        return RedirectToAction("Index");
+        //        //return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(admin);
+        //}
 
         //-----------------------------------------------------------------
 
         //[Authorize(Roles = "Administrator")]
-        public IActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                //check
-                var admin = context.Admins.Find(id);
-                //delete
-                context.Admins.Remove(admin);
-                //save
-                context.SaveChanges();
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    else
+        //    {
+        //        //check
+        //        var admin = context.Admins.Find(id);
+        //        //delete
+        //        context.Admins.Remove(admin);
+        //        //save
+        //        context.SaveChanges();
 
-                //notify with Tempdata if redirect
-                TempData["Message"] = "Delete admin successfully !";
+        //        //notify with Tempdata if redirect
+        //        TempData["Message"] = "Delete admin successfully !";
 
-                //return
-                return RedirectToAction("Index");
-            }
-        }
+        //        //return
+        //        return RedirectToAction("Index");
+        //    }
+        //}
     }
 }

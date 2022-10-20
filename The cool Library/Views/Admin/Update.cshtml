@@ -1,4 +1,4 @@
-﻿@model The_cool_Library.Models.Admin
+﻿@*@model The_cool_Library.Models.Admin
 
 <form method="post" asp-controller="Admin" asp-action="Update">
     <h2 class="cangiua gachchan">Edit Admin</h2>
@@ -6,7 +6,7 @@
         <label class="h4 text-success" asp-for="@Model.Id"></label>
         <input class="form-control" asp-for="@Model.Id" />
         <span class="text-danger" asp-validation-for="@Model.Id"></span>
-    </div>
+    </div>*@
 
     @*<div class="form-group">
         <label class="h4 text-success" asp-for="@Model.Ad_name">Full Name</label>
@@ -14,7 +14,7 @@
         <span class="text-danger" asp-validation-for="@Model.Ad_name"></span>
     </div>*@
 
-    <div class="form-group">
+@*    <div class="form-group">
         <label class="h4 text-success" asp-for="@Model.PhoneNumber">Phone</label>
         <input class="form-control" asp-for="@Model.PhoneNumber" />
         <span class="text-danger" asp-validation-for="@Model.PhoneNumber"></span>
@@ -29,4 +29,4 @@
     <div class="form-group">
         <input type="submit" class="btn btn-warning" value="Update" />
     </div>
-</form>
+</form>*@

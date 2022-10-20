@@ -31,14 +31,8 @@ namespace The_cool_Library
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-            //        .AddEntityFrameworkStores<ApplicationDbContext>();
-
-            services.AddIdentityCore<Admin>()
-                    .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddIdentityCore<StoreOwner>()
-                    .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddIdentityCore<Customer>()
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddRoles<IdentityRole>()
                     .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddControllersWithViews();

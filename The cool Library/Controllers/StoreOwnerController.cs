@@ -16,10 +16,10 @@ namespace The_cool_Library.Controllers
 
         //-------------------------------------------------------------------------------------
 
-        public IActionResult Index()
-        {
-            return View(applicationDbContext.StoreOwners.ToList());
-        }
+        //public IActionResult Index()
+        //{
+        //    //return View(applicationDbContext.StoreOwners.ToList());
+        //}
 
         //-------------------------------------------------------------------------------------
 
@@ -39,64 +39,64 @@ namespace The_cool_Library.Controllers
 
         //----------------------------------------------------------------------------------------
 
-        public IActionResult Delete(int? id)
-        {
-            if(id == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                applicationDbContext.StoreOwners.Remove(applicationDbContext.StoreOwners.Find(id));
-                applicationDbContext.SaveChanges();
-                return RedirectToAction("Index");
-            }
-        }
+        //public IActionResult Delete(int? id)
+        //{
+        //    if(id == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    else
+        //    {
+        //        //applicationDbContext.StoreOwners.Remove(applicationDbContext.StoreOwners.Find(id));
+        //        //applicationDbContext.SaveChanges();
+        //        //return RedirectToAction("Index");
+        //    }
+        //}
 
         //------------------------------------------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Add()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult Add()
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
-        public IActionResult Add(StoreOwner storeOwner)
-        {
-            if (ModelState.IsValid)
-            {
-                applicationDbContext.StoreOwners.Add(storeOwner);
-                applicationDbContext.SaveChanges();
-                return RedirectToAction("Index");
-            } else
-            {
-                return View(storeOwner);
-            }
-        }
+        //[HttpPost]
+        //public IActionResult Add(StoreOwner storeOwner)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        applicationDbContext.StoreOwners.Add(storeOwner);
+        //        applicationDbContext.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    } else
+        //    {
+        //        return View(storeOwner);
+        //    }
+        //}
 
         //---------------------------------------------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Edit(int id)
-        {
-            var storeOwner = applicationDbContext.StoreOwners.Find(id);
-            return View(storeOwner);
-        }
+        //[HttpGet]
+        //public IActionResult Edit(int id)
+        //{
+        //    //var storeOwner = applicationDbContext.StoreOwners.Find(id);
+        //    //return View(storeOwner);
+        //}
 
-        [HttpPost]
-        public IActionResult Edit(StoreOwner storeOwner)
-        {
-            if (ModelState.IsValid)
-            {
-                applicationDbContext.StoreOwners.Update(storeOwner);
-                applicationDbContext.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View(storeOwner);
-            }
-        }
+        //[HttpPost]
+        //public IActionResult Edit(StoreOwner storeOwner)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        //applicationDbContext.StoreOwners.Update(storeOwner);
+        //        //applicationDbContext.SaveChanges();
+        //        //return RedirectToAction("Index");
+        //    }
+        //    else
+        //    {
+        //        return View(storeOwner);
+        //    }
+        //}
     }
 }

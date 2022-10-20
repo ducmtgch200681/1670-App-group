@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
-    public class StoreOwner : IdentityUser
+    public class StoreOwner
     {
         //[Key]
         //public int So_id { get; set; }

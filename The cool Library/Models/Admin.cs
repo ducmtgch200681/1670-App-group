@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
-    public class Admin : IdentityUser
+    public class Admin
     {
         //[Key]
         //public int Admin_id { get; set; }
