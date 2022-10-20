@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models; //cho chac - DMT
@@ -21,29 +18,22 @@ namespace The_cool_Library.Controllers
 
         public IActionResult Index()
         {
-            var universities = context.Admins.ToList();
-            return View(universities);
+            var admins = context.Admins.ToList();
+            return View(admins);
         }
 
         //-----------------------------------------------------------------
 
-        //public IActionResult Info(int? id)
-        //{
-        //    //if (id == null)
-        //    //{
-        //    //    return NotFound();
-        //    //}
-        //    //var university = context.Admins
-        //    //                        .Include(u => u.Students)
-        //    //                        .FirstOrDefault(u => u.Id == id);
+        public IActionResult Info(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var admin = context.Admins.Find(id);
 
-        //    //Note: khi muốn truy xuất dữ liệu của bảng B từ bảng A
-        //    //thì cần sử dụng Include kết hợp với FirstOrDefault
-        //    //còn nếu chỉ truy xuất thông tin id đơn thuần thì sử dụng
-        //    //Find hoặc FirstOrDefault đều được
-
-        //    //return View(university);
-        //}
+            return View(admin);
+        }
 
         //-----------------------------------------------------------------
 
@@ -81,14 +71,22 @@ namespace The_cool_Library.Controllers
         //--------------------------------------------------------
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult Update(string id)
         {
-            var university = context.Admins.Find(id);
-            return View(university);
+            if (id == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var admin = context.Admins.Find(id);
+                return View(admin);
+            }
+
         }
 
         [HttpPost]
-        public IActionResult Edit(Admin admin)
+        public IActionResult Update(Admin admin)
         {
             //check
             if (ModelState.IsValid)

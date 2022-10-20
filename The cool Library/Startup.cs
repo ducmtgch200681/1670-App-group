@@ -26,36 +26,21 @@ namespace The_cool_Library
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        //public void ConfigureServices(IServiceCollection services)
-        //{
-        //    services.AddDbContext<ApplicationDbContext>(options =>
-        //        options.UseSqlServer(
-        //            Configuration.GetConnectionString("DefaultConnection")));
-        //    services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-        //            .AddEntityFrameworkStores<ApplicationDbContext>();
-
-        //    services.AddIdentity<Customer, IdentityRole>()
-        //            .AddEntityFrameworkStores<ApplicationDbContext>()
-        //            .AddDefaultUI()
-        //            .AddDefaultTokenProviders();
-
-        //    services.AddIdentity<StoreOwner, IdentityRole>()
-        //            .AddEntityFrameworkStores<ApplicationDbContext>()
-        //            .AddDefaultUI()
-        //            .AddDefaultTokenProviders();
-
-        //    services.AddControllersWithViews();
-        //    services.AddRazorPages();
-        //}
-
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //        .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddIdentityCore<Admin>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentityCore<StoreOwner>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentityCore<Customer>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

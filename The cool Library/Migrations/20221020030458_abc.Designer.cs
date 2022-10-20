@@ -10,14 +10,13 @@ using The_cool_Library.Data;
 namespace The_cool_Library.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221019092941_changename")]
-    partial class changename
+    [Migration("20221020030458_abc")]
+    partial class abc
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasDefaultSchema("Identity")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.10")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -52,21 +51,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "9f6f5721-035b-42fc-b5ce-3e0dfa2fdf6d",
+                            ConcurrencyStamp = "55a3b7b3-7e0d-44c8-8a25-eef63c012cb5",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "ccf8b949-9cb9-42aa-a532-5e5e32bb0e58",
+                            ConcurrencyStamp = "9feea623-8648-4c83-8b38-6fe5143effff",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "e64cbe13-b9e9-490d-8f9e-13a8a75f3a67",
+                            ConcurrencyStamp = "c2854eea-4c0d-45ad-849f-3c047a2aff6d",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -162,56 +161,9 @@ namespace The_cool_Library.Migrations
                         .HasDatabaseName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
-                    b.ToTable("User");
+                    b.ToTable("AspNetUsers");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "3e546465-8e7d-46b7-a6bf-1551b66d4977",
-                            Email = "admin@fpt.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIWSkgIvNPlBK2HUdy/cGBf530MP+gTKhICxoddsyjKAAHiYDJG/DWN6TyMBDYp/NA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "114d3cd8-a909-4c75-a6c9-3c2dc9a54247",
-                            TwoFactorEnabled = false,
-                            UserName = "admin@fpt.com"
-                        },
-                        new
-                        {
-                            Id = "2",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "a0ee4df5-4bd7-479f-8104-e86e935c1f68",
-                            Email = "customer@fpt.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEB5QhqacZMWjj0fQ0DbQy2ignCkpoH/2DCV4N7hCEKnYlpUpTaULSOAvJf2UnKj8OA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "a8ec29a1-e181-441b-b6f3-9e4132fd238d",
-                            TwoFactorEnabled = false,
-                            UserName = "customer@fpt.com"
-                        },
-                        new
-                        {
-                            Id = "3",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "58825386-b508-4405-8648-51641cd23c39",
-                            Email = "storeOwner@fpt.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedUserName = "storeOwner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFRBSSeP7bIMkP1oPJOLkKtQ9fTAOG98IrZl1Nzn706+S9Jh8FIgb8ONX24NtBGsCQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "0a96d431-8841-435a-9f29-4c05a490e712",
-                            TwoFactorEnabled = false,
-                            UserName = "storeOwner@fpt.com"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -241,12 +193,10 @@ namespace The_cool_Library.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -281,16 +231,6 @@ namespace The_cool_Library.Migrations
                         {
                             UserId = "1",
                             RoleId = "A"
-                        },
-                        new
-                        {
-                            UserId = "2",
-                            RoleId = "B"
-                        },
-                        new
-                        {
-                            UserId = "3",
-                            RoleId = "C"
                         });
                 });
 
@@ -300,12 +240,10 @@ namespace The_cool_Library.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -313,32 +251,6 @@ namespace The_cool_Library.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
-                });
-
-            modelBuilder.Entity("The_cool_Library.Models.Admin", b =>
-                {
-                    b.Property<int>("Admin_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Ad_email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Ad_name")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
-                    b.Property<string>("Ad_pass")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("nvarchar(15)");
-
-                    b.HasKey("Admin_id");
-
-                    b.ToTable("Admins");
                 });
 
             modelBuilder.Entity("The_cool_Library.Models.Book", b =>
@@ -353,9 +265,8 @@ namespace The_cool_Library.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<string>("Book_date")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("Book_date")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Book_description")
                         .IsRequired()
@@ -410,30 +321,33 @@ namespace The_cool_Library.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("The_cool_Library.Models.StoreOwner", b =>
+            modelBuilder.Entity("The_cool_Library.Models.Admin", b =>
                 {
-                    b.Property<int>("So_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<string>("So_email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Ad_name")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
-                    b.Property<string>("So_name")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                    b.HasDiscriminator().HasValue("Admin");
 
-                    b.Property<string>("So_username")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.HasKey("So_id");
-
-                    b.ToTable("StoreOwners");
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "54e5f8f7-ba00-434f-9fbc-d6f86cc76d46",
+                            Email = "admin@fpt.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedUserName = "admin@fpt.com",
+                            PasswordHash = "AQAAAAEAACcQAAAAEILtCGau+ZQ+RxHGXuRpVYt+bV3Q7VaPLZF2MVoIeTtpK4RIWs3H06SsH/sQp2ay4w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "f17a95e9-93d4-41ba-872b-0f52f7e23287",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@fpt.com",
+                            Ad_name = "Duc"
+                        });
                 });
 
             modelBuilder.Entity("The_cool_Library.Models.Customer", b =>
@@ -441,23 +355,16 @@ namespace The_cool_Library.Migrations
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("Cus_address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Cus_dob")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Cus_email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Cus_name")
-                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Cus_phone")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("gender")
@@ -465,6 +372,18 @@ namespace The_cool_Library.Migrations
                         .HasColumnType("nvarchar(1)");
 
                     b.HasDiscriminator().HasValue("Customer");
+                });
+
+            modelBuilder.Entity("The_cool_Library.Models.StoreOwner", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<string>("So_name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasDiscriminator().HasValue("StoreOwner");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

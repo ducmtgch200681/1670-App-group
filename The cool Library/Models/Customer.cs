@@ -9,8 +9,8 @@ namespace The_cool_Library.Models
         //[Key]
         //public int Cus_id { get; set; }
 
-        [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !"), 
-        MaxLength(30, ErrorMessage = "Fullname maximum is 30 characters !")]
+        [MinLength(5, ErrorMessage = "Fullname must be at least 5 characters !")]
+        [MaxLength(30, ErrorMessage = "Fullname maximum is 30 characters !")]
         public string Cus_name { get; set; }
 
 
