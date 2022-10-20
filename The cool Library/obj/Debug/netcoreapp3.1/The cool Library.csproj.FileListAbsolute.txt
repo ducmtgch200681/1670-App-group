@@ -879,7 +879,6 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
-D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Register.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAbout.cshtml.g.cs
 G:\Git\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.Development.json
 G:\Git\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.json
@@ -1834,3 +1833,4 @@ G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Categ
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutRegister.cshtml.g.cs
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Index.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Update.cshtml.g.cs

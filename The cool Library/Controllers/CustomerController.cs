@@ -25,11 +25,11 @@ namespace The_cool_Library.Controllers
             return View();
         }
 
-        [HttpGet]
-        public IActionResult Register()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult Register()
+        //{
+        //    return View();
+        //}
 
         [HttpPost]
         public IActionResult Add(Customer customer)
