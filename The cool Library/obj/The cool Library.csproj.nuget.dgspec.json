@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\1670-App-group\\The cool Library\\The cool Library.csproj": {}
+    "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\1670-App-group\\The cool Library\\The cool Library.csproj": {
+    "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\1670-App-group\\The cool Library\\The cool Library.csproj",
+        "projectUniqueName": "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj",
         "projectName": "The cool Library",
-        "projectPath": "E:\\GitHub\\1670-App-group\\The cool Library\\The cool Library.csproj",
+        "projectPath": "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\1670-App-group\\The cool Library\\obj\\",
+        "outputPath": "G:\\Git\\1670-App-group\\The cool Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

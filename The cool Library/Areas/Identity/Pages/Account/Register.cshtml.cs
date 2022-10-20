@@ -78,6 +78,9 @@ namespace The_cool_Library.Areas.Identity.Pages.Account
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
+                    //Set Default role for customer by form - DMT : 20/10/2022
+                    await _userManager.AddToRoleAsync(user, "Customer");
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

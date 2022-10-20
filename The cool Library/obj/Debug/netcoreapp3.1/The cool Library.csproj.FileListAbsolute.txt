@@ -1828,3 +1828,9 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Sh
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutRegister.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Index.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Update.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Update.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Add.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutRegister.cshtml.g.cs
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Index.cshtml.g.cs
