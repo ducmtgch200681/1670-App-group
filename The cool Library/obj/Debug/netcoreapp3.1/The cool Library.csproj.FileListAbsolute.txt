@@ -1833,3 +1833,5 @@ G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Categ
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutRegister.cshtml.g.cs
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Index.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Update.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
