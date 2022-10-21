@@ -2,27 +2,29 @@
 @model LoginModel
 
 @{
-    ViewData["Title"] = "Log in";
+    Layout = "_LayoutRegister";
 }
 
-<h1>@ViewData["Title"]</h1>
-<div class="row">
-    <div class="col-md-4">
-        <section>
-            <form id="account" method="post">
-                <h4>Use a local account to log in.</h4>
-                <hr />
-                <div asp-validation-summary="All" class="text-danger"></div>
+<hr />
+<section class="sign-in">
+    <div class="signin-content">
+        <div class="signin-image">
+            <figure><img src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg?w=2000" alt="sign in image"></figure>
+            <a class="display-flex-center" style="color:mediumpurple" id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+        </div>
+
+        <div class="signin-form">
+            <h2 class="form-title">Sign in</h2>
+            <form method="POST" class="register-form" id="login-form">
                 <div class="form-group">
-                    <label asp-for="Input.Email"></label>
-                    <input asp-for="Input.Email" class="form-control" />
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    <label for="your_name" asp-for="Input.Email"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                    <input type="text" name="your_name" id="your_name" placeholder="Usename" asp-for="Input.Email" />
                 </div>
                 <div class="form-group">
-                    <label asp-for="Input.Password"></label>
-                    <input asp-for="Input.Password" class="form-control" />
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    <label for="your_pass" asp-for="Input.Password"><i class="zmdi zmdi-lock"></i></label>
+                    <input type="password" name="your_pass" id="your_pass" placeholder="Password" asp-for="Input.Password" />
                 </div>
+
                 <div class="form-group">
                     <div class="checkbox">
                         <label asp-for="Input.RememberMe">
@@ -30,53 +32,29 @@
                             @Html.DisplayNameFor(m => m.Input.RememberMe)
                         </label>
                     </div>
+                    <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" /><a>R</a>
+
                 </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Log in</button>
+
+                <div class="form-group form-button">
+                    <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" style="background:burlywood" />
                 </div>
-                <div class="form-group">
+
+                <div>
                     <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                    </p>
-                    <p>
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                        <a style="color:mediumpurple" asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
                     </p>
                 </div>
             </form>
-        </section>
+            <div class="social-login">
+                <span class="social-label">Or login with</span>
+                <ul class="socials">
+                    <li><a href="#"><i class="display-flex-center icon-facebook" style="background:dodgerblue"></i></a></li>
+                    <li><a href="#"><i class="display-flex-center icon-github" style="background:blueviolet"></i></a></li>
+                    <li><a href="#"><i class="display-flex-center icon-google" style="background:crimson"></i></a></li>
+                </ul>   
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 col-md-offset-2">
-        <section>
-            <h4>Use another service to log in.</h4>
-            <hr />
-            @{
-                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
-                        </p>
-                    </div>
-                }
-                else
-                {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
-                            <p>
-                                @foreach (var provider in Model.ExternalLogins)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </div>
-                    </form>
-                }
-            }
-        </section>
     </div>
-</div>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+</section>
