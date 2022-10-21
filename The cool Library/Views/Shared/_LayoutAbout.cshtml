@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/fonts/icomoon/style.css">
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/About.css" />
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
@@ -85,7 +86,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="#about-section" class="nav-link" style="color:white"><strong>Contact us</strong></a></li>
-                                        <li><a href="#events-section" class="nav-link" style="color:white"><strong>Feedback</strong></a></li>
+                                        <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Feedback"><strong>Feedback</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>
                                     </ul>
