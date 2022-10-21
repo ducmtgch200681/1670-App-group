@@ -1818,9 +1818,6 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Bo
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Edit.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\Index.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Book\List.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Add.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\About.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAbout.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutRegister.cshtml.g.cs
@@ -1835,3 +1832,8 @@ G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Store
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Update.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Add.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Edit.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Index.cshtml.g.cs

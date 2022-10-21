@@ -7,11 +7,11 @@ using The_cool_Library.Models;
 
 namespace The_cool_Library.Controllers
 {
-    public class CategoryController : Controller
+    public class GenreController : Controller
     {
         private readonly ApplicationDbContext applicationDbContext;
 
-        public CategoryController (ApplicationDbContext applicationDbContext)
+        public GenreController (ApplicationDbContext applicationDbContext)
         {
             this.applicationDbContext = applicationDbContext;
         }
@@ -20,7 +20,7 @@ namespace The_cool_Library.Controllers
 
         public IActionResult Index()
         {
-            return View(applicationDbContext.Categories.ToList());
+            return View(applicationDbContext.Genres.ToList());
         }
 
         //-------------------------------------------------------------------------------------------------
@@ -32,7 +32,7 @@ namespace The_cool_Library.Controllers
                 return NotFound();
             } else
             {
-                applicationDbContext.Categories.Remove( applicationDbContext.Categories.Find(id));
+                applicationDbContext.Genres.Remove( applicationDbContext.Genres.Find(id));
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -47,17 +47,17 @@ namespace The_cool_Library.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(Category category)
+        public IActionResult Add(Genre genre)
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Categories.Add(category);
+                applicationDbContext.Genres.Add(genre);
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             }
             else
             {
-                return View(category);
+                return View(genre);
             }
         }
 
@@ -66,20 +66,20 @@ namespace The_cool_Library.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            return View(applicationDbContext.Categories.Find(id));
+            return View(applicationDbContext.Genres.Find(id));
         }
 
         [HttpPost]
-        public IActionResult Edit(Category category)
+        public IActionResult Edit(Genre genre)
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Categories.Update(category);
+                applicationDbContext.Genres.Update(genre);
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             } else
             {
-                return View (category);
+                return View (genre);
             }
         }
 

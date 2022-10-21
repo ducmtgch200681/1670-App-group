@@ -49,21 +49,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "aebb5c0c-1f9a-497f-a54c-cbd9e892f813",
+                            ConcurrencyStamp = "1d91804d-ee94-479c-84d4-bc5558a41ac7",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "7dcedf09-aca7-41b0-8c6e-913c7599ab2f",
+                            ConcurrencyStamp = "d39e268d-6715-4ff9-8b49-67465e2503df",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "4d566516-0bb7-4a40-835e-ec7773813930",
+                            ConcurrencyStamp = "7e95e2a8-d34e-432e-af03-6d613fbef2b3",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -162,14 +162,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e8548dd3-4e20-40ce-9227-557d905db196",
+                            ConcurrencyStamp = "307dde54-891b-40bc-bf8a-8a7cde916e25",
                             Email = "admin@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMr2CDzkNlWB0fLypiku3HQ766IvNB4gkWDjcmAuwiwgl0bX+PHGTpd0w/ZahHsnAw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIsBsKKfrK4saq/W7CwQUmx7nN0XeQelCRZCmrO3IJ+0Rar05VCvamH3Gbx0aYS4rw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9d1e08e9-9e57-4d8b-b6f3-d2a6915f8ddc",
+                            SecurityStamp = "7d281481-e4c2-48ca-b639-0ac60602cde6",
                             TwoFactorEnabled = false,
                             UserName = "admin@fpt.com"
                         },
@@ -177,14 +177,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4497958c-c75f-4145-982c-f90de117ddab",
+                            ConcurrencyStamp = "94849433-5270-4a48-8ef8-e1c0a91e007f",
                             Email = "customer@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPQFnpwT+YItPd40sxmlLmeeJz9n64ByQApNJMtX9goLE/JxtnqHg2eBrWC4nSEgzw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGFLnvkE6DSDSihEnKyXyC3FRHSxt+42XxHmTUy1q4wLzmAnS+vkOf1C9lpQRJJ1eA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5fb9c9f0-fc97-496e-b8e3-2fe0712fea39",
+                            SecurityStamp = "e0cf18a1-4ea7-4dfd-b3bf-9babb73d39b8",
                             TwoFactorEnabled = false,
                             UserName = "customer@fpt.com"
                         },
@@ -192,14 +192,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c8f3070e-df0f-4cba-8499-7f79097dc9b1",
+                            ConcurrencyStamp = "53d27461-5144-4736-8ef6-ca3a689e5b43",
                             Email = "storeowner@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeowner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGHUV8HkKtxCUzJ3KjDS6w3DAq4WClJ9NFuI333hlS+ScTI6QGFzaB9lmshqLYXV3Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGoO0WWK428wuDKZz5Fk3KpKzP/L5m1I+zI1+Ben33H30Tyfi5Pf2TgN1fWzTShDDA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b31fa5ad-40e6-4bdd-ad41-c15b221a2bb8",
+                            SecurityStamp = "2a19a677-2d28-44b1-bd4c-519dadd53fb8",
                             TwoFactorEnabled = false,
                             UserName = "storeowner@fpt.com"
                         });
@@ -325,8 +325,9 @@ namespace The_cool_Library.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Book_image")
-                        .HasColumnType("float");
+                    b.Property<string>("Book_image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Book_name")
                         .IsRequired()
@@ -341,37 +342,36 @@ namespace The_cool_Library.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<string>("Book_quantity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Cate_id")
+                    b.Property<int>("Book_quantity")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CategoryCate_id")
+                    b.Property<int>("Genre_id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Genre_id1")
                         .HasColumnType("int");
 
                     b.HasKey("Book_id");
 
-                    b.HasIndex("CategoryCate_id");
+                    b.HasIndex("Genre_id1");
 
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("The_cool_Library.Models.Category", b =>
+            modelBuilder.Entity("The_cool_Library.Models.Genre", b =>
                 {
-                    b.Property<int>("Cate_id")
+                    b.Property<int>("Genre_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Cate_name")
+                    b.Property<string>("Genre_name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Cate_id");
+                    b.HasKey("Genre_id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Genres");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -427,14 +427,14 @@ namespace The_cool_Library.Migrations
 
             modelBuilder.Entity("The_cool_Library.Models.Book", b =>
                 {
-                    b.HasOne("The_cool_Library.Models.Category", "Category")
+                    b.HasOne("The_cool_Library.Models.Genre", "Genre")
                         .WithMany("Books")
-                        .HasForeignKey("CategoryCate_id");
+                        .HasForeignKey("Genre_id1");
 
-                    b.Navigation("Category");
+                    b.Navigation("Genre");
                 });
 
-            modelBuilder.Entity("The_cool_Library.Models.Category", b =>
+            modelBuilder.Entity("The_cool_Library.Models.Genre", b =>
                 {
                     b.Navigation("Books");
                 });

@@ -35,7 +35,7 @@ namespace The_cool_Library.Controllers
         public IActionResult Detail(int id)
         {
             //phần này lm sau khi đã tạo xong FK category
-            return View(applicationDbContext.Books.Include(b => b.Category).FirstOrDefault(b => b.Book_id == id));
+            return View(applicationDbContext.Books.Include(b => b.Genre).FirstOrDefault(b => b.Book_id == id));
         }
 
         //----------------------------------------------------------------
@@ -60,8 +60,8 @@ namespace The_cool_Library.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            var categories = applicationDbContext.Categories.ToList();
-            ViewBag.Categories = categories;
+            var genres = applicationDbContext.Genres.ToList();
+            ViewBag.Genres = genres;
             return View();
         }
 
@@ -84,8 +84,8 @@ namespace The_cool_Library.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var categories = applicationDbContext.Categories.ToList();
-            ViewBag.Category = categories;
+            var genres = applicationDbContext.Genres.ToList();
+            ViewBag.Genre = genres;
             return View(applicationDbContext.Books.Find(id));
         }
 
