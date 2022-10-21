@@ -57,27 +57,27 @@ namespace The_cool_Library.Controllers
 
         //----------------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Add()
-        {
-            var genres = applicationDbContext.Books.ToList();
-            ViewBag.Genres = genres;
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult Add()
+        //{
+        //    var genres = applicationDbContext.Books.ToList();
+        //    ViewBag.Genres = genres;
+        //    return View();
+        //}
 
-        [HttpPost]        
-        public IActionResult Add(Book book)
-        {
-            if(ModelState.IsValid)
-            {
-                applicationDbContext.Books.Add(book);
-                applicationDbContext.SaveChanges();
-                return RedirectToAction("Index");
-            } else
-            {
-                return View(book);
-            }
-        }
+        //[HttpPost]        
+        //public IActionResult Add(Book book)
+        //{
+        //    if(ModelState.IsValid)
+        //    {
+        //        applicationDbContext.Books.Add(book);
+        //        applicationDbContext.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    } else
+        //    {
+        //        return View(book);
+        //    }
+        //}
 
         //-------------------------------------------------------------------------------
 
