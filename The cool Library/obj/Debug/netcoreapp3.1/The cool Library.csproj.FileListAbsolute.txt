@@ -465,3 +465,4 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Libra
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\AddBook.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\BookDetail.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\EditBook.cshtml.g.cs

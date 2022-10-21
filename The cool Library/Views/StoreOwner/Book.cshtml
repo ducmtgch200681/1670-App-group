@@ -38,8 +38,8 @@ else
                             </a>
                         </td>
                         <td>
-                            <a class="btn btn-warning" asp-controller="StoreOwner" asp-action="Update" asp-route-id="@book.Book_id">
-                            Edit
+                            <a class="btn btn-warning" asp-controller="StoreOwner" asp-action="EditBook" asp-route-id="@book.Book_id">
+                                    Edit
                         </a>
                         @*if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))*@
                         @*{*@

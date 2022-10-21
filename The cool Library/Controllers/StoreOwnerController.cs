@@ -76,26 +76,28 @@ namespace The_cool_Library.Controllers
 
         //---------------------------------------------------------------------------------------------
 
-        //[HttpGet]
-        //public IActionResult Edit(int id)
-        //{
-        //    //var storeOwner = applicationDbContext.StoreOwners.Find(id);
-        //    //return View(storeOwner);
-        //}
+        [HttpGet]
+        public IActionResult EditBook(int id)
+        {
+            var genres = context.Genres.ToList();
+            ViewBag.Genres = genres;
+            return View();
+        }
 
-        //[HttpPost]
-        //public IActionResult Edit(StoreOwner storeOwner)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        //applicationDbContext.StoreOwners.Update(storeOwner);
-        //        //applicationDbContext.SaveChanges();
-        //        //return RedirectToAction("Index");
-        //    }
-        //    else
-        //    {
-        //        return View(storeOwner);
-        //    }
-        //}
+        [HttpPost]
+        public IActionResult EditBook(Book book)
+        {
+            if (ModelState.IsValid)
+            {
+                context.Books.Update(book);
+                context.SaveChanges();
+                return RedirectToAction("Book");
+            }
+            else
+            {
+                ViewBag.Genres = context.Genres.ToList();
+                return View(book);
+            }
+        }
     }
 }
