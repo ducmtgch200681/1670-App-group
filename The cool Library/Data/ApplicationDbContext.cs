@@ -20,7 +20,7 @@ namespace The_cool_Library.Data
         //public DbSet<Customer> Customers { get; set; }
         //public DbSet<StoreOwner> StoreOwners { get; set; }
         public DbSet<Book> Books { get; set; }
-        public DbSet<Genre> Categories { get; set; }
+        public DbSet<Genre> Genres { get; set; }
         /*
         
         public DbSet<Order> Orders { get; set; }

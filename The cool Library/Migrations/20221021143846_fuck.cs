@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace The_cool_Library.Migrations
 {
-    public partial class afsgaf : Migration
+    public partial class fuck : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -47,16 +47,16 @@ namespace The_cool_Library.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Categories",
+                name: "Genres",
                 columns: table => new
                 {
-                    Cate_id = table.Column<int>(type: "int", nullable: false)
+                    Genre_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Cate_name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Genre_name = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Categories", x => x.Cate_id);
+                    table.PrimaryKey("PK_Genres", x => x.Genre_id);
                 });
 
             migrationBuilder.CreateTable(
@@ -176,20 +176,20 @@ namespace The_cool_Library.Migrations
                     Book_publisher = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Book_date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Book_price = table.Column<double>(type: "float", nullable: false),
-                    Book_image = table.Column<double>(type: "float", nullable: false),
+                    Book_image = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Book_description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Book_quantity = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Cate_id = table.Column<int>(type: "int", nullable: false),
-                    CategoryCate_id = table.Column<int>(type: "int", nullable: true)
+                    Book_quantity = table.Column<int>(type: "int", nullable: false),
+                    Genre_id = table.Column<int>(type: "int", nullable: false),
+                    Genre_id1 = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Books", x => x.Book_id);
                     table.ForeignKey(
-                        name: "FK_Books_Categories_CategoryCate_id",
-                        column: x => x.CategoryCate_id,
-                        principalTable: "Categories",
-                        principalColumn: "Cate_id",
+                        name: "FK_Books_Genres_Genre_id1",
+                        column: x => x.Genre_id1,
+                        principalTable: "Genres",
+                        principalColumn: "Genre_id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -198,9 +198,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "A", "aebb5c0c-1f9a-497f-a54c-cbd9e892f813", "Administrator", "Administrator" },
-                    { "B", "7dcedf09-aca7-41b0-8c6e-913c7599ab2f", "Customer", "Customer" },
-                    { "C", "4d566516-0bb7-4a40-835e-ec7773813930", "StoreOwner", "StoreOwner" }
+                    { "A", "1d91804d-ee94-479c-84d4-bc5558a41ac7", "Administrator", "Administrator" },
+                    { "B", "d39e268d-6715-4ff9-8b49-67465e2503df", "Customer", "Customer" },
+                    { "C", "7e95e2a8-d34e-432e-af03-6d613fbef2b3", "StoreOwner", "StoreOwner" }
                 });
 
             migrationBuilder.InsertData(
@@ -208,9 +208,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "e8548dd3-4e20-40ce-9227-557d905db196", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEMr2CDzkNlWB0fLypiku3HQ766IvNB4gkWDjcmAuwiwgl0bX+PHGTpd0w/ZahHsnAw==", null, false, "9d1e08e9-9e57-4d8b-b6f3-d2a6915f8ddc", false, "admin@fpt.com" },
-                    { "2", 0, "4497958c-c75f-4145-982c-f90de117ddab", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEPQFnpwT+YItPd40sxmlLmeeJz9n64ByQApNJMtX9goLE/JxtnqHg2eBrWC4nSEgzw==", null, false, "5fb9c9f0-fc97-496e-b8e3-2fe0712fea39", false, "customer@fpt.com" },
-                    { "3", 0, "c8f3070e-df0f-4cba-8499-7f79097dc9b1", "storeowner@fpt.com", true, false, null, null, "storeowner@fpt.com", "AQAAAAEAACcQAAAAEGHUV8HkKtxCUzJ3KjDS6w3DAq4WClJ9NFuI333hlS+ScTI6QGFzaB9lmshqLYXV3Q==", null, false, "b31fa5ad-40e6-4bdd-ad41-c15b221a2bb8", false, "storeowner@fpt.com" }
+                    { "1", 0, "307dde54-891b-40bc-bf8a-8a7cde916e25", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEIsBsKKfrK4saq/W7CwQUmx7nN0XeQelCRZCmrO3IJ+0Rar05VCvamH3Gbx0aYS4rw==", null, false, "7d281481-e4c2-48ca-b639-0ac60602cde6", false, "admin@fpt.com" },
+                    { "2", 0, "94849433-5270-4a48-8ef8-e1c0a91e007f", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEGFLnvkE6DSDSihEnKyXyC3FRHSxt+42XxHmTUy1q4wLzmAnS+vkOf1C9lpQRJJ1eA==", null, false, "e0cf18a1-4ea7-4dfd-b3bf-9babb73d39b8", false, "customer@fpt.com" },
+                    { "3", 0, "53d27461-5144-4736-8ef6-ca3a689e5b43", "storeowner@fpt.com", true, false, null, null, "storeowner@fpt.com", "AQAAAAEAACcQAAAAEGoO0WWK428wuDKZz5Fk3KpKzP/L5m1I+zI1+Ben33H30Tyfi5Pf2TgN1fWzTShDDA==", null, false, "2a19a677-2d28-44b1-bd4c-519dadd53fb8", false, "storeowner@fpt.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -268,9 +268,9 @@ namespace The_cool_Library.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Books_CategoryCate_id",
+                name: "IX_Books_Genre_id1",
                 table: "Books",
-                column: "CategoryCate_id");
+                column: "Genre_id1");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -300,7 +300,7 @@ namespace The_cool_Library.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Categories");
+                name: "Genres");
         }
     }
 }

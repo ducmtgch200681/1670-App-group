@@ -20,7 +20,7 @@ namespace The_cool_Library.Controllers
 
         public IActionResult Index()
         {
-            return View(applicationDbContext.Categories.ToList());
+            return View(applicationDbContext.Genres.ToList());
         }
 
         //-------------------------------------------------------------------------------------------------
@@ -32,7 +32,7 @@ namespace The_cool_Library.Controllers
                 return NotFound();
             } else
             {
-                applicationDbContext.Categories.Remove( applicationDbContext.Categories.Find(id));
+                applicationDbContext.Genres.Remove( applicationDbContext.Genres.Find(id));
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -51,7 +51,7 @@ namespace The_cool_Library.Controllers
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Categories.Add(genre);
+                applicationDbContext.Genres.Add(genre);
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -66,7 +66,7 @@ namespace The_cool_Library.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            return View(applicationDbContext.Categories.Find(id));
+            return View(applicationDbContext.Genres.Find(id));
         }
 
         [HttpPost]
@@ -74,7 +74,7 @@ namespace The_cool_Library.Controllers
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Categories.Update(genre);
+                applicationDbContext.Genres.Update(genre);
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             } else
