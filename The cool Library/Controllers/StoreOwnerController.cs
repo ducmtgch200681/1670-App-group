@@ -7,18 +7,18 @@ namespace The_cool_Library.Controllers
 {
     public class StoreOwnerController : Controller
     {
-        private readonly ApplicationDbContext applicationDbContext;
+        private readonly ApplicationDbContext context;
 
-        public StoreOwnerController(ApplicationDbContext applicationDbContext)
+        public StoreOwnerController(ApplicationDbContext context)
         {
-            this.applicationDbContext = applicationDbContext;
+            this.context = context;
         }
 
         //-------------------------------------------------------------------------------------
 
         public IActionResult Book()
         {
-            return View(applicationDbContext.Books.ToList());
+            return View(context.Books.ToList());
         }
 
         //-------------------------------------------------------------------------------------
@@ -56,24 +56,25 @@ namespace The_cool_Library.Controllers
         //------------------------------------------------------------------------------------------
 
         [HttpGet]
-        public IActionResult Add()
+        public IActionResult AddBook()
         {
-            var genres = applicationDbContext.Books.ToList();
+            var genres = context.Genres.ToList();
             ViewBag.Genres = genres;
             return View();
         }
 
         [HttpPost]
-        public IActionResult Add(Book book)
+        public IActionResult AddBook(Book book)
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Books.Add(book);
-                applicationDbContext.SaveChanges();
-                return RedirectToAction("Index");
+                context.Books.Add(book);
+                context.SaveChanges();
+                return RedirectToAction("Book");
             }
             else
             {
+                ViewBag.Genres = context.Genres.ToList(); ;
                 return View(book);
             }
         }

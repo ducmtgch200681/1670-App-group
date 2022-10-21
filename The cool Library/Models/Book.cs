@@ -46,11 +46,5 @@ namespace The_cool_Library.Models
         public Genre Genre { get; set; }
 
 
-        
-
-
-
-
-
     }
 }
