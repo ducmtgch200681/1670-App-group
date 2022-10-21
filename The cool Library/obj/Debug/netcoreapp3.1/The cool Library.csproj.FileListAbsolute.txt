@@ -1837,3 +1837,4 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Id
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Add.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Edit.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Index.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AllBook.cshtml.g.cs
