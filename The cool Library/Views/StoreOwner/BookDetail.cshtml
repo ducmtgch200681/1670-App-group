@@ -1,0 +1,46 @@
+﻿@model The_cool_Library.Models.Book
+
+<div class="row text-center">
+    <div class="col">
+        <img src="@Model.Book_image" width="400" height="400">
+    </div>
+    <div class="col">
+        <table class="table-bordered bg-light">
+            <tr>
+                <th colspan="2" class="h3 text-primary">@Model.Book_name</th>
+            </tr>
+            <tr>
+                <th>Author</th>
+                <td>@Model.Book_author</td>
+            </tr>
+            <tr>
+                <th>Publisher</th>
+                <td>@Model.Book_publisher</td>
+            </tr>
+            <tr>
+                <th>Publication date</th>
+                <td>@Model.Book_date.ToShortDateString()</td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td>@Model.Book_price</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>@Model.Book_description</td>
+            </tr>
+            <tr>
+                <th>Quantity</th>
+                <td>@Model.Book_quantity</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>
+                    @*<a asp-controller="Genre" asp-action="BookDetail" asp-route-id="@Model.Genre_id">*@
+                        @Model.Genre.Genre_name
+                    @*</a>*@
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

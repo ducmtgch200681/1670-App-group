@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models;
@@ -23,18 +24,12 @@ namespace The_cool_Library.Controllers
 
         //-------------------------------------------------------------------------------------
 
-        public IActionResult Detail(int? id)
+        public IActionResult BookDetail(int id)
         {
-            if(id == null)
-            {
-                return NotFound();
-            } else
-            {
-                return View
-                    (
-                    //applicationDbContext.StoreOwners.FirstOrDefault(so => so.So_id == id)
-                    );
-            }
+            var book = context.Books
+                              .Include(b => b.Genre)
+                              .FirstOrDefault(b => b.Genre_id == id);
+            return View(book);
         }
 
         //----------------------------------------------------------------------------------------
