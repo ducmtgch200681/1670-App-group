@@ -21,46 +21,21 @@ namespace The_cool_Library.Controllers
             return View();
         }
 
-        public IActionResult About()
-        {
-            return View();
-        }
-
-<<<<<<< HEAD
-        public IActionResult Feedback()
-        {
-            return View();
-        }
-
-        //[HttpGet]
-        //public IActionResult Register()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public IActionResult Add(Customer customer)
-        //{
-        //    //kiểm tra thông tin nhập vào từ form
-        //    if (ModelState.IsValid)
-        //    {
-        //        //nếu hợp lệ thì add vào db
-        //        context.Customers.Add(customer);
-        //        //lưu thay đổi vào db
-        //        context.SaveChanges();
-        //        //return về trang index
-        //        return RedirectToAction("Index");
-        //        //return RedirectToAction(nameof(Index));
-        //    }
-        //    //nếu không hợp lệ thì quay ngược về form 
-        //    return View(customer);
-        //}
-=======
         public IActionResult AllBook()
         {
             var allBook = context.Books.ToList();
             return View(allBook);
         }
->>>>>>> c46a6d9e899b498afb89d4bb033b8d1c61801ed1
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Feedback()
+        {
+            return View();
+        }
+        
     }
 }
