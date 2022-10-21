@@ -4,13 +4,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
 {
-    public class Category
+    public class Genre
     {
         [Key]
-        public int Cate_id { get; set; }
+        public int Genre_id { get; set; }
 
-        [Required(ErrorMessage = "Enter category")]
-        public string Cate_name { get; set; }
+        [Required(ErrorMessage = "Enter Genre")]
+        public string Genre_name { get; set; }
 
         public ICollection<Book> Books { get; set; }
     }

@@ -7,11 +7,11 @@ using The_cool_Library.Models;
 
 namespace The_cool_Library.Controllers
 {
-    public class CategoryController : Controller
+    public class GenreController : Controller
     {
         private readonly ApplicationDbContext applicationDbContext;
 
-        public CategoryController (ApplicationDbContext applicationDbContext)
+        public GenreController (ApplicationDbContext applicationDbContext)
         {
             this.applicationDbContext = applicationDbContext;
         }
@@ -47,17 +47,17 @@ namespace The_cool_Library.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(Category category)
+        public IActionResult Add(Genre genre)
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Categories.Add(category);
+                applicationDbContext.Categories.Add(genre);
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             }
             else
             {
-                return View(category);
+                return View(genre);
             }
         }
 
@@ -70,16 +70,16 @@ namespace The_cool_Library.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Category category)
+        public IActionResult Edit(Genre genre)
         {
             if (ModelState.IsValid)
             {
-                applicationDbContext.Categories.Update(category);
+                applicationDbContext.Categories.Update(genre);
                 applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             } else
             {
-                return View (category);
+                return View (genre);
             }
         }
 
