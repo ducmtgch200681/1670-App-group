@@ -677,13 +677,13 @@ hr {
         overflow: hidden;
       }
 
-      .el-wrapper .box-up {
-        width: 100%;
-        height: 300px;
-        position: relative;
-        overflow: hidden;
-        text-align: center;
-      }
+        .el-wrapper .box-up {
+            width: 100%;
+            height: 550px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
 
       .el-wrapper .img {
         padding: 20px 0;
@@ -697,6 +697,9 @@ hr {
         -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
         transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
         /* ease-out */
+        /*Edit here*/
+        height: 500px;
+        width: 100%;
       }
 
       .h-bg {
