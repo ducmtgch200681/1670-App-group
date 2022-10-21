@@ -17,6 +17,7 @@ namespace The_cool_Library.Controllers
         [Route("/")]
         public IActionResult Index()
         {
+            
             return View();
         }
 
