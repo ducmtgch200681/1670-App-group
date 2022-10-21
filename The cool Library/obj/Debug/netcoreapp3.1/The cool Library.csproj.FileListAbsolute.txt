@@ -1834,7 +1834,11 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Areas\Id
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Add.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Edit.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Index.cshtml.g.cs
+<<<<<<< HEAD
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Feedback.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Add.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Edit.cshtml.g.cs
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Index.cshtml.g.cs
+=======
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AllBook.cshtml.g.cs
+>>>>>>> c46a6d9e899b498afb89d4bb033b8d1c61801ed1

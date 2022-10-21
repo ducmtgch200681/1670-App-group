@@ -26,6 +26,7 @@ namespace The_cool_Library.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public IActionResult Feedback()
         {
             return View();
@@ -54,5 +55,12 @@ namespace The_cool_Library.Controllers
         //    //nếu không hợp lệ thì quay ngược về form 
         //    return View(customer);
         //}
+=======
+        public IActionResult AllBook()
+        {
+            var allBook = context.Books.ToList();
+            return View(allBook);
+        }
+>>>>>>> c46a6d9e899b498afb89d4bb033b8d1c61801ed1
     }
 }

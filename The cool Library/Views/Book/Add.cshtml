@@ -40,10 +40,10 @@
     </div>
 
     <div class="form-group">
-        <label class="h4 text-success">Category</label>
+        <label class="h4 text-success">Genre</label>
         <select class="list-group-item"
                 asp-for="Genre_id"
-                asp-items="@(new SelectList(ViewBag.Genres,"Genre_id","Genre_name"))">
+                asp-items="@(new SelectList(ViewBag.Genres,"Id","Genre_name"))">
             <option>Select a Genre</option>
         </select>
         <span class="text-danger" asp-validation-for="Genre_id"></span>
