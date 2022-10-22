@@ -21,7 +21,7 @@ namespace The_cool_Library.Controllers
             return View();
         }
 
-        public IActionResult AllBook()
+        public IActionResult Book()
         {
             var allBook = context.Books.ToList();
             return View(allBook);
