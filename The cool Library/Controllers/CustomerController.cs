@@ -2,6 +2,7 @@
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models; //cho chac - DMT
+using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace The_cool_Library.Controllers
 {
@@ -40,6 +41,17 @@ namespace The_cool_Library.Controllers
         public IActionResult ContactUs()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Search(string key)
+        {
+            var products = context.Books.Where(p => p.Book_name.Contains(key)).ToList();
+            if (products.Count == 0)
+            {
+                TempData["Message"] = "You can't find any Books !";
+            }
+            return View("Book", products);
         }
     }
 }
