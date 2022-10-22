@@ -81,7 +81,10 @@ namespace The_cool_Library.Controllers
         {
             var genres = context.Genres.ToList();
             ViewBag.Genres = genres;
-            return View();
+
+            var book = context.Books.Where(b => b.Id == id).FirstOrDefault();
+
+            return View(book);
         }
 
         [HttpPost]
@@ -89,6 +92,8 @@ namespace The_cool_Library.Controllers
         {
             if (ModelState.IsValid)
             {
+                
+
                 context.Books.Update(book);
                 context.SaveChanges();
                 return RedirectToAction("Book");
