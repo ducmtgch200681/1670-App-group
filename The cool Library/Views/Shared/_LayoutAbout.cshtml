@@ -70,7 +70,7 @@
                                         <li class="active"><a class="nav-link" style="color:white; font-size:20px" asp-controller="Customer" asp-action="Index"><strong>Home</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="About"><strong>About</strong></a></li>
                                         <li class="has-children">
-                                            <a href="#" class="nav-link" style="color:white"><strong>Book</strong></a>
+                                            <a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Book"><strong>Book</strong></a>
                                             <ul class="dropdown arrow-top">
                                                 <li><a href="#" class="nav-link">Comic Book</a></li>
                                                 <li><a href="#" class="nav-link">Detective Book</a></li>
@@ -85,7 +85,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#about-section" class="nav-link" style="color:white"><strong>Contact us</strong></a></li>
+                                        <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="ContactUs"><strong>Contact us</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Feedback"><strong>Feedback</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>

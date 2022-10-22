@@ -37,5 +37,9 @@ namespace The_cool_Library.Controllers
             return View();
         }
         
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
     }
 }
