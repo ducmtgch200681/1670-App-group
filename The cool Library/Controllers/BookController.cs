@@ -35,7 +35,7 @@ namespace The_cool_Library.Controllers
         public IActionResult Detail(int id)
         {
             //phần này lm sau khi đã tạo xong FK category
-            return View(applicationDbContext.Books.Include(b => b.Genre).FirstOrDefault(b => b.Genre_id == id));
+            return View(applicationDbContext.Books.Include(b => b.Genre).FirstOrDefault(b => b.GenreId == id));
         }
 
         //----------------------------------------------------------------

@@ -48,15 +48,15 @@
     <div class="form-group">
         <label class="h4 text-success">Category</label>
         <select class="list-group-item"
-                asp-for="Genre_id"
-                asp-items="@(new SelectList(ViewBag.Genres,"Genre_id","Genre_name"))">
+                asp-for="GenreId"
+                asp-items="@(new SelectList(ViewBag.Genres,"GenreId","Genre_name"))">
             <option>Select a category</option>
         </select>
-        <span class="text-danger" asp-validation-for="Genre_id"></span>
+        <span class="text-danger" asp-validation-for="GenreId"></span>
     </div>
 
     <div class="form-group">
         <input type="submit" class="btn btn-success" value="Edit" />
-        <a class="btn btn-secondary" asp-action="Index" asp-controller="Book">Cancel</a>
+        <a class="btn btn-secondary" asp-controller="StoreOwner" asp-action="Book">Cancel</a>
     </div>
 </form>

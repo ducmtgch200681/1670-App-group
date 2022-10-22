@@ -28,25 +28,25 @@ namespace The_cool_Library.Controllers
         {
             var book = context.Books
                               .Include(b => b.Genre)
-                              .FirstOrDefault(b => b.Genre_id == id);
+                              .FirstOrDefault(b => b.GenreId == id);
             return View(book);
         }
 
         //----------------------------------------------------------------------------------------
 
-        //public IActionResult Delete(int? id)
-        //{
-        //    if(id == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    else
-        //    {
-        //        //applicationDbContext.StoreOwners.Remove(applicationDbContext.StoreOwners.Find(id));
-        //        //applicationDbContext.SaveChanges();
-        //        //return RedirectToAction("Index");
-        //    }
-        //}
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                context.Books.Remove(context.Books.Find(id));
+                context.SaveChanges();
+                return RedirectToAction("Book");
+            }
+        }
 
         //------------------------------------------------------------------------------------------
 

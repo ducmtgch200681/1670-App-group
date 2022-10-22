@@ -47,7 +47,7 @@
 
         <div class="form-group">
             <label class="h4 text-success">Genre</label>
-            <select class="list-group-item" asp-for="@Model.Genre_id">
+            <select class="list-group-item" asp-for="@Model.GenreId">
                 <option>Select a Genre</option>
                 @foreach (var genre in ViewBag.Genres)
                 {
@@ -56,7 +56,7 @@
                     </option>
                 }
             </select>
-            <span class="text-danger" asp-validation-for="Genre_id"></span>
+            <span class="text-danger" asp-validation-for="GenreId"></span>
         </div>
 
         <div class="form-group">

@@ -10,7 +10,7 @@ using The_cool_Library.Data;
 namespace The_cool_Library.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221022011807_fuck")]
+    [Migration("20221022021234_fuck")]
     partial class fuck
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,21 +51,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "8fdf0bb8-76e7-4aef-876a-3f0386857446",
+                            ConcurrencyStamp = "16b935c5-6704-4125-9030-c5536eff3248",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "bc84b1ed-65c6-4d78-8ee5-70eb409c7e2c",
+                            ConcurrencyStamp = "2f5cf8f5-0d04-4b02-8f1b-0bd522bf7095",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "de0b9e3b-609d-4f75-a48a-231c6f106304",
+                            ConcurrencyStamp = "5172b981-1fb8-4e00-8870-80dce9083848",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -164,14 +164,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2db815ef-a133-478e-85ab-c23042bdcd96",
+                            ConcurrencyStamp = "cfbc182c-9564-4208-b439-549dff5fda75",
                             Email = "admin@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEN24tcFBkI0AtyLP1/Etd6r93/rfHMW3qHJsRK86Ya6B/d/JpLjt12TlXj7ccvDqgQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEMq5gpddR6vRWKT+dn4M59nhMuO0d8RFMn3d3sjXCBhssnSVZi+EfP8lk7pR9ZYRg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "aa3e2863-fa49-4f35-8f8a-17fb1ba5448c",
+                            SecurityStamp = "73dfc7be-7233-494d-9c97-49933afd55c7",
                             TwoFactorEnabled = false,
                             UserName = "admin@fpt.com"
                         },
@@ -179,14 +179,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bfb259f0-bfba-45a9-a176-3ff48d4fca3e",
+                            ConcurrencyStamp = "2cc361e4-92cf-48d0-b85d-b9b498706032",
                             Email = "customer@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEH1EE+fIoYAToVvi0K8Ay4+1VKFBhpoxUQEoLdZnQQnu/vg5qK5PI0NoTwGajea5xw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEA1hU0BubyhDIUXjnLkGr5rYkunnoQoUl7OkxRYQLy6016Dgn7IiB1k3sCgQu5xaJw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9bbffc23-0cd9-4087-a071-41c61a943d3f",
+                            SecurityStamp = "232a872f-10d0-4d91-800a-bc02805cc2e9",
                             TwoFactorEnabled = false,
                             UserName = "customer@fpt.com"
                         },
@@ -194,14 +194,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "edb130a4-f1ce-48d8-842d-be3b33a51c52",
+                            ConcurrencyStamp = "0dc0bbe7-32da-4db7-bf23-ca9a2e674d08",
                             Email = "storeowner@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeowner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBNT37SZLr1n/+5EAfbpRsoOy2l5XYn9D9h9TOoWDJ8NZQAssV7OY996/a2sROExtA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFZcOrsSeQY803OreiH7IqacXB3M+vBJodPFOW/fhF1vgAWWq2Nvs0RczfVhCLF1EA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "195dbd36-9dfb-4714-91a5-3fea79ef5143",
+                            SecurityStamp = "76dce6b1-31af-4973-b4ab-81ca33e1dda0",
                             TwoFactorEnabled = false,
                             UserName = "storeowner@fpt.com"
                         });
@@ -347,10 +347,7 @@ namespace The_cool_Library.Migrations
                     b.Property<int>("Book_quantity")
                         .HasColumnType("int");
 
-                    b.Property<int?>("GenreId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Genre_id")
+                    b.Property<int>("GenreId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -371,7 +368,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 10.99,
                             Book_publisher = "Ace Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -384,7 +381,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 18.0,
                             Book_publisher = "Ace Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -397,7 +394,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 18.0,
                             Book_publisher = "Ace Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -410,7 +407,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 18.0,
                             Book_publisher = "Ace Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -423,7 +420,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 18.0,
                             Book_publisher = "Ace Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -436,7 +433,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 18.0,
                             Book_publisher = "Ace Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -449,7 +446,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -462,7 +459,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -475,7 +472,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -488,7 +485,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -501,7 +498,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 11.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -514,7 +511,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -527,7 +524,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -540,7 +537,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -553,7 +550,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -566,7 +563,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -579,7 +576,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -592,7 +589,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -605,7 +602,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -618,7 +615,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin Books",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -631,7 +628,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -644,7 +641,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -657,7 +654,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -670,7 +667,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -683,7 +680,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -696,7 +693,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -709,7 +706,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -722,7 +719,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -735,7 +732,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.989999999999998,
                             Book_publisher = "Orbit",
                             Book_quantity = 30,
-                            Genre_id = 1
+                            GenreId = 1
                         },
                         new
                         {
@@ -748,7 +745,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 7.0,
                             Book_publisher = "Harper Perennial Modern Classics",
                             Book_quantity = 30,
-                            Genre_id = 2
+                            GenreId = 2
                         },
                         new
                         {
@@ -761,7 +758,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 10.0,
                             Book_publisher = "Penguin",
                             Book_quantity = 30,
-                            Genre_id = 2
+                            GenreId = 2
                         },
                         new
                         {
@@ -774,7 +771,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Penguin",
                             Book_quantity = 30,
-                            Genre_id = 2
+                            GenreId = 2
                         },
                         new
                         {
@@ -787,7 +784,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 5.0,
                             Book_publisher = "Back Bay Books",
                             Book_quantity = 30,
-                            Genre_id = 2
+                            GenreId = 2
                         },
                         new
                         {
@@ -800,7 +797,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 15.0,
                             Book_publisher = "Scribner",
                             Book_quantity = 30,
-                            Genre_id = 2
+                            GenreId = 2
                         },
                         new
                         {
@@ -813,7 +810,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 7.0,
                             Book_publisher = "Modern Library",
                             Book_quantity = 30,
-                            Genre_id = 3
+                            GenreId = 3
                         },
                         new
                         {
@@ -826,7 +823,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 12.0,
                             Book_publisher = "Vintage",
                             Book_quantity = 30,
-                            Genre_id = 3
+                            GenreId = 3
                         },
                         new
                         {
@@ -839,7 +836,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 4.0,
                             Book_publisher = "Jamie McGuire",
                             Book_quantity = 30,
-                            Genre_id = 3
+                            GenreId = 3
                         },
                         new
                         {
@@ -852,7 +849,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 15.0,
                             Book_publisher = "Little, Brown and Company",
                             Book_quantity = 30,
-                            Genre_id = 3
+                            GenreId = 3
                         },
                         new
                         {
@@ -865,7 +862,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 10.0,
                             Book_publisher = "Walker Childrens",
                             Book_quantity = 30,
-                            Genre_id = 3
+                            GenreId = 3
                         },
                         new
                         {
@@ -878,7 +875,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 13.0,
                             Book_publisher = "Grand Central Publishing",
                             Book_quantity = 30,
-                            Genre_id = 3
+                            GenreId = 3
                         },
                         new
                         {
@@ -891,7 +888,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 20.0,
                             Book_publisher = "Literary publishers",
                             Book_quantity = 30,
-                            Genre_id = 4
+                            GenreId = 4
                         },
                         new
                         {
@@ -904,7 +901,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 15.0,
                             Book_publisher = "Collins Crime Club",
                             Book_quantity = 30,
-                            Genre_id = 4
+                            GenreId = 4
                         },
                         new
                         {
@@ -917,7 +914,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 17.0,
                             Book_publisher = "ST. Martin’s Press",
                             Book_quantity = 30,
-                            Genre_id = 4
+                            GenreId = 4
                         },
                         new
                         {
@@ -930,7 +927,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 18.0,
                             Book_publisher = "Doubleday",
                             Book_quantity = 30,
-                            Genre_id = 4
+                            GenreId = 4
                         },
                         new
                         {
@@ -943,7 +940,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 19.0,
                             Book_publisher = "Doubleday Fiction",
                             Book_quantity = 30,
-                            Genre_id = 4
+                            GenreId = 4
                         },
                         new
                         {
@@ -956,7 +953,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 3.0,
                             Book_publisher = "Shogakukan",
                             Book_quantity = 30,
-                            Genre_id = 5
+                            GenreId = 5
                         },
                         new
                         {
@@ -969,7 +966,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 4.0,
                             Book_publisher = "Futabasha",
                             Book_quantity = 30,
-                            Genre_id = 5
+                            GenreId = 5
                         },
                         new
                         {
@@ -982,7 +979,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 3.0,
                             Book_publisher = "Shogakukan",
                             Book_quantity = 30,
-                            Genre_id = 5
+                            GenreId = 5
                         },
                         new
                         {
@@ -995,7 +992,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 3.0,
                             Book_publisher = "Shueisha",
                             Book_quantity = 30,
-                            Genre_id = 5
+                            GenreId = 5
                         },
                         new
                         {
@@ -1008,7 +1005,7 @@ namespace The_cool_Library.Migrations
                             Book_price = 5.0,
                             Book_publisher = "Shueisha",
                             Book_quantity = 30,
-                            Genre_id = 5
+                            GenreId = 5
                         });
                 });
 
@@ -1110,7 +1107,9 @@ namespace The_cool_Library.Migrations
                 {
                     b.HasOne("The_cool_Library.Models.Genre", "Genre")
                         .WithMany("Books")
-                        .HasForeignKey("GenreId");
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Genre");
                 });
