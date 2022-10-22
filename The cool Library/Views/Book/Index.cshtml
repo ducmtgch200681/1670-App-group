@@ -35,11 +35,11 @@
                     </td>
                     <td>@book.Book_price</td>
                     <td>
-                        <a class="btn btn-success" asp-action="Edit" asp-controller="Book" asp-route-id="@book.Book_id">Edit</a>
+                        <a class="btn btn-success" asp-action="Edit" asp-controller="Book" asp-route-id="@book.Id">Edit</a>
        
-                        <a class="btn btn-warning" asp-action="Delete" asp-controller="Book" asp-route-id="@book.Book_id" onclick="return confirm('Do you want delete this book @book.Book_name? ');">Delete</a>
+                        <a class="btn btn-warning" asp-action="Delete" asp-controller="Book" asp-route-id="@book.Id" onclick="return confirm('Do you want delete this book @book.Book_name? ');">Delete</a>
                     
-                        <a class="btn btn-secondary" asp-action="Detail" asp-controller="Book" asp-route-id="@book.Book_id">Detail</a>
+                        <a class="btn btn-secondary" asp-action="Detail" asp-controller="Book" asp-route-id="@book.Id">Detail</a>
                     </td>
             </tr>
         }

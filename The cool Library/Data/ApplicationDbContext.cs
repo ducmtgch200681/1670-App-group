@@ -154,27 +154,27 @@ namespace The_cool_Library.Data
             builder.Entity<Genre>().HasData(
                 new Genre
                 {
-                    Genre_id = 1,
+                    Id = 1,
                     Genre_name = "Fiction Novel"
                 },
                 new Genre
                 {
-                    Genre_id = 2,
+                    Id = 2,
                     Genre_name = "Literary Book"
                 },
                 new Genre
                 {
-                    Genre_id = 3,
+                    Id = 3,
                     Genre_name = "Romance Novel"
                 },
                 new Genre
                 {
-                    Genre_id = 4,
+                    Id = 4,
                     Genre_name = "Detective Book"
                 },
                 new Genre
                 {
-                    Genre_id = 5,
+                    Id = 5,
                     Genre_name = "Comic"
                 }
             );
@@ -188,7 +188,7 @@ namespace The_cool_Library.Data
                 //còn lại không bắt buộc. Thứ tự khai báo các thuộc tính không quan trọng
                 new Book
                 {
-                    Book_id = 1, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 1, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Dune",
                     Book_author = "Frank Herbert",
@@ -201,7 +201,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 2, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 2, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Dune Messiah",
                     Book_author = "Frank Herbert",
@@ -214,7 +214,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 3, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 3, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Children of Dune",
                     Book_author = "Frank Herbert",
@@ -227,7 +227,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 4, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 4, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "God Emperor of Dune",
                     Book_author = "Frank Herbert",
@@ -240,7 +240,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 5, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 5, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Heretics of Dune",
                     Book_author = "Frank Herbert",
@@ -253,7 +253,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 6, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 6, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Chapterhouse: Dune",
                     Book_author = "Frank Herbert",
@@ -266,7 +266,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 7, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 7, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Casino Royale",
                     Book_author = "Ian Fleming",
@@ -279,7 +279,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 8, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 8, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Live and Let Die",
                     Book_author = "Ian Fleming",
@@ -292,7 +292,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 9, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 9, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Moonraker",
                     Book_author = "Ian Fleming",
@@ -305,7 +305,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 10, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 10, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Diamonds Are Forever",
                     Book_author = "Ian Fleming",
@@ -318,7 +318,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 11, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 11, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "From Russia, with Love",
                     Book_author = "Ian Fleming",
@@ -331,7 +331,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 12, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 12, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Dr.No",
                     Book_author = "Ian Fleming",
@@ -344,7 +344,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 13, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 13, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Goldfinger",
                     Book_author = "Ian Fleming",
@@ -357,7 +357,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 14, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 14, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "For Your Eyes Only",
                     Book_author = "Ian Fleming",
@@ -370,7 +370,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 15, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 15, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Thunderball",
                     Book_author = "Ian Fleming",
@@ -383,7 +383,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 16, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 16, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Spy Who Loved Me",
                     Book_author = "Ian Fleming",
@@ -396,7 +396,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 17, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 17, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "On Her Majesty’s Secret Service",
                     Book_author = "Ian Fleming",
@@ -409,7 +409,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 18, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 18, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "You Only Live Twice",
                     Book_author = "Ian Fleming",
@@ -422,7 +422,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 19, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 19, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Man with the Golden Gun",
                     Book_author = "Ian Fleming",
@@ -435,7 +435,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 20, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 20, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Octopussy and The Living Daylights",
                     Book_author = "Ian Fleming",
@@ -448,7 +448,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 21, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 21, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Last Wish",
                     Book_author = "Andrzej  Sapkowski",
@@ -461,7 +461,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 22, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 22, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Sword of Destiny",
                     Book_author = "Andrzej  Sapkowski",
@@ -474,7 +474,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 23, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 23, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Blood of Elves",
                     Book_author = "Andrzej  Sapkowski",
@@ -487,7 +487,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 24, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 24, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Blood of Elves",
                     Book_author = "Andrzej  Sapkowski",
@@ -500,7 +500,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 25, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 25, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Time of Contempt",
                     Book_author = "Andrzej  Sapkowski",
@@ -513,7 +513,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 26, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 26, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Baptism of Fire",
                     Book_author = "Andrzej  Sapkowski",
@@ -526,7 +526,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 27, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 27, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Tower of Swallows",
                     Book_author = "Andrzej  Sapkowski",
@@ -539,7 +539,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 28, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 28, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Lady of the Lake",
                     Book_author = "Andrzej  Sapkowski",
@@ -552,7 +552,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 29, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 29, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 1, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Season of Storms",
                     Book_author = "Andrzej  Sapkowski",
@@ -565,7 +565,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 30, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 30, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 2, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "To Kill a Mockingbird",
                     Book_author = "Harper Lee",
@@ -578,7 +578,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 31, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 31, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 2, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Jane Eyre",
                     Book_author = "Charlotte Brontë",
@@ -591,7 +591,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 32, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 32, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 2, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Crime and Punishment",
                     Book_author = "Fyodor Dostoyevsky",
@@ -604,7 +604,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 33, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 33, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 2, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Catcher in the Rye",
                     Book_author = "J.D. Salinger",
@@ -617,7 +617,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 34, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 34, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 2, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Great Gatsby",
                     Book_author = "F. Scott Fitzgerald",
@@ -630,7 +630,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 35, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 35, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 3, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Pride and Prejudice",
                     Book_author = "Jane Austen",
@@ -643,7 +643,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 36, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 36, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 3, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Fifty Shades of Grey",
                     Book_author = "E.L. James",
@@ -656,7 +656,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 37, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 37, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 3, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Beautiful Disaster",
                     Book_author = "Jamie McGuire",
@@ -669,7 +669,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 38, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 38, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 3, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Twilight",
                     Book_author = "Stephenie Meyer",
@@ -682,7 +682,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 39, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 39, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 3, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Perfect Chemistry",
                     Book_author = "Simone Elkeles",
@@ -695,7 +695,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 40, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 40, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 3, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Notebook",
                     Book_author = "Nicholas Sparks",
@@ -708,7 +708,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 41, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 41, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 4, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Sherlock Holmes",
                     Book_author = "Arthur Conan Doyle",
@@ -721,7 +721,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 42, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 42, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 4, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Death on the Nile",
                     Book_author = "Agatha Christie",
@@ -734,7 +734,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 43, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 43, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 4, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Silence of the Lambs",
                     Book_author = "Thomas Harris",
@@ -747,7 +747,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 44, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 44, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 4, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Inferno",
                     Book_author = "Dan Brown",
@@ -760,7 +760,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 45, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 45, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 4, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "The Da Vinci Code",
                     Book_author = "Dan Brown",
@@ -773,7 +773,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 46, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 46, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 5, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Detective Conan",
                     Book_author = "Aoyama Gōshō",
@@ -786,7 +786,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 47, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 47, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 5, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Crayon Shin-chan",
                     Book_author = "Usui Yoshito",
@@ -799,7 +799,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 48, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 48, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 5, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Doraemon",
                     Book_author = "Fujiko F. Fujio",
@@ -812,7 +812,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 49, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 49, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 5, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Dragon Ball",
                     Book_author = "Toriyama Akira",
@@ -825,7 +825,7 @@ namespace The_cool_Library.Data
                 },
                 new Book
                 {
-                    Book_id = 50, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
+                    Id = 50, //Id không cần phải bắt đầu từ 1 (gõ tùy ý nhưng giá trị phải khác nhau)
                     Genre_id = 5, //Gerne_id phải tồn tại ở trong bảng Genre, co nghia la "1" phai ton tai
                     Book_name = "Kuroko's Basketball",
                     Book_author = "Tadatoshi Fujimaki",

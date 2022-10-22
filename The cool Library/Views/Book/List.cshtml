@@ -12,7 +12,7 @@
                 <img src="@book.Book_image">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>@book.Book_name</h5>
-                    <a class="btn btn-link btn-sm text text-center" asp-action="Detail" asp-controller="Book" asp-route-id="@book.Book_id">Detail</a>
+                    <a class="btn btn-link btn-sm text text-center" asp-action="Detail" asp-controller="Book" asp-route-id="@book.Id">Detail</a>
                 </div>
             }
         </div>
@@ -38,7 +38,7 @@
                             </div>
                             <h6 class="text-success">Free shipping</h6>
                             <div class="d-flex flex-column mt-4">
-                                <button class="btn btn-primary btn-sm" asp-action="Detail" asp-controller="Book" asp-route-id="@book.Book_id">Details</button>
+                                <button class="btn btn-primary btn-sm" asp-action="Detail" asp-controller="Book" asp-route-id="@book.Id">Details</button>
                                 <button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to wishlist</button>
                              </div>
                         </div>

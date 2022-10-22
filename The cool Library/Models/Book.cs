@@ -5,8 +5,7 @@ namespace The_cool_Library.Models
 {
     public class Book
     {
-        [Key]
-        public int Book_id { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage ="Please enter book title")]
         [MinLength(2, ErrorMessage ="Title must have at least 2 characters")]
@@ -44,12 +43,6 @@ namespace The_cool_Library.Models
         [Required]
         public int Genre_id { get; set; }
         public Genre Genre { get; set; }
-
-
-        
-
-
-
 
 
     }
