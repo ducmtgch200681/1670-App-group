@@ -84,5 +84,21 @@ namespace The_cool_Library.Controllers
         }
 
         //----------------------------------------------------------------------------------
+        public IActionResult AddFromRequest()
+        {
+            Genre genre = new Genre();
+            if (ModelState.IsValid)
+            {
+                genre.Genre_name = (string)TempData["Genre"];
+                applicationDbContext.Add(genre);
+                applicationDbContext.SaveChanges();
+                TempData["Message"] = "Add new data successfully";
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
+        }
     }
 }
