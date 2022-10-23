@@ -940,3 +940,5 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Raz
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutViewBook.cshtml.g.cs
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\GenreRequest\Index.cshtml.g.cs
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\GenreRequest\MakeRequest.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\GenreRequest\Index.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\GenreRequest\MakeRequest.cshtml.g.cs

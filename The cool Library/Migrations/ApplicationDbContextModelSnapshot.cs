@@ -49,21 +49,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "a3e9ff4b-cb48-45db-b901-0947c0360eef",
+                            ConcurrencyStamp = "dc58d381-ecb3-4885-a364-f07aacf7c303",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "0c1395b9-fab3-4860-8d00-04a9e64ab0f6",
+                            ConcurrencyStamp = "fd8c65da-da58-4563-92c9-72351da847fb",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "8759c7c1-641a-477b-ae23-7c4ee98fe423",
+                            ConcurrencyStamp = "1e4733e7-dd25-4df3-a052-66289c1d46c1",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -162,14 +162,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "26317dc8-6389-4869-9fcd-26b1b2a1b507",
+                            ConcurrencyStamp = "4264f422-e3bf-4b83-8d5a-04bdf3e451ba",
                             Email = "admin@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKUOFnQFycz3WkAEtK6YFSJG9YoFhxivrXKtTNXADCBr+NiswS90+7Ij2d64qgabMw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKnRuRdWPVtNxa1vIs5fyBBxxlIqUdokkaDuzGKi7yU2GCPl+33h80F/by4iqb8dlw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "bd8cda6c-2d03-409d-9337-bf10c02d4e46",
+                            SecurityStamp = "95f3f8c6-4448-4c68-8ad8-f7958a095332",
                             TwoFactorEnabled = false,
                             UserName = "admin@fpt.com"
                         },
@@ -177,14 +177,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e7a50c33-26d3-48af-9491-68ada55bd251",
+                            ConcurrencyStamp = "7e5373b7-5d57-41c3-b12b-94abcd38fcf1",
                             Email = "customer@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDpERsGmvHuy3A6EMe7aPdgLB+rjXNIKSQq+yTT0Q7Tx5oT7AeVs2D8ljl4XZJNltQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ/kGr8YkZs3zPtJvZ8T0J/NBrXSHOt5tqGExpsKjDByb3ZpxRsBXyAktdnQM/lAHw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "14f7380f-14d3-4dbc-8f00-75a1c9817b42",
+                            SecurityStamp = "c25aa930-8890-4f5a-8f11-723aff0edba8",
                             TwoFactorEnabled = false,
                             UserName = "customer@fpt.com"
                         },
@@ -192,14 +192,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "06d08df8-6689-4ac9-9d91-91ae2812a70e",
+                            ConcurrencyStamp = "3c748348-12e9-430c-a6c3-eada0548f1a7",
                             Email = "storeowner@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeowner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPvXa7oTYlwdnkIQCI5+LgyPaD4XTJUbRIbndT9I6xc/UaOOm7IMHrtfVyAKQ4UntQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGSDlttsg8Zf/8usWHuo3siNExgki2jAuPkt6mSqt8GFZ4Hs7jZ4YVEWX68XzKArOA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "923a34db-585e-47f1-9c6d-46d4ce5802b8",
+                            SecurityStamp = "c310be56-71d1-497a-bd5c-7dae5cdf89ae",
                             TwoFactorEnabled = false,
                             UserName = "storeowner@fpt.com"
                         });

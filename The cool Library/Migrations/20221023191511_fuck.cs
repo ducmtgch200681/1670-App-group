@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace The_cool_Library.Migrations
 {
-    public partial class @new : Migration
+    public partial class fuck : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -212,9 +212,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "A", "a3e9ff4b-cb48-45db-b901-0947c0360eef", "Administrator", "Administrator" },
-                    { "B", "0c1395b9-fab3-4860-8d00-04a9e64ab0f6", "Customer", "Customer" },
-                    { "C", "8759c7c1-641a-477b-ae23-7c4ee98fe423", "StoreOwner", "StoreOwner" }
+                    { "A", "dc58d381-ecb3-4885-a364-f07aacf7c303", "Administrator", "Administrator" },
+                    { "B", "fd8c65da-da58-4563-92c9-72351da847fb", "Customer", "Customer" },
+                    { "C", "1e4733e7-dd25-4df3-a052-66289c1d46c1", "StoreOwner", "StoreOwner" }
                 });
 
             migrationBuilder.InsertData(
@@ -222,9 +222,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "26317dc8-6389-4869-9fcd-26b1b2a1b507", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEKUOFnQFycz3WkAEtK6YFSJG9YoFhxivrXKtTNXADCBr+NiswS90+7Ij2d64qgabMw==", null, false, "bd8cda6c-2d03-409d-9337-bf10c02d4e46", false, "admin@fpt.com" },
-                    { "2", 0, "e7a50c33-26d3-48af-9491-68ada55bd251", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEDpERsGmvHuy3A6EMe7aPdgLB+rjXNIKSQq+yTT0Q7Tx5oT7AeVs2D8ljl4XZJNltQ==", null, false, "14f7380f-14d3-4dbc-8f00-75a1c9817b42", false, "customer@fpt.com" },
-                    { "3", 0, "06d08df8-6689-4ac9-9d91-91ae2812a70e", "storeowner@fpt.com", true, false, null, null, "storeowner@fpt.com", "AQAAAAEAACcQAAAAEPvXa7oTYlwdnkIQCI5+LgyPaD4XTJUbRIbndT9I6xc/UaOOm7IMHrtfVyAKQ4UntQ==", null, false, "923a34db-585e-47f1-9c6d-46d4ce5802b8", false, "storeowner@fpt.com" }
+                    { "1", 0, "4264f422-e3bf-4b83-8d5a-04bdf3e451ba", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEKnRuRdWPVtNxa1vIs5fyBBxxlIqUdokkaDuzGKi7yU2GCPl+33h80F/by4iqb8dlw==", null, false, "95f3f8c6-4448-4c68-8ad8-f7958a095332", false, "admin@fpt.com" },
+                    { "2", 0, "7e5373b7-5d57-41c3-b12b-94abcd38fcf1", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEJ/kGr8YkZs3zPtJvZ8T0J/NBrXSHOt5tqGExpsKjDByb3ZpxRsBXyAktdnQM/lAHw==", null, false, "c25aa930-8890-4f5a-8f11-723aff0edba8", false, "customer@fpt.com" },
+                    { "3", 0, "3c748348-12e9-430c-a6c3-eada0548f1a7", "storeowner@fpt.com", true, false, null, null, "storeowner@fpt.com", "AQAAAAEAACcQAAAAEGSDlttsg8Zf/8usWHuo3siNExgki2jAuPkt6mSqt8GFZ4Hs7jZ4YVEWX68XzKArOA==", null, false, "c310be56-71d1-497a-bd5c-7dae5cdf89ae", false, "storeowner@fpt.com" }
                 });
 
             migrationBuilder.InsertData(

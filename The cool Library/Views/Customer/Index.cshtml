@@ -1,3 +1,355 @@
-﻿<hr style="color:red" />
-<a class="text-center; font-weight-bold"><strong class="dropdown arrow-top" style="font-size: x-large; color: black">Best seller</strong></a>
-<img src="https://images6.alphacoders.com/346/346199.jpg" width="95%" height="600px" />
+﻿@model List<Book>
+
+    <hr />
+<!DOCTYPE html>
+<html lang="en" style="background: bisque">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Multiple Item Product Carousel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/Index.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Featured <b>Books</b></h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://www.whitcoulls.co.nz/content/products/6118407_80.jpg?enable=upscale&canvas=2:3&auto=webp&optimize=high&width=360" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Charlie and the Chocolate Factory</h4>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://cdn.shopify.com/s/files/1/0471/2156/3811/products/thethreemusketeersalexandredumas_1500x.png?v=1613321885" class="img-fluid" alt="Headphone">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>The Three Musketeers</h4>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p class="item-price"><strike>$25.00</strike> <b>$23.99</b></p>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://studentstore.pk/wp-content/uploads/2021/01/B_668.png" class="img-fluid" alt="Macbook">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Adventures of Sherlock Holmes</h4>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://bizweb.dktcdn.net/100/418/570/products/51erhmlhizl.jpg?v=1623483656187" class="img-fluid" alt="Nikon">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>The Lion, The Witch and the Wardrobe</h4>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p class="item-price"><strike>$315.00</strike> <b>$250.00</b></p>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://www.foliosociety.com/media/catalog/product/d/r/drac_bookshot_1.png?quality=80&fit=bounds&height=&width=&canvas=:" class="img-fluid" alt="Play Station">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Dracula</h4>
+                                            <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://images.squarespace-cdn.com/content/v1/5bfe3be1f793921eeb2803d7/1660499827466-YUSOR33LVMX3OTSZBMR0/Rushdie_Midnight%27s+Children_3D.png?format=2500w" class="img-fluid" alt="Macbook">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Midnight's Children</h4>
+                                            <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://www.okpets.com.au/uploads/3/7/8/3/37838285/life-of-pi-book_orig.png" class="img-fluid" alt="Speaker">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Life of Pi</h4>
+                                            <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="http://cdn.shopify.com/s/files/1/0531/2872/4635/products/alices-adventures-in-wonderland-audiobook-front.png?v=1655215502" class="img-fluid" alt="Galaxy">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Alice in Wonderland</h4>
+                                            <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://librarygenesis.net/wp-content/uploads/2019/08/Free-Book-of-the-Week-War-and-Peace-by-Leo-Tolstoy.png" class="img-fluid" alt="iPhone">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>War and Peace</h4>
+                                            <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://assets.penguinrandomhouse.com/series-images/series-LOR-triad.png" class="img-fluid" alt="Canon">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>The Lord of the Rings </h4>
+                                            <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://mybookbank.pk/wp-content/uploads/2020/05/HARY-PORTER-8-BOOK-SET-MY-BOOK-BANKPK.png" class="img-fluid" alt="Pixel">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Harry Potter series</h4>
+                                            <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="https://www.foliosociety.com/media/catalog/product/w/t/wth_book.png?quality=80&fit=bounds&height=700&width=700&canvas=700:700" class="img-fluid" alt="Watch">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Wuthering Heights</h4>
+                                            <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+                                            <div class="star-rating">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               @* @foreach(var books in Model)
+                                {
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://www.foliosociety.com/media/catalog/product/w/t/wth_book.png?quality=80&fit=bounds&height=700&width=700&canvas=700:700" class="img-fluid" alt="Watch">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Wuthering Heights</h4>
+                                                <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }*@
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>                                		
