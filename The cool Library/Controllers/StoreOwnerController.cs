@@ -134,7 +134,7 @@ namespace The_cool_Library.Controllers
                 context.Add(request);
                 context.SaveChanges();
                 TempData["Message"] = "Request new genre";
-                return RedirectToAction("GenreRequest");
+                return RedirectToAction("MakeRequest");
             }
             else
             {
