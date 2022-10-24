@@ -30,7 +30,7 @@ else
 					</div>
 				</div>
 			</div>
-			<table class="table table-striped table-hover">
+			<table class="table table-striped table-hover table">
 				<thead>
 					<tr>
 						
@@ -38,7 +38,7 @@ else
 						<th>Name</th>
 						<th>Author</th>
 						<th>Quantity</th>
-						<th>Price</th>
+						<th>Price ($)</th>
 						<th>&nbsp    </th>
 						<th>   Menu</th>
 						<th>&nbsp</th>
@@ -53,7 +53,7 @@ else
 						<td>@book.Book_name</td>
 						<td>@book.Book_author</td>
 						<td>@book.Book_quantity</td>
-						<td>@book.Book_price</td>
+						<td>$@book.Book_price</td>
 						<td>
 							@*<a class="btn btn-success" asp-action="editbook" asp-controller="storeowner" asp-route-id="@book.id">edit</a>*@
 							<a class="edit" asp-action="EditBook" asp-controller="StoreOwner" asp-route-id="@book.Id"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
