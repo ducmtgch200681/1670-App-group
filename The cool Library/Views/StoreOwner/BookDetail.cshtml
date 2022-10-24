@@ -1,9 +1,7 @@
 ﻿@model The_cool_Library.Models.Book
-@*Link document:https://mdbootstrap.com/docs/standard/extended/product-cards/ *@
-@*This page can be used for both storeowner and customer*@
 
 @{
-    Layout = "~/Views/Shared/_LayoutBookCRUD.cshtml";
+    Layout = "_LayoutBookCRUD";
 }
 
 <section style="background-color: #eee;">
@@ -12,8 +10,8 @@
             <div class="col-md-8 col-lg-6 col-xl-4">
                 <div class="card text-black">
                     <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
-                    <img src="@Model.Book_image"
-                         class="card-img-top" />
+                    <img src="@Model.Book_image" class="card-img-top" />
+                         
                     <div class="card-body">
                         <div class="text-center">
                             <h5 class="card-title">ID: @Model.Id</h5>
@@ -41,7 +39,8 @@
                             <div class="d-flex justify-content-between">
                                 <span>Genre</span>
                                 <span>
-                                    <a asp-action="Detail" asp-controller="Genre" asp-route-id="@Model.Genre.Id">
+                                    <a asp-controller="Genre" asp-action="Detail" 
+                                                            asp-route-id="@Model.Genre.Id">
                                         @Model.Genre.Genre_name
                                     </a>
                                 </span>

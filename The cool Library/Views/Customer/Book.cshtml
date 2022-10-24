@@ -21,38 +21,38 @@
     </div>
 </form>
 
-<div class="container">
-    <div class="container page-wrapper">
-        <div class="page-inner">
-            <div class="row">
-                @foreach (var book in Model)
-                {
-                    <div class="el-wrapper">
-                        <div class="box-up">
-                            <img class="img" src="@book.Book_image" alt="">
-                            <div class="img-info">
-                                <div class="info-inner">
-                                    <span class="p-name">@book.Book_name</span>
-                                    <span class="p-company">@book.Book_author</span>
-                                </div>
-                                <div class="a-size size">Available in storage : <span class="size">@book.Book_quantity</span></div>
+
+<div class="container page-wrapper">
+    <div class="page-inner">
+        <div class="row">
+            @foreach (var book in Model)
+            {
+                <div class="el-wrapper">
+                    <div class="box-up">
+                        <img class="img" src="@book.Book_image" alt="">
+                        <div class="img-info">
+                            <div class="info-inner">
+                                <span class="p-name">@book.Book_name</span>
+                                <span class="p-company">@book.Book_author</span>
                             </div>
-                        </div>
-                        <div class="box-down">
-                            <div class="h-bg">
-                                <div class="h-bg-inner"></div>
-                            </div>
-                            <a class="cart" href="#">
-                                <span class="price">$@book.Book_price</span>
-                                <span class="add-to-cart">
-                                    <span class="txt">Add in cart</span>
-                                </span>
-                            </a>
+                            <div class="a-size size">Available in storage : <span class="size">@book.Book_quantity</span></div>
                         </div>
                     </div>
-                }
-            </div>
+                    <div class="box-down">
+                        <div class="h-bg">
+                            <div class="h-bg-inner"></div>
+                        </div>
+                        <a class="cart" href="#">
+                            <span class="price">$@book.Book_price</span>
+                            <span class="add-to-cart">
+                                <span class="txt">Add in cart</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </div>
+
 
