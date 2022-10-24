@@ -40,12 +40,6 @@ namespace The_cool_Library.Controllers
 
         //-------------------------------------------------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Add()
-        {
-            return View();
-        }
-
         [HttpPost]
         public IActionResult Add(Genre genre)
         {
@@ -63,25 +57,7 @@ namespace The_cool_Library.Controllers
 
         //--------------------------------------------------------------------------------------------------------
 
-        [HttpGet]
-        public IActionResult Edit(int id)
-        {
-            return View(applicationDbContext.Genres.Find(id));
-        }
 
-        [HttpPost]
-        public IActionResult Edit(Genre genre)
-        {
-            if (ModelState.IsValid)
-            {
-                applicationDbContext.Genres.Update(genre);
-                applicationDbContext.SaveChanges();
-                return RedirectToAction("Index");
-            } else
-            {
-                return View (genre);
-            }
-        }
 
         //----------------------------------------------------------------------------------
         public IActionResult AddFromRequest()

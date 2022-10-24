@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models;
@@ -107,9 +109,13 @@ namespace The_cool_Library.Controllers
 
         //---------------------------------------------------------------------------------------------
 
-        public IActionResult GenreRequest()
+        public IActionResult Genre()
         {
-            return View(context.GenreRequests.ToList());
+            dynamic GenreCRUD = new ExpandoObject();
+            GenreCRUD.Genres = context.Genres.ToList();
+            GenreCRUD.GenreRequests = context.GenreRequests.ToList();
+
+            return View(GenreCRUD);
         }
 
         //---------------------------------------------------------------------------------------------
@@ -119,6 +125,7 @@ namespace The_cool_Library.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult MakeRequest(GenreRequest request)
         {
@@ -127,7 +134,7 @@ namespace The_cool_Library.Controllers
                 context.Add(request);
                 context.SaveChanges();
                 TempData["Message"] = "Request new genre";
-                return RedirectToAction("MakeRequest");
+                return RedirectToAction("GenreRequest");
             }
             else
             {
@@ -137,24 +144,25 @@ namespace The_cool_Library.Controllers
 
         //---------------------------------------------------------------------------------------------
 
-        public IActionResult Accept(int id)
+        [HttpGet]
+        public IActionResult Edit(int id)
         {
-            var request = context.GenreRequests.Find(id);
-            request.Status = 1;
-            context.GenreRequests.Update(request);
-            context.SaveChanges();
-            TempData["Genre"] = request.Name;
-            return RedirectToAction("AddFromRequest", "Genre");
+            return View(context.Genres.Find(id));
         }
 
-        public IActionResult Reject(int id)
+        [HttpPost]
+        public IActionResult Edit(Genre genre)
         {
-            var request = context.GenreRequests.Find(id);
-            request.Status = -1;
-            context.GenreRequests.Update(request);
-            context.SaveChanges();
-            TempData["Message"] = "Request is rejected";
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                context.Genres.Update(genre);
+                context.SaveChanges();
+                return RedirectToAction("Genre");
+            }
+            else
+            {
+                return View(genre);
+            }
         }
     }
 }

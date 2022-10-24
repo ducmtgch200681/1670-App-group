@@ -1,7 +1,7 @@
 ﻿@model The_cool_Library.Models.Genre
 
 
-<form method="post" asp-action="Edit" asp-controller="Category">
+<form method="post" asp-controller="StoreOwner" asp-action="Edit">
     <h2> Add new category </h2>
     <div class="form-group">
         <label class="h4 text-success">Update category</label>
@@ -10,6 +10,6 @@
     </div>
     <div class="form-group">
         <input type="submit" class="btn btn-warning" value="Edit" />
-        <a class="btn btn-secondary" asp-action="Index" asp-controller="Category">Cancel</a>
+        <a class="btn btn-secondary" asp-controller="StoreOwner" asp-action="Genre">Cancel</a>
     </div>
 </form>
