@@ -1,10 +1,13 @@
 ﻿@model The_cool_Library.Models.Genre
 
+@{
+    Layout = "_LayoutBookCRUD";
+}
 
-<form method="post" asp-controller="StoreOwner" asp-action="Edit">
+<form method="post" asp-controller="StoreOwner" asp-action="EditGenre">
     <h2> Add new category </h2>
     <div class="form-group">
-        <label class="h4 text-success">Update category</label>
+        <label class="h4 text-success">Update Genre</label>
         <input class="form-control" asp-for="@Model.Genre_name" />
         <span class="text-danger" asp-validation-for="@Model.Genre_name"></span>
     </div>

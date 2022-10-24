@@ -145,13 +145,13 @@ namespace The_cool_Library.Controllers
         //---------------------------------------------------------------------------------------------
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult EditGenre(int id)
         {
             return View(context.Genres.Find(id));
         }
 
         [HttpPost]
-        public IActionResult Edit(Genre genre)
+        public IActionResult EditGenre(Genre genre)
         {
             if (ModelState.IsValid)
             {

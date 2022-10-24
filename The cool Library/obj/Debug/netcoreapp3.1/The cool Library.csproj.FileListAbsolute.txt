@@ -1384,9 +1384,6 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Cu
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ContactUs.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Feedback.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Add.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Edit.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Index.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAbout.cshtml.g.cs
@@ -1408,6 +1405,7 @@ E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Libra
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\GenreRequest.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\MakeRequest.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Admin\GenreRequest.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\EditGenre.cshtml.g.cs
+E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Genre.cshtml.g.cs
