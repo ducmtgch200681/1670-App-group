@@ -39,7 +39,6 @@ namespace The_cool_Library.Models
         public int Book_quantity { get; set; }
 
 
-        // bổ sung khóa phụ của category id: Cate_id sau 
         [Required]
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
