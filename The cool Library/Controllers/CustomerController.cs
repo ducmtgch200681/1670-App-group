@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System;
 using System.Linq;
 using The_cool_Library.Data;
@@ -56,6 +57,7 @@ namespace The_cool_Library.Controllers
         }
 
         //--------------------------------------------------------------------------------
+        //Chức năng order book
         [HttpGet]
         public IActionResult OrderBook(int id)
         {
@@ -77,7 +79,13 @@ namespace The_cool_Library.Controllers
             order.Id = context.Orders.ToList().Count + 1;
             context.Orders.Add(order);
             context.SaveChanges();
-            return RedirectToAction(); //lm bang hien thi list sach da mua sau
+            return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau
+        }
+
+        public IActionResult OrderList()
+        {
+            var orders = context.Orders.ToList();
+            return View(orders);
         }
 
         //--------------------------------------------------------------------------------
@@ -96,6 +104,7 @@ namespace The_cool_Library.Controllers
                 return PartialView();
             }
         }
+        //-----------------------------------------------------------------------------
         
 
     }
