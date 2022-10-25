@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models; //cho chac - DMT
@@ -52,6 +53,31 @@ namespace The_cool_Library.Controllers
                 TempData["Message"] = "You can't find any Books !";
             }
             return View("Book", products);
+        }
+
+        //--------------------------------------------------------------------------------
+        [HttpGet]
+        public IActionResult OrderBook(int id)
+        {
+            //DataCart();
+
+            var book = context.Books.Find(id);
+            ViewBag.Book_name = book.Book_name;
+            ViewBag.Quantity = book.Book_quantity;
+            ViewBag.Id = id;
+            ViewBag.Price = book.Book_price;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult OrderBook(Order order, double price)
+        {
+            order.OrderDate = DateTime.Now.Date;
+            order.Price = price * order.Quantity;
+            order.Id = context.Orders.ToList().Count + 1;
+            context.Orders.Add(order);
+            context.SaveChanges();
+            return RedirectToAction(); //lm bang hien thi list sach da mua sau
         }
     }
 }

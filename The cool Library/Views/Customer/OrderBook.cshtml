@@ -1,0 +1,11 @@
+﻿@model The_cool_Library.Models.Order
+
+<form asp-controller="Customer" asp-action="OrderBook" method="post">
+    Book: @ViewBag.Book_name
+    Price: @ViewBag.Price
+    <input name="price" value="@ViewBag.Price" type="hidden" />
+    Quantity: <input asp-for="@Model.Quantity" min="1" max="@ViewBag.Quantity" />
+    <input asp-for="@Model.CustomerEmail" value="@User.Identity.Name" type="hidden" />
+    <input asp-for="@Model.BookId" value="@ViewBag.Id" type="hidden" />
+    <input type="submit" value="Order" />
+</form>

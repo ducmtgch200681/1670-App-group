@@ -22,11 +22,9 @@ namespace The_cool_Library.Data
         public DbSet<Book> Books { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<GenreRequest> GenreRequests { get; set; }
-        /*
-        
         public DbSet<Order> Orders { get; set; }
        
-        */
+        
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

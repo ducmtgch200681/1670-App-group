@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace The_cool_Library.Models
@@ -43,6 +45,7 @@ namespace The_cool_Library.Models
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
 
-
+        //---------------------------------------------
+        public ICollection<Order> Orders { get; set; }
     }
 }
