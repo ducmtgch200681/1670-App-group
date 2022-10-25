@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model dynamic
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -71,15 +73,16 @@
                                         <li class="has-children">
                                             <a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Book"><strong>Book</strong></a>
                                             <ul class="dropdown arrow-top">
-                                                <li><a href="#" class="nav-link">Comic Book</a></li>
-                                                <li><a href="#" class="nav-link">Detective Book</a></li>
-                                                <li><a href="#" class="nav-link">Fiction Novel</a></li>
-                                                <li><a href="#" class="nav-link">Literary Book</a></li>
-                                                <li><a href="#" class="nav-link">Romance Book</a></li>
+                                                @foreach (var genre in Model.Genres)
+                                                {
+                                                    <li><a class="nav-link" asp-controller="Customer" asp-action="GenrePage" asp-route-id="@genre.Id">@genre.Genre_name</a></li>
+                                                }
                                                 <li class="has-children">
                                                     <a href="#">Other Book</a>
                                                     <ul class="dropdown">
-                                                        <li><a href="#">All Book</a></li>
+                                                        <li><a asp-controller="Customer" asp-action="Book">All Book</a></li>
+                                                        <li><a asp-controller="Customer" asp-action="Book">All Book</a></li>
+                                                        <li><a asp-controller="Customer" asp-action="Book">All Book</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>

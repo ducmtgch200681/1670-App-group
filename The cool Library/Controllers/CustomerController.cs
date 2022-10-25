@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System;
+using System.Dynamic;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models; //cho chac - DMT
@@ -20,14 +20,16 @@ namespace The_cool_Library.Controllers
         [Route("/")]
         public IActionResult Index()
         {
-            
-            return View();
+            var genre = context.Genres.ToList();
+            return View(genre);
         }
 
         public IActionResult Book()
         {
-            var allBook = context.Books.ToList();
-            return View(allBook);
+            dynamic allBookwithGenre = new ExpandoObject();
+            allBookwithGenre.Genres = context.Genres.ToList();
+            allBookwithGenre.Books = context.Books.ToList();
+            return View(allBookwithGenre);
         }
 
         public IActionResult About()
@@ -57,7 +59,7 @@ namespace The_cool_Library.Controllers
         }
 
         //--------------------------------------------------------------------------------
-        //Chức năng order book
+
         [HttpGet]
         public IActionResult OrderBook(int id)
         {
@@ -82,6 +84,8 @@ namespace The_cool_Library.Controllers
             return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau
         }
 
+        //--------------------------------------------------------------------------------
+
         public IActionResult OrderList()
         {
             var orders = context.Orders.ToList();
@@ -90,22 +94,15 @@ namespace The_cool_Library.Controllers
 
         //--------------------------------------------------------------------------------
 
-        public PartialViewResult BookList(int?genre)
-        {
-            if (genre != null)
+        [HttpGet]
+            public IActionResult GenrePage(int id)
             {
-                ViewBag.genre = genre;
-                var booklist = context.Books.
-                                        Where(p => p.Id == genre);
-                return PartialView(booklist);
-            }
-            else
-            {
-                return PartialView();
+                dynamic allBookofGenre = new ExpandoObject();
+                //allBookofGenre.Genres = context.Genres.Where(g => g.Id == id).FirstOrDefault();
+                allBookofGenre.Genres = context.Genres.ToList();
+                allBookofGenre.Books = context.Books.Where(g => g.GenreId == id).ToList();
+
+                return View(allBookofGenre);
             }
         }
-        //-----------------------------------------------------------------------------
-        
-
-    }
 }

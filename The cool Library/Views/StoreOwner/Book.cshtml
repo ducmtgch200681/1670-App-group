@@ -1,6 +1,7 @@
 ﻿@model List<Book>
+
 @{
-    Layout = "~/Views/Shared/_LayoutBookCRUD.cshtml";
+    Layout = "_LayoutBookCRUD";
 }
 
 @if (TempData["Message"] != null)
@@ -42,7 +43,8 @@
 					</tr>
 				</thead>
 				<tbody>
-					@foreach(var book in Model){
+					@foreach(var book in Model)
+					{
 					<tr>
 						<td>
 							<img src="@book.Book_image" width="100" height="150"/>

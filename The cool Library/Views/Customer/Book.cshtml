@@ -1,4 +1,4 @@
-﻿@model List<Book>
+﻿@model dynamic
 
 @if (TempData["Message"] != null)
 {
@@ -25,7 +25,7 @@
 <div class="container page-wrapper">
     <div class="page-inner">
         <div class="row">
-            @foreach (var book in Model)
+            @foreach (var book in Model.Books)
             {
                 <div class="el-wrapper">
                     <div class="box-up">
