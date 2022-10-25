@@ -1,0 +1,61 @@
+﻿@using The_cool_Library.Models
+
+@model List<Genre> 
+
+
+@if (TempData["Message"] != null)
+{
+    <h5 class="alert alert-danger">@TempData["Message"]</h5>
+}
+
+@{
+    Layout = "_LayoutViewBook";
+}
+
+<hr />
+<form method="post" asp-controller="Customer" asp-action="Search">
+    <div class="input-group">
+        <div class="form-outline">
+            <input type="search" name="key" class="form-control" placeholder="Search" />
+        </div>
+        <button type="submit" class="btn" style="background:mediumpurple">
+            <i class="icon-search"></i>
+        </button>
+    </div>
+</form>
+
+
+<div class="container page-wrapper">
+    <div class="page-inner">
+        <div class="row">
+            @foreach (var book in Model)
+            {
+                <div class="el-wrapper">
+                    <div class="box-up">
+                        <img class="img" src="@book.Book_image" alt="">
+                        <div class="img-info">
+                            <div class="info-inner">
+                                <span class="p-name">@book.Book_name</span>
+                                <span class="p-company">@book.Book_author</span>
+                            </div>
+                            <div class="a-size size">Available in storage : <span class="size">@book.Book_quantity</span></div>
+                        </div>
+                    </div>
+                    <div class="box-down">
+                        <div class="h-bg">
+                            <div class="h-bg-inner"></div>
+                        </div>
+                        <a class="cart" href="#">
+                            <span class="price">$@book.Book_price</span>
+                            <span class="add-to-cart">
+                                <span class="txt">Add in cart</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+

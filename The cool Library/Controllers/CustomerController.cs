@@ -53,5 +53,21 @@ namespace The_cool_Library.Controllers
             }
             return View("Book", products);
         }
+
+
+       public PartialViewResult BookList(int?genre)
+        {
+            if (genre != null)
+            {
+                ViewBag.genre = genre;
+                var booklist = context.Books.
+                                        Where(p => p.Id == genre);
+                return PartialView(booklist);
+            }
+            else
+            {
+                return PartialView();
+            }    
+        }
     }
 }
