@@ -58,10 +58,10 @@
 							<a class=" btn btn-success" asp-controller="StoreOwner" asp-action="EditBook" asp-route-id="@book.Id" > <span style="color: white"> Edit</span></a>
 						</td>
 						<td>
-							<a class=" btn btn-danger" asp-controller="StoreOwner" asp-action="Delete" asp-route-id="@book.Id"><span style="color: white">Delete</span></a>
+								<a class=" btn btn-danger" asp-controller="StoreOwner" asp-action="Delete" asp-route-id="@book.Id" onclick="return confirm('Are you sure to remove this Book?');"><span style="color: white">Delete</span></a>
 						</td>
 						<td>
-							<a class=" btn btn-warning" asp-controller="StoreOwner" asp-action="BookDetail" asp-route-id="@book.Id" ><span style="color: white">Detail</span></a>	
+							<a class=" btn btn-warning" asp-controller="StoreOwner" asp-action="BookDetail" asp-route-id="@book.Id"><span style="color: white">Detail</span></a>	
 						</td>
 					</tr>
 					}

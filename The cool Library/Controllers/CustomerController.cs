@@ -104,5 +104,14 @@ namespace The_cool_Library.Controllers
 
                 return View(allBookofGenre);
             }
+
+
+        //-----------------------------------------------------------------------------------
+        public IActionResult Sort()
+        {
+            var products = context.Books.OrderByDescending(p => p.Book_price).ToList();
+            return View("Book", products);
         }
+    }
+
 }

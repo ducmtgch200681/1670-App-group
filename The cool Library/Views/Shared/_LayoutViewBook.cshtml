@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+
+  
 </head>
 <body>
     <header>
@@ -77,12 +79,13 @@
                                                 {
                                                     <li><a class="nav-link" asp-controller="Customer" asp-action="GenrePage" asp-route-id="@genre.Id">@genre.Genre_name</a></li>
                                                 }
-                                                <li class="has-children">
-                                                    <a href="#">Other Book</a>
+                                                <li><a class="nav-link" asp-controller="Customer" asp-action="Book"><strong>All Book</strong></a></li>
+                                                <li class="has-children divider">
+                                                    <a href="#">Other</a>
                                                     <ul class="dropdown">
-                                                        <li><a asp-controller="Customer" asp-action="Book">All Book</a></li>
-                                                        <li><a asp-controller="Customer" asp-action="Book">All Book</a></li>
-                                                        <li><a asp-controller="Customer" asp-action="Book">All Book</a></li>
+                                                        <li><a>School supplies</a></li>
+                                                        <li><a>Sports equipment</a></li>
+                                                        <li><a>Children toy</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
