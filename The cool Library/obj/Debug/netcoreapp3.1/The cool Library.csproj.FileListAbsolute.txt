@@ -1400,6 +1400,5 @@ F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\net
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Genre.cshtml.g.cs
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\MakeRequest.cshtml.g.cs
 F:\HW\BT Semester 5\1670\ASM_coppy\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\OrderBook.cshtml.g.cs
-E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ComicBook.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\GenrePage.cshtml.g.cs
 E:\GitHub\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\OrderBook.cshtml.g.cs
