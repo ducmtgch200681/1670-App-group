@@ -1876,3 +1876,6 @@ F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netco
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\OrderList.cshtml.g.cs
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\BookSameGenre.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\BookDetail.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\OrderList.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\BookSameGenre.cshtml.g.cs
