@@ -36,10 +36,11 @@ namespace The_cool_Library.Controllers
 
         public IActionResult BookDetail(int id)
         {
-            var book = context.Books
-                              .Include(b => b.Genre)
+            dynamic bookDetail = new ExpandoObject();
+            bookDetail.Genres = context.Genres.ToList();
+            bookDetail.Books = context.Books.Include(b => b.Genre)
                               .FirstOrDefault(b => b.Id == id);
-            return View(book);
+            return View(bookDetail);
         }
 
         public IActionResult About()
