@@ -10,21 +10,34 @@
 }
 
 <hr />
-<form method="post" asp-controller="Customer" asp-action="Search">
-    <div class="input-group">
-        <div class="form-outline">
-            <input type="search" name="key" class="form-control" placeholder="Search" />
-        </div>
-        &nbsp;
-        <button type="submit" class="btn" style="background:mediumpurple">
-            <i class="icon-search"></i>
-        </button>
+<div class="row">
+    <div class="col-6 ">
+        <form class="input-group" method="post" asp-controller="Customer" asp-action="Search">
+                <div class="form-outline col-10 ">
+                    <input type="search" name="key" class="form-control" placeholder="Search" />
+                </div>
+                <button type="submit" class="btn" style="background:mediumpurple">
+                    <i class="icon-search"></i>
+                </button>
+        </form>
     </div>
-</form>
-    &nbsp;
-    <a asp-controller="Customer" asp-action="Sort">
-        <button class="btn dropdown-toggle" data-sort="none" style="background:mediumpurple; height:39px"><i class="fa fa-sort"></i></button>
-    </a>
+
+    <div class="col-6 text-right">
+        <form asp-controller="Customer" asp-action="Sort">
+            <div>
+                <button class="btn" data-sort="none" style="background:mediumpurple; height:39px">
+                    <i class="icon-sort"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
 
 <div class="container page-wrapper">
     <div class="page-inner">
@@ -51,8 +64,8 @@
                         <a class="cart" href="#">
                             <span class="price">$@book.Book_price</span>
                             <span class="add-to-cart">
-                                <span class="txt">Add in cart</span>                               
-                            </span>             
+                                <span class="txt">Add in cart</span>
+                            </span>
                         </a>
                     </div>
                 </div>
