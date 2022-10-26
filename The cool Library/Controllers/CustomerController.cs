@@ -39,7 +39,7 @@ namespace The_cool_Library.Controllers
             dynamic bookDetail = new ExpandoObject();
             bookDetail.Genres = context.Genres.ToList();
             bookDetail.Books = context.Books.Include(b => b.Genre)
-                              .FirstOrDefault(b => b.Id == id);
+                                            .FirstOrDefault(b => b.Id == id);
             return View(bookDetail);
         }
 
@@ -109,7 +109,6 @@ namespace The_cool_Library.Controllers
             public IActionResult GenrePage(int id)
             {
                 dynamic allBookofGenre = new ExpandoObject();
-                //allBookofGenre.Genres = context.Genres.Where(g => g.Id == id).FirstOrDefault();
                 allBookofGenre.Genres = context.Genres.ToList();
                 allBookofGenre.Books = context.Books.Where(g => g.GenreId == id).ToList();
 
