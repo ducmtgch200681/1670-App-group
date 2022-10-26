@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace The_cool_Library.Migrations
 {
-    public partial class makeout : Migration
+    public partial class fuck : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -217,19 +217,12 @@ namespace The_cool_Library.Migrations
                     Quantity = table.Column<int>(type: "int", nullable: false),
                     Price = table.Column<double>(type: "float", nullable: false),
                     Bill = table.Column<double>(type: "float", nullable: false),
-                    BookId = table.Column<int>(type: "int", nullable: false),
-                    IUsId = table.Column<int>(type: "int", nullable: false),
-                    IUsId1 = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    BookId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Orders", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Orders_AspNetUsers_IUsId1",
-                        column: x => x.IUsId1,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Orders_Books_BookId",
                         column: x => x.BookId,
@@ -243,9 +236,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "A", "bb84040d-f5c0-4ac9-a4b4-9c065376b74f", "Administrator", "Administrator" },
-                    { "B", "1104d86e-e092-493a-8ec1-52a05b8fdac1", "Customer", "Customer" },
-                    { "C", "2715ef09-b5ef-4e19-819c-00ae7afe2aef", "StoreOwner", "StoreOwner" }
+                    { "A", "e03267f7-1b02-4bc0-bacc-72cdf32d5ae3", "Administrator", "Administrator" },
+                    { "B", "fda0ccf2-de05-4819-ba65-12dc6bad2125", "Customer", "Customer" },
+                    { "C", "409f39d1-6171-417f-9c6d-839c1a940e74", "StoreOwner", "StoreOwner" }
                 });
 
             migrationBuilder.InsertData(
@@ -253,9 +246,9 @@ namespace The_cool_Library.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "293525ee-ef55-4aa4-9c96-dfa91cce8037", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAENud8aKFixJ3N8SOqNGYyIFk2RYKX+EHhhU06moK33WXg/WsiVJ+T2QxIy61tz3PcQ==", null, false, "6ee95b9a-b1c3-4e2e-a131-2a4b8ceaf1d4", false, "admin@fpt.com" },
-                    { "2", 0, "77a8d3d8-1486-4ee4-ae63-d396b1a26851", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAEH8NBigH0mHNRQEt6fWL0uMRqqApsUBZcJy/sLeAyrp94ip+ZfDTZvaY7a6Jz3c5PQ==", null, false, "0675e143-7b9a-464f-b12e-2b052688db5e", false, "customer@fpt.com" },
-                    { "3", 0, "a835492c-f26d-4990-a52c-ca4b35fb0dde", "storeowner@fpt.com", true, false, null, null, "storeowner@fpt.com", "AQAAAAEAACcQAAAAEJ9th+0LOVRzoRduultabYDGdIBOQ6SonEBR3v1IRy6Ksl+o3yXqWfvx/6JkHtqRrw==", null, false, "e4c693c5-7915-444d-840b-caf8a560c433", false, "storeowner@fpt.com" }
+                    { "1", 0, "711db43e-735d-4fc3-9747-38dba9e13b88", "admin@fpt.com", true, false, null, null, "admin@fpt.com", "AQAAAAEAACcQAAAAEDeAqLV6GQC3s5ToP3OM6uIviX/HnDZROyZ0tpfD97MZFUgXWhaCk/6KPIzjGrGUdQ==", null, false, "7c52c08d-93b3-400a-a3dc-5998daac6664", false, "admin@fpt.com" },
+                    { "2", 0, "5c0a822b-f270-42b6-b95e-bec465b38ca8", "customer@fpt.com", true, false, null, null, "customer@fpt.com", "AQAAAAEAACcQAAAAECjsjn7drUOngYFtwlzvmVtTpM5497WhajNbNK8L7u5o+AdyAq+GtzfNZJ99uQztTw==", null, false, "466fc15d-bcad-4c37-8e72-b4ac0b669e5e", false, "customer@fpt.com" },
+                    { "3", 0, "e9cb5ec7-73b5-4475-af59-ec18d587bc2a", "storeowner@fpt.com", true, false, null, null, "storeowner@fpt.com", "AQAAAAEAACcQAAAAENGX74sBu2GUGe1X4bCXHoAuE8EsWMDWVFKH6n6oINrBAai4mLg9ieIwWqm2zNqk8Q==", null, false, "2e9981d2-5df6-45c1-a1fe-63a1f4ab7d09", false, "storeowner@fpt.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -392,11 +385,6 @@ namespace The_cool_Library.Migrations
                 name: "IX_Orders_BookId",
                 table: "Orders",
                 column: "BookId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Orders_IUsId1",
-                table: "Orders",
-                column: "IUsId1");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

@@ -57,9 +57,6 @@
                                     <span>Order</span>
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
                                     {
-                                        @*<span>
-                                            <a class="btn btn-secondary" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Books.Id">Order</a>
-                                        </span>*@
                                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalforOrd">
                                             Order
                                         </button>
