@@ -10,8 +10,8 @@ using The_cool_Library.Data;
 namespace The_cool_Library.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221026074211_makeout")]
-    partial class makeout
+    [Migration("20221026161925_hookup")]
+    partial class hookup
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,21 +51,21 @@ namespace The_cool_Library.Migrations
                         new
                         {
                             Id = "A",
-                            ConcurrencyStamp = "1673b7f7-3ca8-4276-b5e6-7c8b94dd80de",
+                            ConcurrencyStamp = "221709ac-efff-48ef-8573-012b09a759e8",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
                         },
                         new
                         {
                             Id = "B",
-                            ConcurrencyStamp = "fa6dda7c-7b45-4de5-90cc-b36376e09316",
+                            ConcurrencyStamp = "ab42edd2-1c39-4e42-8ac0-1eb839efa7bc",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "C",
-                            ConcurrencyStamp = "c2d2f9f9-b348-4c50-9892-6812391a07c1",
+                            ConcurrencyStamp = "7fbce428-9baf-4db9-ba62-bd6db5127714",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -164,14 +164,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4e4be9ff-b1db-46ea-acc9-01d4320c854c",
+                            ConcurrencyStamp = "47cc66cd-4cfb-4e28-8d04-2b1354164baf",
                             Email = "admin@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJJn2iAsDqaaChpB7Q3V8nuzcF28FRIM6X2yDGGF8fvZEDVGH4JVAyfP0UTa5aoVQw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFJf3nBBq5ahcoeCg5RkGSfpeO9zsVxDj9643PPeMLLdok1SUd1UhRu/MpAYp2fk5Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1168597e-b97d-4a66-ac91-fa4ed8b1eaf1",
+                            SecurityStamp = "58fb05e5-969c-4b1d-a15d-428a15968d5c",
                             TwoFactorEnabled = false,
                             UserName = "admin@fpt.com"
                         },
@@ -179,14 +179,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "96a1eb93-091e-49e4-88ed-4f6f82087fdf",
+                            ConcurrencyStamp = "c51e63a9-6209-42dc-9e4b-dc9745096234",
                             Email = "customer@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEP1vF7vb7ExB6zY2MZIJHG14ee/zV3NIWAmPSvmbcH1PO1rnbatIFdpp2QgsG/5JRQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEF9Hjzv/RbBEAWHSYOqbSuwCLHhKpUDEhoAkJ7Uc/R1quXlYytOiyNLfPq1pk0QSzQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7ea4b094-0be4-41ca-a8cd-8b32a31f0db1",
+                            SecurityStamp = "95a41bba-57eb-43b5-a860-d68cf32917f4",
                             TwoFactorEnabled = false,
                             UserName = "customer@fpt.com"
                         },
@@ -194,14 +194,14 @@ namespace The_cool_Library.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "65343f04-e498-4fe7-821e-009df2463c52",
+                            ConcurrencyStamp = "1d7cce99-7737-40df-bd89-c8727ffc09a9",
                             Email = "storeowner@fpt.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeowner@fpt.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKD2X9fXpebVtins/NmWz93fJWsRGuYt7SasETkb3mFgYbWVCfWWYLoKRH0BSXLwKw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPWVn6jLETpQdG3ZT8rY+3o1jvvwChMi8M2SKWV6dNJpqaJjI3PF4+L7aPaYAFMSHg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "19116aee-aef6-4cb7-aafa-7ba87587898e",
+                            SecurityStamp = "71822a3d-06d0-4bac-acf4-52e8fd46ae99",
                             TwoFactorEnabled = false,
                             UserName = "storeowner@fpt.com"
                         });
@@ -1081,11 +1081,17 @@ namespace The_cool_Library.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<double>("Bill")
+                        .HasColumnType("float");
+
                     b.Property<int>("BookId")
                         .HasColumnType("int");
 
-                    b.Property<string>("CustomerEmail")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("IUsId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("IdentityUserId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
@@ -1099,6 +1105,8 @@ namespace The_cool_Library.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("BookId");
+
+                    b.HasIndex("IUsId");
 
                     b.ToTable("Orders");
                 });
@@ -1173,7 +1181,13 @@ namespace The_cool_Library.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "IUs")
+                        .WithMany()
+                        .HasForeignKey("IUsId");
+
                     b.Navigation("Book");
+
+                    b.Navigation("IUs");
                 });
 
             modelBuilder.Entity("The_cool_Library.Models.Book", b =>

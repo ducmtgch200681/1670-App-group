@@ -1,4 +1,5 @@
-﻿@model List<Order>
+﻿@model dynamic
+
 @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
 {
     <table class="table table-info">
@@ -8,19 +9,21 @@
         <tr>
             <th>Id</th>
             <th>Date</th>
-            <th>Book ID</th>
+            <th>Book Name</th>
             <th>Quantity</th>
-            <th>Price</th>
-
+            <th>Book Price ($)</th>
+            <th>Bill ($)</th>
         </tr>
-        @foreach (var uni in Model)
+
+        @foreach (var order in Model.Orders)
         {
             <tr>
-                <td>@uni.Id</td>
-                <td>@uni.OrderDate</td>
-                <td>@uni.BookId</td>
-                <td>@uni.Quantity</td>
-                <td>@uni.Price</td>
+                <td>@order.Id</td>
+                <td>@order.OrderDate</td>
+                <td>@order.Book.Book_name</td>
+                <td>@order.Quantity</td>
+                <td>@order.Price</td>
+                <td>@order.Bill</td>
             </tr>
         }
     </table>

@@ -57,9 +57,13 @@
                                     <span>Order</span>
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
                                     {
-                                        <span>
+                                        @*<span>
                                             <a class="btn btn-secondary" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Books.Id">Order</a>
-                                        </span>
+                                        </span>*@
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalforOrd">
+                                            Order
+                                        </button>
+                                        
                                     }
                                 </div>
                             </div>
@@ -71,7 +75,7 @@
     </div>
 </section>
 
-<!-- Modal -->
+<!-- Modal des -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -87,6 +91,34 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Order -->
+<div class="modal fade" id="ModalforOrd" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="post" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Books.Id">
+                <div class="modal-body">
+                    @*<input type="hidden" name="cus" value="@Model.IUs.Id">*@
+                    @*<input type="hidden" name="book" value="@Model.Books.Id">*@
+                    <input type="hidden" name="price" value="@Model.Books.Book_price" />
+                    <input type="number" name="quantity" min="1" max="@Model.Books.Book_quantity"><br>
+
+                
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-danger">Order</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

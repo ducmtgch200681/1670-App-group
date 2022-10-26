@@ -41,6 +41,7 @@ namespace The_cool_Library.Controllers
         public IActionResult BookDetail(int id)
         {
             dynamic bookDetail = new ExpandoObject();
+            bookDetail.IUs = context.IUs.ToList();
             bookDetail.Genres = context.Genres.ToList();
             bookDetail.Books = context.Books.Include(b => b.Genre)
                                             .FirstOrDefault(b => b.Id == id);
@@ -106,27 +107,30 @@ namespace The_cool_Library.Controllers
 
         //--------------------------------------------------------------------------------
 
-        [Authorize(Roles = "Customer")]
-        [HttpGet]
-        public IActionResult OrderBook(int id)
-        {
-            //DataCart();
+        //[Authorize(Roles = "Customer")]
+        //[HttpGet]
+        //public IActionResult OrderBook(int id)
+        //{
 
-            var book = context.Books.Find(id);
-            ViewBag.Book_name = book.Book_name;
-            ViewBag.Quantity = book.Book_quantity;
-            ViewBag.Id = id;
-            ViewBag.Price = book.Book_price;
-            return View();
-        }
+        //    var book = context.Books.Find(id);
+        //    ViewBag.Book_name = book.Book_name;
+        //    ViewBag.Quantity = book.Book_quantity;
+        //    ViewBag.Id = id;
+        //    ViewBag.Price = book.Book_price;
+        //    return View();
+        //}
 
         [Authorize(Roles = "Customer")]
         [HttpPost]
-        public IActionResult OrderBook(Order order, double price)
+        public IActionResult OrderBook(int id, double price, int quantity)
         {
+            var order = new Order();
+            order.BookId = id;
             order.OrderDate = DateTime.Now.Date;
-            order.Price = price * order.Quantity;
-            order.Id = context.Orders.ToList().Count + 1;
+            order.Quantity = quantity;
+            order.Price = (price * quantity);
+            order.Bill = order.Price * quantity;
+            //order.IdentityUserId = Cusid;
             context.Orders.Add(order);
             context.SaveChanges();
             return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau
@@ -137,7 +141,12 @@ namespace The_cool_Library.Controllers
         [Authorize(Roles = "Customer")]
         public IActionResult OrderList()
         {
-            var orders = context.Orders.ToList();
+            dynamic orders = new ExpandoObject();
+            orders.Genres = context.Genres.ToList();
+            orders.Books = context.Books.ToList();
+            orders.Orders = context.Orders.Include(b => b.Book)
+                                          .Where(b => b.BookId == b.Book.Id)
+                                          .ToList();
             return View(orders);
         }
 
