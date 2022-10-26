@@ -58,18 +58,32 @@ namespace The_cool_Library.Controllers
             return View();
         }
 
+        //--------------------------------------------------------------------------------
+
         [HttpPost]
         public IActionResult Search(string key)
         {
-            var products = context.Books.Where(p => p.Book_name.Contains(key)).ToList();
-            if (products.Count == 0)
+            dynamic bookSearch = new ExpandoObject();
+            bookSearch.Genres = context.Genres.ToList();
+            bookSearch.Books = context.Books.Where(p => p.Book_name.Contains(key)).ToList();
+            
+            if (bookSearch.Books.Count == 0)
             {
                 TempData["Message"] = "You can't find any Books !";
             }
-            return View("Book", products);
+            return View("Book", bookSearch);
+        }
+
+        public IActionResult Sort()
+        {
+            dynamic bookSort = new ExpandoObject();
+            bookSort.Genres = context.Genres.ToList();
+            bookSort.Books = context.Books.OrderByDescending(p => p.Book_price).ToList();
+            return View("Book", bookSort);
         }
 
         //--------------------------------------------------------------------------------
+
         [Authorize(Roles = "Customer")]
         [HttpGet]
         public IActionResult OrderBook(int id)
@@ -117,11 +131,7 @@ namespace The_cool_Library.Controllers
 
 
         //-----------------------------------------------------------------------------------
-        public IActionResult Sort()
-        {
-            var products = context.Books.OrderByDescending(p => p.Book_price).ToList();
-            return View("Book", products);
-        }
+        
     }
 
 }
