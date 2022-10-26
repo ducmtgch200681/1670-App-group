@@ -27,7 +27,9 @@ namespace The_cool_Library.Controllers
             indexgenre.Books = context.Books.ToList();
             return View(indexgenre);
         }
-        
+
+        //-----------------------------------------------------------------------------------
+
         public IActionResult Book()
         {
             dynamic allBookwithGenre = new ExpandoObject();
@@ -44,6 +46,21 @@ namespace The_cool_Library.Controllers
                                             .FirstOrDefault(b => b.Id == id);
             return View(bookDetail);
         }
+
+        //-----------------------------------------------------------------------------------
+
+        [HttpGet]
+        public IActionResult GenrePage(int id)
+        {
+            dynamic allBookofGenre = new ExpandoObject();
+            allBookofGenre.Genres = context.Genres.ToList();
+            allBookofGenre.Books = context.Books.Where(g => g.GenreId == id).ToList();
+
+            return View(allBookofGenre);
+        }
+
+
+        //-----------------------------------------------------------------------------------
 
         public IActionResult About()
         {
@@ -102,6 +119,7 @@ namespace The_cool_Library.Controllers
             ViewBag.Price = book.Book_price;
             return View();
         }
+
         [Authorize(Roles = "Customer")]
         [HttpPost]
         public IActionResult OrderBook(Order order, double price)
@@ -115,6 +133,7 @@ namespace The_cool_Library.Controllers
         }
 
         //--------------------------------------------------------------------------------
+
         [Authorize(Roles = "Customer")]
         public IActionResult OrderList()
         {
@@ -124,18 +143,7 @@ namespace The_cool_Library.Controllers
 
         //--------------------------------------------------------------------------------
 
-        [HttpGet]
-            public IActionResult GenrePage(int id)
-            {
-                dynamic allBookofGenre = new ExpandoObject();
-                allBookofGenre.Genres = context.Genres.ToList();
-                allBookofGenre.Books = context.Books.Where(g => g.GenreId == id).ToList();
 
-                return View(allBookofGenre);
-            }
-
-
-        //-----------------------------------------------------------------------------------
         
     }
 

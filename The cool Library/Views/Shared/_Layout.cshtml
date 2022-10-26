@@ -33,7 +33,7 @@
             <div class="site-navbar-top">
                 <div class="container py-3">
                     <div class="row align-items-center">
-                        <div class="col-6">
+                        <div class="col-5">
                             <div class="d-flex mr-auto">
                                 <a href="#" class="d-flex align-items-center mr-4">
                                     <span class="icon-envelope mr-2"></span>
@@ -43,10 +43,25 @@
                                     <span class="icon-phone mr-2"></span>
                                     <span class="d-none d-md-inline-block">+84 123 456 789</span>
                                 </a>
+                                
                             </div>
                         </div>
-                        <div class="col-6 text-right">
-                            <div class="mr-auto">
+                        <div class="col-2 text-center" >
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+                                {
+                                    <a asp-controller="StoreOwner" asp-action="Book">
+                                        <span class="d-none d-md-inline-block" style="color: #ff0000">Store Onwer Site</span>
+                                    </a>
+                                }
+                                @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+                                {
+                                    <a asp-controller="aưAdmin" asp-action="GenreRequest">
+                                        <span class="d-none d-md-inline-block" style="color: #ff0000">Admin Site</span>
+                                    </a>     
+                                }
+                        </div>
+                        <div class="col-5">
+                            <div class="mr-auto text-right">
                                 <a href="#" class="p-2 pl-0"><span class="icon-person"></span></a>
                                 <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
                                 <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>

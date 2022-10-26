@@ -6,7 +6,7 @@ using The_cool_Library.Models; //cho chac - DMT
 
 namespace The_cool_Library.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Administrator")]
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext context;
@@ -17,6 +17,7 @@ namespace The_cool_Library.Controllers
         }
         //-----------------------------------------------------------------
 
+        [Route ("/admin/index")]
         public IActionResult GenreRequest()
         {
             return View(context.GenreRequests.ToList());

@@ -10,7 +10,7 @@ using The_cool_Library.Models;
 
 namespace The_cool_Library.Controllers
 {
-    //[Authorize(Roles = "StoreOwner")]
+    [Authorize(Roles = "StoreOwner")]
     public class StoreOwnerController : Controller
     {
         private readonly ApplicationDbContext context;
@@ -38,6 +38,7 @@ namespace The_cool_Library.Controllers
         }
 
         //----------------------------------------------------------------------------------------
+
         public IActionResult BookSameGenre(int? id)
         {
             if(id == null)
@@ -52,10 +53,10 @@ namespace The_cool_Library.Controllers
                 return View(book);
             
             }
-
-          
-
         }
+
+        //----------------------------------------------------------------------------------------
+
         public IActionResult Delete(int? id)
         {
             if (id == null)
@@ -141,6 +142,30 @@ namespace The_cool_Library.Controllers
         //---------------------------------------------------------------------------------------------
 
         [HttpGet]
+        public IActionResult EditGenre(int id)
+        {
+            return View(context.Genres.Find(id));
+        }
+
+        [Authorize(Roles = "StoreOwner")]
+        [HttpPost]
+        public IActionResult EditGenre(Genre genre)
+        {
+            if (ModelState.IsValid)
+            {
+                context.Genres.Update(genre);
+                context.SaveChanges();
+                return RedirectToAction("Genre");
+            }
+            else
+            {
+                return View(genre);
+            }
+        }
+
+        //---------------------------------------------------------------------------------------------
+
+        [HttpGet]
         public IActionResult MakeRequest()
         {
             return View();
@@ -162,27 +187,5 @@ namespace The_cool_Library.Controllers
             }
         }
 
-        //---------------------------------------------------------------------------------------------
-
-        [HttpGet]
-        public IActionResult EditGenre(int id)
-        {
-            return View(context.Genres.Find(id));
-        }
-
-        [HttpPost]
-        public IActionResult EditGenre(Genre genre)
-        {
-            if (ModelState.IsValid)
-            {
-                context.Genres.Update(genre);
-                context.SaveChanges();
-                return RedirectToAction("Genre");
-            }
-            else
-            {
-                return View(genre);
-            }
-        }
     }
 }
