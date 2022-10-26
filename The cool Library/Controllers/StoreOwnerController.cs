@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using System.Data;
 using System.Dynamic;
 using System.Linq;
@@ -41,17 +40,17 @@ namespace The_cool_Library.Controllers
 
         public IActionResult BookSameGenre(int? id)
         {
-            if(id == null)
+            if (id == null)
             {
                 return NotFound();
-            } 
+            }
             else
             {
-               var book = context.Genres
-                                    .Include(b => b.Books)
-                                   .FirstOrDefault(b => b.Id == id);
+                var book = context.Genres
+                                     .Include(b => b.Books)
+                                    .FirstOrDefault(b => b.Id == id);
                 return View(book);
-            
+
             }
         }
 
@@ -115,7 +114,7 @@ namespace The_cool_Library.Controllers
         {
             if (ModelState.IsValid)
             {
-                
+
 
                 context.Books.Update(book);
                 context.SaveChanges();

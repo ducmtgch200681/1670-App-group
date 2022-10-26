@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using The_cool_Library.Models;
 
 namespace The_cool_Library.Data
@@ -23,8 +21,8 @@ namespace The_cool_Library.Data
         public DbSet<Genre> Genres { get; set; }
         public DbSet<GenreRequest> GenreRequests { get; set; }
         public DbSet<Order> Orders { get; set; }
-       
-        
+
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -84,7 +82,7 @@ namespace The_cool_Library.Data
                 Email = "customer@fpt.com",
                 NormalizedUserName = "customer@fpt.com",
                 EmailConfirmed = true
-            };         
+            };
 
             var customer2 = new IdentityUser
             {

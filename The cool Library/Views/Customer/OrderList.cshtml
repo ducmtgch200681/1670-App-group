@@ -1,35 +1,47 @@
 ﻿@model dynamic
 
+@{
+    Layout = "_LayoutViewBook";
+}
+
+<hr />
 @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
 {
-    <table class="table table-info">
-        <tr>
-            <th colspan="4">Order List</th>
-        </tr>
-        <tr>
-            <th>Id</th>
-            <th>Account</th>
-            <th>Date</th>
-            <th>Book Name</th>
-            <th>Quantity</th>
-            <th>Book Price ($)</th>
-            <th>Bill ($)</th>
-        </tr>
-
-        @foreach (var order in Model.Orders)
-        {
-            if(@order.Email == User.Identity.Name)
+    <div class="row align-center">
+        <div>
+            <img src="https://d1bd5u3q1t3nu7.cloudfront.net/icons/180/shopping-cart-icon.png" width="50" height="50">
+        </div>
+        <div class="col-2">
+            <h4 style="color:brown;height:10px"><strong>Your Order</strong></h4>
+        </div>
+    </div>
+    <hr />
+    <table class="table" style="background-color:ivory;border-radius: 30px;">
+        <thead class="thead-light">
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Book Name</th>
+                <th>Quantity</th>
+                <th>Book Price ($)</th>
+                <th>Bill ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model.Orders)
             {
-                <tr>
-                    <td>@order.Id</td>
-                    <td>@order.OrderDate</td>
-                    <td>@order.Book.Book_name</td>
-                    <td>@order.Quantity</td>
-                    <td>@order.Price</td>
-                    <td>@order.Bill</td>
-                </tr>
+                if (@order.Email == User.Identity.Name)
+                {
+                    <tr>
+                        <td>@order.Id</td>
+                        <td>@order.OrderDate</td>
+                        <td>@order.Book.Book_name</td>
+                        <td>@order.Quantity</td>
+                        <td>$@order.Price</td>
+                        <td>$@order.Bill</td>
+                    </tr>
+                }
             }
-            
-        }
+        </tbody>
     </table>
 }

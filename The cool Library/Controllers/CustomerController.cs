@@ -6,7 +6,6 @@ using System.Dynamic;
 using System.Linq;
 using The_cool_Library.Data;
 using The_cool_Library.Models; //cho chac - DMT
-using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace The_cool_Library.Controllers
 {
@@ -75,7 +74,7 @@ namespace The_cool_Library.Controllers
         {
             return View();
         }
-        
+
         public IActionResult ContactUs()
         {
             return View();
@@ -89,7 +88,7 @@ namespace The_cool_Library.Controllers
             dynamic bookSearch = new ExpandoObject();
             bookSearch.Genres = context.Genres.ToList();
             bookSearch.Books = context.Books.Where(p => p.Book_name.Contains(key)).ToList();
-            
+
             if (bookSearch.Books.Count == 0)
             {
                 TempData["Message"] = "You can't find any Books !";
@@ -97,28 +96,23 @@ namespace The_cool_Library.Controllers
             return View("Book", bookSearch);
         }
 
-        public IActionResult Sort()
+        public IActionResult SortPrice()
         {
-            dynamic bookSort = new ExpandoObject();
-            bookSort.Genres = context.Genres.ToList();
-            bookSort.Books = context.Books.OrderByDescending(p => p.Book_price).ToList();
-            return View("Book", bookSort);
+            dynamic bookSortPrice = new ExpandoObject();
+            bookSortPrice.Genres = context.Genres.ToList();
+            bookSortPrice.Books = context.Books.OrderByDescending(p => p.Book_price).ToList();
+            return View("Book", bookSortPrice);
+        }
+
+        public IActionResult SortName()
+        {
+            dynamic bookSortName = new ExpandoObject();
+            bookSortName.Genres = context.Genres.ToList();
+            bookSortName.Books = context.Books.OrderByDescending(n => n.Book_name).ToList();
+            return View("Book", bookSortName);
         }
 
         //--------------------------------------------------------------------------------
-
-        //[Authorize(Roles = "Customer")]
-        //[HttpGet]
-        //public IActionResult OrderBook(int id)
-        //{
-
-        //    var book = context.Books.Find(id);
-        //    ViewBag.Book_name = book.Book_name;
-        //    ViewBag.Quantity = book.Book_quantity;
-        //    ViewBag.Id = id;
-        //    ViewBag.Price = book.Book_price;
-        //    return View();
-        //}
 
         [Authorize(Roles = "Customer")]
         [HttpPost]
@@ -153,7 +147,7 @@ namespace The_cool_Library.Controllers
         //--------------------------------------------------------------------------------
 
 
-        
+
     }
 
 }
