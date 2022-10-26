@@ -17,7 +17,7 @@ namespace The_cool_Library.Controllers
         }
         //-----------------------------------------------------------------
 
-        [Route ("/admin/index")]
+        [Route("/admin/index")]
         public IActionResult GenreRequest()
         {
             return View(context.GenreRequests.ToList());

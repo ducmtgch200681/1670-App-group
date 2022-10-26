@@ -1,5 +1,3 @@
-using System;
-
 namespace The_cool_Library.Models
 {
     public class ErrorViewModel
