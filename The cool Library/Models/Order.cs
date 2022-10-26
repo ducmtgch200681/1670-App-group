@@ -10,11 +10,10 @@ namespace The_cool_Library.Models
         public int Quantity { get; set; }
         public double Price { get; set; }
         public double Bill { get; set; }
+        public string Email { get; set; }
 
         public int BookId { get; set; }
         public Book Book { get; set; }
 
-        public int IdentityUserId { get; set; }
-        public IdentityUser IUs { get; set; }
     }
 }

@@ -130,7 +130,7 @@ namespace The_cool_Library.Controllers
             order.Quantity = quantity;
             order.Price = (price * quantity);
             order.Bill = order.Price * quantity;
-            //order.IdentityUserId = Cusid;
+            order.Email = User.Identity.Name;
             context.Orders.Add(order);
             context.SaveChanges();
             return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau

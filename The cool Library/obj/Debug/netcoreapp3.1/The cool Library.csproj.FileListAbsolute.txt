@@ -942,6 +942,7 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+<<<<<<< HEAD
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\appsettings.json
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\bin\Debug\netcoreapp3.1\The cool Library.StaticWebAssets.xml
@@ -1414,3 +1415,6 @@ F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netco
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 F:\HW\BT Semester 5\1670\Project\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+=======
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Order.cshtml.g.cs
+>>>>>>> 604a7d6bf9b022aa0af6fdc8ace0dbc9020bace9
