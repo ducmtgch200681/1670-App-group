@@ -37,12 +37,17 @@
                             <div class="d-flex mr-auto">
                                 <a href="#" class="d-flex align-items-center mr-4">
                                     <span class="icon-envelope mr-2"></span>
+                                    <span class="d-none d-md-inline-block"> @User.Identity.Name!</span>
+                                </a>
+                                <a href="#" class="d-flex align-items-center mr-4">
+                                    <span class="icon-envelope mr-2"></span>
                                     <span class="d-none d-md-inline-block">thecoollibrary@gmail.com</span>
                                 </a>
                                 <a href="#" class="d-flex align-items-center mr-auto">
-                                    <span class="icon-phone mr-2"></span>
-                                    <span class="d-none d-md-inline-block">+84 123 456 789</span>
+                                    <span class="icon-phone mr-1"></span>
+                                    <span class="d-none d-md-inline-block">+84 123 456 789 </span>
                                 </a>
+                               
                                 
                             </div>
                         </div>
@@ -86,6 +91,10 @@
                                     <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                                         <li class="active"><a class="nav-link" style="color:white; font-size:20px" asp-controller="Customer" asp-action="Index"><strong>Home</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="About"><strong>About</strong></a></li>
+                                        @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                                        {
+                                            <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="OrderList"><strong>Order</strong></a></li>
+                                        }
                                         <li class="has-children">
                                             <a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Book"><strong>Book</strong></a>
                                             <ul class="dropdown arrow-top">
@@ -106,8 +115,14 @@
                                         </li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="ContactUs"><strong>Contact us</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Feedback"><strong>Feedback</strong></a></li>
-                                        <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
-                                        <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {     
+                                            <li>Login Already</li>
+                                           @* <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Logout"><strong>Logout</strong></a></li>*@
+                                        } else {
+                                            <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
+                                            <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>
+                                        }
                                     </ul>
                                 </div>
                             </nav>

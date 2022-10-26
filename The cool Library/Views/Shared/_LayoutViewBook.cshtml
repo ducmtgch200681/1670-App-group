@@ -72,6 +72,10 @@
                                     <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                                         <li class="active"><a class="nav-link" style="color:white; font-size:20px" asp-controller="Customer" asp-action="Index"><strong>Home</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="About"><strong>About</strong></a></li>
+                                        @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                                        {
+                                            <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="OrderList"><strong>Order</strong></a></li>
+                                        }
                                         <li class="has-children">
                                             <a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Book"><strong>Book</strong></a>
                                             <ul class="dropdown arrow-top">

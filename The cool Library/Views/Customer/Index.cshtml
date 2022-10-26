@@ -25,6 +25,15 @@
 <div class="container-xl" >
         <div class="row">
             <div class="col-md-12">
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+            {
+                <h2>Welcome Customer: @User.Identity.Name!</h2>
+            }
+            else if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner")){
+                <h2>Welcome Store Owner: @User.Identity.Name!</h2>
+            } else if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner")){
+                <h2>Welcome Admin: @User.Identity.Name!</h2>
+            }
                 <h2>Featured <b>Books</b></h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
                     <ol class="carousel-indicators">
