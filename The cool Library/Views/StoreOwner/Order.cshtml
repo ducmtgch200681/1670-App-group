@@ -1,0 +1,33 @@
+﻿@model List<Order>
+
+@{
+    Layout = "_LayoutBookCRUD";
+}
+
+    <table class="table table-info">
+        <tr>
+            <th colspan="4">Order List</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Account</th>
+            <th>Date</th>
+            <th>Book Name</th>
+            <th>Quantity</th>
+            <th>Book Price ($)</th>
+            <th>Bill ($)</th>
+        </tr>
+
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.Email</td>
+                <td>@order.OrderDate</td>
+                <td>@order.Book.Book_name</td>
+                <td>@order.Quantity</td>
+                <td>@order.Price</td>
+                <td>@order.Bill</td>
+            </tr>
+        }
+    </table>

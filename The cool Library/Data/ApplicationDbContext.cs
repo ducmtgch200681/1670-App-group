@@ -68,21 +68,30 @@ namespace The_cool_Library.Data
                 EmailConfirmed = true
             };
 
-            var customer = new IdentityUser
+            var storeOwner = new IdentityUser
             {
                 Id = "2",
+                UserName = "storeowner@fpt.com",
+                Email = "storeowner@fpt.com",
+                NormalizedUserName = "storeowner@fpt.com",
+                EmailConfirmed = true
+            };
+
+            var customer = new IdentityUser
+            {
+                Id = "3",
                 UserName = "customer@fpt.com",
                 Email = "customer@fpt.com",
                 NormalizedUserName = "customer@fpt.com",
                 EmailConfirmed = true
-            };
+            };         
 
-            var storeOwner = new IdentityUser 
+            var customer2 = new IdentityUser
             {
-                Id = "3",
-                UserName = "storeowner@fpt.com",
-                Email = "storeowner@fpt.com",
-                NormalizedUserName = "storeowner@fpt.com",
+                Id = "4",
+                UserName = "Cus2",
+                Email = "cus2@fpt.com",
+                NormalizedUserName = "cus2@fpt.com",
                 EmailConfirmed = true
             };
 
@@ -91,11 +100,13 @@ namespace The_cool_Library.Data
 
             //Thiết lập để mã hóa từng tài khoản
             admin.PasswordHash = hashed.HashPassword(admin, "12345");
-            customer.PasswordHash = hashed.HashPassword(customer, "12345");
             storeOwner.PasswordHash = hashed.HashPassword(storeOwner, "12345");
+            customer.PasswordHash = hashed.HashPassword(customer, "12345");
+            customer2.PasswordHash = hashed.HashPassword(customer2, "12345");
+
 
             //Add tài khoản vào DB
-            builder.Entity<IdentityUser>().HasData(admin, customer, storeOwner);
+            builder.Entity<IdentityUser>().HasData(admin, storeOwner, customer, customer2);
         }
 
         //Add Role
@@ -109,22 +120,22 @@ namespace The_cool_Library.Data
                 NormalizedName = "Administrator"
             };
 
-            var customer = new IdentityRole
-            {
-                Id = "B",
-                Name = "Customer",
-                NormalizedName = "Customer"
-            };
-
             var storeOwner = new IdentityRole
             {
-                Id = "C",
+                Id = "B",
                 Name = "StoreOwner",
                 NormalizedName = "StoreOwner"
             };
 
+            var customer = new IdentityRole
+            {
+                Id = "C",
+                Name = "Customer",
+                NormalizedName = "Customer"
+            };
+
             //2. add role vào trong DB
-            builder.Entity<IdentityRole>().HasData(admin, customer, storeOwner);
+            builder.Entity<IdentityRole>().HasData(admin, storeOwner, customer);
         }
 
         private void SeedUserRole(ModelBuilder builder)
@@ -143,6 +154,11 @@ namespace The_cool_Library.Data
                 new IdentityUserRole<string>
                 {
                     UserId = "3",
+                    RoleId = "C"
+                },
+                new IdentityUserRole<string>
+                {
+                    UserId = "4",
                     RoleId = "C"
                 }
              );

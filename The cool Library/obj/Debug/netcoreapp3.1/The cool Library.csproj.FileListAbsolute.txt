@@ -942,3 +942,4 @@ D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\Order.cshtml.g.cs
