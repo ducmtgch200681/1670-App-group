@@ -13,8 +13,8 @@
 {
     <h2 class="alert alert-danger">No book in DB. Add Book first !</h2>
 }
-@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
-{
+@*@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{*@
 	<div class="container-xl">
 		<div class="table-responsive">
 			<div class="table-wrapper">
@@ -72,4 +72,4 @@
 			</div>
 		</div>        
 	</div>
-}
+@*}*@

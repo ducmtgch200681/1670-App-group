@@ -3,8 +3,8 @@
 @{
     Layout = "_LayoutBookCRUD";
 }
-@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
-{
+@*@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{*@
     <div>
         <a type="button" class="btn" style="background:burlywood; color:white" asp-controller="StoreOwner" asp-action="Book">Back</a>
     </div>
@@ -85,4 +85,4 @@
             </div>
         </div>
     </div>
-}
+@*}*@
