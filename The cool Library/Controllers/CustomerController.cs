@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Dynamic;
@@ -68,7 +69,7 @@ namespace The_cool_Library.Controllers
         }
 
         //--------------------------------------------------------------------------------
-
+        [Authorize(Roles = "Customer")]
         [HttpGet]
         public IActionResult OrderBook(int id)
         {
@@ -81,7 +82,7 @@ namespace The_cool_Library.Controllers
             ViewBag.Price = book.Book_price;
             return View();
         }
-
+        [Authorize(Roles = "Customer")]
         [HttpPost]
         public IActionResult OrderBook(Order order, double price)
         {
@@ -94,7 +95,7 @@ namespace The_cool_Library.Controllers
         }
 
         //--------------------------------------------------------------------------------
-
+        [Authorize(Roles = "Customer")]
         public IActionResult OrderList()
         {
             var orders = context.Orders.ToList();

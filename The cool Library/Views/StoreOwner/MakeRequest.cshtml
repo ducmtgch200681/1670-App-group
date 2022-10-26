@@ -8,25 +8,27 @@
 {
     <h5 class="alert alert-info">@TempData["Message"]</h5>
 }
-
-<form method="post" asp-controller="StoreOwner" asp-action="MakeRequest" >
-    <h2>Store Owner</h2>
-    <h2> Add new genre  </h2>
-    <div class="form-group">
-        <label class="h4 text-success">New Genre</label>
-        <input class="form-control" asp-for="@Model.Name" />
-        <span class="text-danger" asp-validation-for="@Model.Name"></span>
-    </div>
-    <div class="form-group">
-        <label class="h4 text-success">Description</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" asp-for="@Model.Description" placeholder="Description"></textarea>
-        <span class="text-danger" asp-validation-for="@Model.Description"></span>
-    </div>
-    <div class="form-group">
-        <input type="hidden" value="0" asp-for="Status" />
-    </div>
-    <div class="form-group">
-        <input type="submit" class="btn btn-warning" value="Request" />
-        <a class="btn btn-secondary" asp-action="Book" asp-controller="StoreOwner">Cancel</a>
-    </div>
-</form>
+@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{
+    <form method="post" asp-controller="StoreOwner" asp-action="MakeRequest" >
+        <h2>Store Owner</h2>
+        <h2> Add new genre  </h2>
+        <div class="form-group">
+            <label class="h4 text-success">New Genre</label>
+            <input class="form-control" asp-for="@Model.Name" />
+            <span class="text-danger" asp-validation-for="@Model.Name"></span>
+        </div>
+        <div class="form-group">
+            <label class="h4 text-success">Description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" asp-for="@Model.Description" placeholder="Description"></textarea>
+            <span class="text-danger" asp-validation-for="@Model.Description"></span>
+        </div>
+        <div class="form-group">
+            <input type="hidden" value="0" asp-for="Status" />
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-warning" value="Request" />
+            <a class="btn btn-secondary" asp-action="Book" asp-controller="StoreOwner">Cancel</a>
+        </div>
+    </form>
+}

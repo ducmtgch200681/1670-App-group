@@ -13,61 +13,63 @@
 {
     <h2 class="alert alert-danger">No book in DB. Add Book first !</h2>
 }
-
-<div class="container-xl">
-	<div class="table-responsive">
-		<div class="table-wrapper">
-			<div class="table-title">
-				<div class="row">
-					<div class="col-sm-6">
-						<h2>Manage <b>Books</b></h2>
-					</div>
-					<div class="col-sm-6">
-						<a class="btn btn-success" asp-action="AddBook" asp-controller="StoreOwner"><i class="material-icons">&#xE147;</i> <span>Add New Book</span></a>					
+@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{
+	<div class="container-xl">
+		<div class="table-responsive">
+			<div class="table-wrapper">
+				<div class="table-title">
+					<div class="row">
+						<div class="col-sm-6">
+							<h2>Manage <b>Books</b></h2>
+						</div>
+						<div class="col-sm-6">
+							<a class="btn btn-success" asp-action="AddBook" asp-controller="StoreOwner"><i class="material-icons">&#xE147;</i> <span>Add New Book</span></a>					
+						</div>
 					</div>
 				</div>
-			</div>
-			<table class="table table-striped table-hover table ">
-				<thead>
-					<tr>
-						
-						<th>Image</th>
-						<th>Name</th>
-						<th>Author</th>
-						<th>Quantity</th>
-						<th>Price ($)</th>
-						<th>&nbsp;</th>
-						<th>   Menu</th>
-						<th> &nbsp;</th>
+				<table class="table table-striped table-hover table ">
+					<thead>
+						<tr>
 
-					</tr>
-				</thead>
-				<tbody>
-					@foreach(var book in Model)
-					{
-					<tr>
-						<td>
-							<img src="@book.Book_image" width="100" height="150"/>
-						</td>
-						<td>@book.Book_name</td>
-						<td>@book.Book_author</td>
-						<td>@book.Book_quantity</td>
-						<td>$@book.Book_price</td>
-						
-						<td>
-							<a class=" btn btn-success" asp-controller="StoreOwner" asp-action="EditBook" asp-route-id="@book.Id" > <span style="color: white"> Edit</span></a>
-						</td>
-						<td>
-								<a class=" btn btn-danger" asp-controller="StoreOwner" asp-action="Delete" asp-route-id="@book.Id" onclick="return confirm('Are you sure to remove this Book?');"><span style="color: white">Delete</span></a>
-						</td>
-						<td>
-							<a class=" btn btn-warning" asp-controller="StoreOwner" asp-action="BookDetail" asp-route-id="@book.Id"><span style="color: white">Detail</span></a>	
-						</td>
-					</tr>
-					}
-				</tbody>
-			</table>
-			
-		</div>
-	</div>        
-</div>
+							<th>Image</th>
+							<th>Name</th>
+							<th>Author</th>
+							<th>Quantity</th>
+							<th>Price ($)</th>
+							<th>&nbsp;</th>
+							<th>   Menu</th>
+							<th> &nbsp;</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var book in Model)
+						{
+							<tr>
+								<td>
+									<img src="@book.Book_image" width="100" height="150"/>
+								</td>
+								<td>@book.Book_name</td>
+								<td>@book.Book_author</td>
+								<td>@book.Book_quantity</td>
+								<td>$@book.Book_price</td>
+
+								<td>
+									<a class=" btn btn-success" asp-controller="StoreOwner" asp-action="EditBook" asp-route-id="@book.Id" > <span style="color: white"> Edit</span></a>
+								</td>
+								<td>
+									<a class=" btn btn-danger" asp-controller="StoreOwner" asp-action="Delete" asp-route-id="@book.Id" onclick="return confirm('Are you sure to remove this Book?');"><span style="color: white">Delete</span></a>
+								</td>
+								<td>
+									<a class=" btn btn-warning" asp-controller="StoreOwner" asp-action="BookDetail" asp-route-id="@book.Id"><span style="color: white">Detail</span></a>	
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+
+			</div>
+		</div>        
+	</div>
+}

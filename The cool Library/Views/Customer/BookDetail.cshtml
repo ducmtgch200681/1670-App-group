@@ -55,9 +55,13 @@
                                             Enter
                                         </button>
                                     </span>
-                                    <span>
-                                      <a class="btn btn-secondary" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Id">Order</a>
-                                    </span>
+
+                                    @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                                    {
+                                        <span>
+                                            <a class="btn btn-secondary" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Id">Order</a>
+                                        </span>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -65,6 +69,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <!-- Modal -->

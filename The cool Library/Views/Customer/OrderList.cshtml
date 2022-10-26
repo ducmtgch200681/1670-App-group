@@ -1,0 +1,27 @@
+﻿@model List<Order>
+@if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+{
+    <table class="table table-info">
+        <tr>
+            <th colspan="4">Order List</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>Book ID</th>
+            <th>Quantity</th>
+            <th>Price</th>
+
+        </tr>
+        @foreach (var uni in Model)
+        {
+            <tr>
+                <td>@uni.Id</td>
+                <td>@uni.OrderDate</td>
+                <td>@uni.BookId</td>
+                <td>@uni.Quantity</td>
+                <td>@uni.Price</td>
+            </tr>
+        }
+    </table>
+}

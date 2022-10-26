@@ -4,85 +4,86 @@
     Layout = "_LayoutBookCRUD";
 }
 
-
-<form method="post" asp-controller="StoreOwner" asp-action="EditBook">
-    <div class="form-group">
+@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{
+    <form method="post" asp-controller="StoreOwner" asp-action="EditBook">
         <div class="form-group">
-            <label class="h4 text-success">Book Name</label>
-            <input class="form-control" asp-for="@Model.Book_name" placeholder="Book Name">
-            <span class="text-danger" asp-validation-for="@Model.Book_name"></span>
-        </div>
+            <div class="form-group">
+                <label class="h4 text-success">Book Name</label>
+                <input class="form-control" asp-for="@Model.Book_name" placeholder="Book Name">
+                <span class="text-danger" asp-validation-for="@Model.Book_name"></span>
+            </div>
 
-        <div class="form-group ">
-            <label class="h4 text-success">Author</label>
-            <input class="form-control" asp-for="@Model.Book_author" placeholder="Author">
-            <span class="text-danger" asp-validation-for="@Model.Book_author"></span>
+            <div class="form-group ">
+                <label class="h4 text-success">Author</label>
+                <input class="form-control" asp-for="@Model.Book_author" placeholder="Author">
+                <span class="text-danger" asp-validation-for="@Model.Book_author"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="h4 text-success">Publisher</label>
+                <input class="form-control" asp-for="@Model.Book_publisher" placeholder="Publisher">
+                <span class="text-danger" asp-validation-for="@Model.Book_publisher"></span>
+            </div>
+
+            <div class="form-group ">
+                <label class="h4 text-success">Price $$</label>
+                <input class="form-control" asp-for="@Model.Book_price" placeholder="Price">
+                <span class="text-danger" asp-validation-for="@Model.Book_price"></span>
+            </div>
+            <div class="form-group">
+                <label class="h4 text-success">Quantity</label>
+                <input class="form-control" asp-for="@Model.Book_quantity" placeholder="Quantity">
+                <span class="text-danger" asp-validation-for="@Model.Book_quantity"></span>
+            </div>
+
+            <div class="form-group ">
+                <label class="h4 text-success">Date</label>
+                <input class="form-control" asp-for="@Model.Book_date" placeholder="Date">
+                <span class="text-danger" asp-validation-for="@Model.Book_date"></span>
+            </div>
+
         </div>
 
         <div class="form-group">
-            <label class="h4 text-success">Publisher</label>
-            <input class="form-control" asp-for="@Model.Book_publisher" placeholder="Publisher">
-            <span class="text-danger" asp-validation-for="@Model.Book_publisher"></span>
+            <label class="h4 text-success" asp-for="@Model.Book_image"></label><br>
+            <input class="form-control mt-3" asp-for="@Model.Book_image" />
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Image
+            </button>
+
+            <span class="text-danger" asp-validation-for="@Model.Book_image"></span>
         </div>
 
-        <div class="form-group ">
-            <label class="h4 text-success">Price $$</label>
-            <input class="form-control" asp-for="@Model.Book_price" placeholder="Price">
-            <span class="text-danger" asp-validation-for="@Model.Book_price"></span>
-        </div>
+
         <div class="form-group">
-            <label class="h4 text-success">Quantity</label>
-            <input class="form-control" asp-for="@Model.Book_quantity" placeholder="Quantity">
-            <span class="text-danger" asp-validation-for="@Model.Book_quantity"></span>
+            <label class="h4 text-success">Genre</label>
+            <select class="list-group-item" asp-for="@Model.GenreId">
+                <option>Select a Genre</option>
+                @foreach (var genre in ViewBag.Genres)
+                {
+                    <option value="@genre.Id">
+                        @genre.Genre_name
+                    </option>
+                }
+            </select>
+            <span class="text-danger" asp-validation-for="GenreId"></span>
         </div>
 
-        <div class="form-group ">
-            <label class="h4 text-success">Date</label>
-            <input class="form-control" asp-for="@Model.Book_date" placeholder="Date">
-            <span class="text-danger" asp-validation-for="@Model.Book_date"></span>
+        <div class="form-group">
+            <label class="h4 text-success">Description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" asp-for="@Model.Book_description" placeholder="Description"></textarea>
+            <span class="text-danger" asp-validation-for="@Model.Book_description"></span>
         </div>
 
-    </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-success" value="Edit" />
+            <a class="btn btn-secondary" asp-action="Book" asp-controller="StoreOwner">Cancel</a>
+        </div>
 
-    <div class="form-group">
-        <label class="h4 text-success" asp-for="@Model.Book_image"></label><br>
-        <input class="form-control mt-3" asp-for="@Model.Book_image" />
-        
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Image
-        </button>
-
-        <span class="text-danger" asp-validation-for="@Model.Book_image"></span>
-    </div>
-    
-
-    <div class="form-group">
-        <label class="h4 text-success">Genre</label>
-        <select class="list-group-item" asp-for="@Model.GenreId">
-            <option>Select a Genre</option>
-            @foreach (var genre in ViewBag.Genres)
-            {
-                <option value="@genre.Id">
-                    @genre.Genre_name
-                </option>
-            }
-        </select>
-        <span class="text-danger" asp-validation-for="GenreId"></span>
-    </div>
-
-    <div class="form-group">
-        <label class="h4 text-success">Description</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" asp-for="@Model.Book_description" placeholder="Description"></textarea>
-        <span class="text-danger" asp-validation-for="@Model.Book_description"></span>
-    </div>
-
-    <div class="form-group">
-        <input type="submit" class="btn btn-success" value="Edit" />
-        <a class="btn btn-secondary" asp-action="Book" asp-controller="StoreOwner">Cancel</a>
-    </div>
-
-</form>
-
+    </form>
+}
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -100,4 +101,5 @@
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
     </div>
+</div>
 </div>

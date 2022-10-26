@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Data;
 using System.Dynamic;
 using System.Linq;
 using The_cool_Library.Data;
@@ -8,6 +10,7 @@ using The_cool_Library.Models;
 
 namespace The_cool_Library.Controllers
 {
+    [Authorize(Roles = "StoreOwner")]
     public class StoreOwnerController : Controller
     {
         private readonly ApplicationDbContext context;

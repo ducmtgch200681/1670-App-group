@@ -3,16 +3,18 @@
 @{
     Layout = "_LayoutBookCRUD";
 }
-
-<form method="post" asp-controller="StoreOwner" asp-action="EditGenre">
-    <h2> Add new category </h2>
-    <div class="form-group">
-        <label class="h4 text-success">Update Genre</label>
-        <input class="form-control" asp-for="@Model.Genre_name" />
-        <span class="text-danger" asp-validation-for="@Model.Genre_name"></span>
-    </div>
-    <div class="form-group">
-        <input type="submit" class="btn btn-warning" value="Edit" />
-        <a class="btn btn-secondary" asp-controller="StoreOwner" asp-action="Genre">Cancel</a>
-    </div>
-</form>
+@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{
+    <form method="post" asp-controller="StoreOwner" asp-action="EditGenre">
+        <h2> Add new category </h2>
+        <div class="form-group">
+            <label class="h4 text-success">Update Genre</label>
+            <input class="form-control" asp-for="@Model.Genre_name" />
+            <span class="text-danger" asp-validation-for="@Model.Genre_name"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-warning" value="Edit" />
+            <a class="btn btn-secondary" asp-controller="StoreOwner" asp-action="Genre">Cancel</a>
+        </div>
+    </form>
+}
