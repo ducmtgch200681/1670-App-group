@@ -4,64 +4,25 @@
     Layout = "_LayoutViewBook";
 }
 
-<div>
-    <a type="button" class="btn" style="background:burlywood; color:white" asp-controller="Customer" asp-action="Book">Back</a>
-</div>
-<section style="background-color: #eee;">
-    <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6 col-xl-4">
-                <div class="card text-black">
-                    <i class="fab icon-apple fa-lg pt-3 pb-1 px-3"></i>
-                    <img src="@Model.Books.Book_image" class="card-img-top" />
 
-                    <div class="card-body">
-                        <div class="text-center">
-                            <h5 class="card-title">ID: @Model.Books.Id</h5>
-                            <p class="text-muted mb-4">Name: @Model.Books.Book_name</p>
-                            <div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Author</span><span>@Model.Books.Book_author</span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Publisher</span><span>@Model.Books.Book_publisher</span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Publisher date</span><span>@Model.Books.Book_date.ToShortDateString()</span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Price</span><span>@Model.Books.Book_price</span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Quantity</span><span>@Model.Books.Book_quantity</span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Genre</span>
-                                    <span>
-                                        <a asp-controller="Customer" asp-action="GenrePage"
-                                           asp-route-id="@Model.Books.GenreId">
-                                            @Model.Books.Genre.Genre_name
-                                        </a>
-                                    </span>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Description</span>
-                                    <span>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                                            Enter
-                                        </button>
-                                    </span>
-                                   
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <span>Order</span>
-                                    @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
-                                    {
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalforOrd">
-                                            Order
-                                        </button>
-                                        
-                                    }
+<div class="super_container">
+    <header class="header" style="display: none;">
+        <div class="header_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="header_search">
+                            <div class="header_search_content">
+                                <div class="header_search_form_container">
+                                    <form action="#" class="header_search_form clearfix">
+                                        <div class="custom_dropdown">
+                                            <div class="custom_dropdown_list"> <span class="custom_dropdown_placeholder clc"></span> <i class="fas fa-chevron-down"></i>
+                                                <ul class="custom_list clc">
+                                                    <li><a class="clc" href="#"></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -69,8 +30,77 @@
                 </div>
             </div>
         </div>
+    </header>
+    <div class="single_product">
+        <div class="container-fluid" style=" background-color: #fff; padding: 11px;">
+            <div class="row">
+                <div class="col-lg-2 order-lg-1 order-2">
+                    <ul >
+                        <li ><img src="@Model.Books.Book_image" width="350" height="450"  alt=""></li>       @*chõ này để ảnh *@               
+                    </ul>
+                </div>
+                <div class="col-lg-4 order-lg-2 order-1">
+                   
+                </div>
+                <div class="col-lg-6 order-3">
+                    <div class="product_description">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a asp-controller="Customer" asp-action="Book">Book</a></li> @*gán đường link book*@
+                                <li class="breadcrumb-item">
+                                    <a asp-controller="Customer" asp-action="GenrePage"asp-route-id="@Model.Books.GenreId">@Model.Books.Genre.Genre_name</a>
+                                </li> @*gán đường link gển *@
+                                <li class="breadcrumb-item"><a href="#">@Model.Books.Book_name</a></li> @*gán tên sách*@
+                            </ol>
+                        </nav>
+                        <div class="product_name"></div>
+                        <div class="product-rating"><span class="badge badge-success"><i class="fa fa-star"></i> 4.5 Star</span> <span class="rating-review">35 Ratings & 45 Reviews</span></div>
+                        <div> <span class="product_price">@Model.Books.Book_price $</span>  </div> @*gán giá tiền*@
+                        
+                        <hr class="singleline">
+                        <div> <span class="product_info"> Author: @Model.Books.Book_author<span><br> <span class="product_info">Publisher: @Model.Books.Book_publisher<span><br> <span class="product_info">Publisher Date: @Model.Books.Book_date.ToShortDateString()<span><br> <span class="product_info">Quantity: @Model.Books.Book_quantity<span><br> <span class="product_info"><span> </div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="br-dashed">
+                                        <div class="row">
+                                            <div class="col-md-3 col-xs-3"> <img src="https://img.icons8.com/color/48/000000/price-tag.png"> </div>
+                                            <div class="col-md-9 col-xs-9">
+                                                <div class="pr-info"> <span class="break-all">Get 5% instant discount + 10X rewards</span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7"> </div>
+                            </div>
+                           
+                        </div>
+                        <hr class="singleline">
+                        <div class="order_info d-flex flex-row">
+                           
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6" style="margin-left: 13px;">
+                               
+                                    <div class="quantity_buttons">
+                                        <div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+                                        <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="col-xs-6">
+                            <button type="button" class="btn btn-primary shop-button" data-toggle="modal" data-target="#ModalforOrd">Add to Cart</button>                                        
+                            <button type="button" class="btn btn-success shop-button" data-toggle="modal" data-target="#exampleModalLong">Detail</button>
+                                <div class="product_fav"><i class="fas fa-heart"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>         
     </div>
-</section>
+</div>
+
 
 <!-- Modal des -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -97,25 +127,41 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Order</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form method="post" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Books.Id">
-                <div class="modal-body">
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+            {
+                <form method="post" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Books.Id">
+                    <div class="modal-body">
                     @*<input type="hidden" name="cus" value="@Model.IUs.Id">*@
                     @*<input type="hidden" name="book" value="@Model.Books.Id">*@
+                    <h6>Order Quantity: </h6>
                     <input type="hidden" name="price" value="@Model.Books.Book_price" />
                     <input type="number" name="quantity" min="1" max="@Model.Books.Book_quantity"><br>
+                        <div> <span class="product_info"> Title: @Model.Books.Book_name<span><br>
+                            <span class="product_info">Publisher: @Model.Books.Book_publisher<span><br> 
+                                <span class="product_info">Publisher Date: @Model.Books.Book_date.ToShortDateString()<span><br> 
+                                    <span class="product_info">Quantity: @Model.Books.Book_quantity<span><br>
+                                        <span class="product_info">Author: @Model.Books.Book_author<span> </div>
 
-                
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-danger">Order</button>
                 </div>
             </form>
+            } else {
+                <div class="modal-body">
+                 <h6>Login First</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            }
         </div>
     </div>
 </div>

@@ -13,8 +13,8 @@
 {
     <h2 class="alert alert-danger">No book in DB. Add Book first !</h2>
 }
-@*@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
-{*@
+@if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+{
 	<div class="container-xl">
 		<div class="table-responsive">
 			<div class="table-wrapper">
@@ -60,11 +60,16 @@
 								</td>
 								<td>
 									<a class=" btn btn-danger" asp-controller="StoreOwner" asp-action="Delete" asp-route-id="@book.Id" onclick="return confirm('Are you sure to remove this Book?');"><span style="color: white">Delete</span></a>
+									
 								</td>
 								<td>
 									<a class=" btn btn-warning" asp-controller="StoreOwner" asp-action="BookDetail" asp-route-id="@book.Id"><span style="color: white">Detail</span></a>	
+									
 								</td>
 							</tr>
+
+							
+
 						}
 					</tbody>
 				</table>
@@ -72,4 +77,7 @@
 			</div>
 		</div>        
 	</div>
-@*}*@
+}
+
+
+
