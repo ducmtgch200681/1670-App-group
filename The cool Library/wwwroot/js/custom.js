@@ -10,6 +10,7 @@
 1. SCROLLBAR CONTENT
 2. TOOLTIPS AND POPOVER
 3. JVECTORMAP HOME WORLD
+3. JVECTORMAP HOME WORLD
 4. JVECTORMAP USA REGIONS VECTOR MAP
 5. COUNTRY SALES RANGS
 6. JVECTORMAP HOME WORLD
@@ -318,7 +319,7 @@ $(document).ready(function () {
       showMethod: "fadeIn",
       hideMethod: "fadeOut",
     };
-    toastr.success("Welcome to Mono Dashboard", "Howdy!");
+    toastr.success("Welcome to Admin Dashboard", "Howdy!");
   }
 
   if (toaster.length != 0) {
@@ -354,13 +355,13 @@ $(document).ready(function () {
       };
       var thisId = $(this).attr("id");
       if (thisId === "toaster-info") {
-        toastr.info("Welcome to Mono", " Info message");
+        toastr.info("Welcome to The Cool Library", " Info message");
       } else if (thisId === "toaster-success") {
-        toastr.success("Welcome to Mono", "Success message");
+          toastr.success("Welcome to The Cool Library", "Success message");
       } else if (thisId === "toaster-warning") {
-        toastr.warning("Welcome to Mono", "Warning message");
+          toastr.warning("Welcome to The Cool Library", "Warning message");
       } else if (thisId === "toaster-danger") {
-        toastr.error("Welcome to Mono", "Danger message");
+          toastr.error("Welcome to The Cool Library", "Danger message");
       }
     });
   }
