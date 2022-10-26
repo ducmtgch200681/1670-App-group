@@ -38,7 +38,19 @@ namespace The_cool_Library.Controllers
         }
 
         //----------------------------------------------------------------------------------------
-
+        public IActionResult BookSameGenre(int? id)
+        {
+            if(id == null)
+            {
+                return NotFound();
+            } else
+            {
+                var book = context.Books
+                                    .Include(b => b.Genre)
+                                    .FirstOrDefault(b => b.Id == id);
+                return View(book);
+            }
+        }
         public IActionResult Delete(int? id)
         {
             if (id == null)
