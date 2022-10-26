@@ -29,7 +29,9 @@
             {
                 <div class="el-wrapper">
                     <div class="box-up">
-                        <img class="img" src="@book.Book_image" alt="">
+                        <a asp-controller="Customer" asp-action="BookDetail" asp-route-id="@book.Id">
+                            <img class="img" src="@book.Book_image" alt="">
+                        </a>
                         <div class="img-info">
                             <div class="info-inner">
                                 <span class="p-name">@book.Book_name</span>
