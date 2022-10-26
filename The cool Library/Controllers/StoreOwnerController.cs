@@ -10,7 +10,7 @@ using The_cool_Library.Models;
 
 namespace The_cool_Library.Controllers
 {
-    [Authorize(Roles = "StoreOwner")]
+    //[Authorize(Roles = "StoreOwner")]
     public class StoreOwnerController : Controller
     {
         private readonly ApplicationDbContext context;
@@ -45,8 +45,8 @@ namespace The_cool_Library.Controllers
                 return NotFound();
             } else
             {
-                var book = context.Books
-                                    .Include(b => b.Genre)
+                var book = context.Genres
+                                    .Include(b => b.Books)
                                     .FirstOrDefault(b => b.Id == id);
                 return View(book);
             }
