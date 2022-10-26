@@ -6,7 +6,7 @@ using The_cool_Library.Models; //cho chac - DMT
 
 namespace The_cool_Library.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext context;

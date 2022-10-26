@@ -2348,3 +2348,6 @@ G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.dll
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.pdb
 G:\Git\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\The cool Library.genruntimeconfig.cache
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\BookDetail.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\Customer\OrderList.cshtml.g.cs
+D:\Application\Group\1670-App-group\The cool Library\obj\Debug\netcoreapp3.1\Razor\Views\StoreOwner\BookSameGenre.cshtml.g.cs

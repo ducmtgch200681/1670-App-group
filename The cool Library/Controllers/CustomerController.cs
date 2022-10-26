@@ -22,8 +22,10 @@ namespace The_cool_Library.Controllers
         [Route("/")]
         public IActionResult Index()
         {
-            var genre = context.Genres.ToList();
-            return View(genre);
+            dynamic indexgenre = new ExpandoObject();
+            indexgenre.Genres = context.Genres.ToList();
+            indexgenre.Books = context.Books.ToList();
+            return View(indexgenre);
         }
         
         public IActionResult Book()
@@ -45,7 +47,10 @@ namespace The_cool_Library.Controllers
 
         public IActionResult About()
         {
-            return View();
+            dynamic aboutgenre = new ExpandoObject();
+            aboutgenre.Genres = context.Genres.ToList();
+            aboutgenre.Books = context.Books.ToList();
+            return View(aboutgenre);
         }
 
         public IActionResult Feedback()
