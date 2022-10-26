@@ -9429,19 +9429,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\KKK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj",
+      "projectUniqueName": "F:\\HW\\BT Semester 5\\1670\\Project\\1670-App-group\\The cool Library\\The cool Library.csproj",
       "projectName": "The cool Library",
-      "projectPath": "G:\\Git\\1670-App-group\\The cool Library\\The cool Library.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "G:\\Git\\1670-App-group\\The cool Library\\obj\\",
+      "projectPath": "F:\\HW\\BT Semester 5\\1670\\Project\\1670-App-group\\The cool Library\\The cool Library.csproj",
+      "packagesPath": "C:\\Users\\KKK\\.nuget\\packages\\",
+      "outputPath": "F:\\HW\\BT Semester 5\\1670\\Project\\1670-App-group\\The cool Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KKK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9517,7 +9517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
