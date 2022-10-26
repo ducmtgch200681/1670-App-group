@@ -11,8 +11,8 @@
 
 <hr />
 <div class="row">
-    <div class="col-6 ">
-        <form class="input-group" method="post" asp-controller="Customer" asp-action="Search">
+    <div class="col-6 text">
+        <form class="input-group" method="post" asp-controller="Customer" asp-action="Search" style="margin-left:-15px">
                 <div class="form-outline col-10 ">
                     <input type="search" name="key" class="form-control" placeholder="Search" />
                 </div>
@@ -23,19 +23,21 @@
     </div>
 
     <div class="col-6 text-right">
-        <form asp-controller="Customer" asp-action="Sort">
+        <form >
             <div>
+                <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:mediumpurple">Sort</button>
                 <button class="btn" data-sort="none" style="background:mediumpurple; height:39px">
                     <i class="icon-sort"></i>
                 </button>
+                <ul class="dropdown-menu">
+                    <li><a asp-controller="Customer" asp-action="SortName" style="color:mediumpurple">Name</a></li>
+                    <li><a asp-controller="Customer" asp-action="SortPrice" style="color:mediumpurple">Price</a></li>
+                </ul>
             </div>
         </form>
     </div>
 
 </div>
-
-
-
 
 
 

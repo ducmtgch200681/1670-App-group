@@ -5,7 +5,7 @@ using System;
 using System.Dynamic;
 using System.Linq;
 using The_cool_Library.Data;
-using The_cool_Library.Models; //cho chac - DMT
+using The_cool_Library.Models; 
 using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace The_cool_Library.Controllers
@@ -97,12 +97,20 @@ namespace The_cool_Library.Controllers
             return View("Book", bookSearch);
         }
 
-        public IActionResult Sort()
+        public IActionResult SortPrice()
         {
-            dynamic bookSort = new ExpandoObject();
-            bookSort.Genres = context.Genres.ToList();
-            bookSort.Books = context.Books.OrderByDescending(p => p.Book_price).ToList();
-            return View("Book", bookSort);
+            dynamic bookSortPrice = new ExpandoObject();
+            bookSortPrice.Genres = context.Genres.ToList();
+            bookSortPrice.Books = context.Books.OrderByDescending(p => p.Book_price).ToList();
+            return View("Book", bookSortPrice);
+        }
+
+        public IActionResult SortName()
+        {
+            dynamic bookSortName = new ExpandoObject();
+            bookSortName.Genres = context.Genres.ToList();
+            bookSortName.Books = context.Books.OrderByDescending(n => n.Book_name).ToList();
+            return View("Book", bookSortName);
         }
 
         //--------------------------------------------------------------------------------
