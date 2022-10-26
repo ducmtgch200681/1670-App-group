@@ -43,13 +43,18 @@ namespace The_cool_Library.Controllers
             if(id == null)
             {
                 return NotFound();
-            } else
+            } 
+            else
             {
-                var book = context.Genres
+               var book = context.Genres
                                     .Include(b => b.Books)
-                                    .FirstOrDefault(b => b.Id == id);
+                                   .FirstOrDefault(b => b.Id == id);
                 return View(book);
+            
             }
+
+          
+
         }
         public IActionResult Delete(int? id)
         {

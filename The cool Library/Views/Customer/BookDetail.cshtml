@@ -1,12 +1,8 @@
-﻿
-@model dynamic
-
+﻿@model dynamic
 
 @{
-    //Layout = ;
+    Layout = "_LayoutViewBook";
 }
-
-
 
 <div>
     <a type="button" class="btn" style="background:burlywood; color:white" asp-controller="Customer" asp-action="Book">Back</a>
@@ -42,10 +38,10 @@
                                 <div class="d-flex justify-content-between">
                                     <span>Genre</span>
                                     <span>
-                                        @*<a asp-controller="Customer" asp-action="Detail">
-                                           asp-route-id="@Model.Genres.Id">
-                                            @Model.Genres.Genre_name
-                                        </a>*@
+                                        <a asp-controller="Customer" asp-action="GenrePage"
+                                           asp-route-id="@Model.Books.GenreId">
+                                            @Model.Books.Genre.Genre_name
+                                        </a>
                                     </span>
                                 </div>
                                 <div class="d-flex justify-content-between">
@@ -55,12 +51,19 @@
                                             Enter
                                         </button>
                                     </span>
-
+                                   
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Order</span>
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
                                     {
                                         <span>
                                             <a class="btn btn-secondary" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Books.Id">Order</a>
                                         </span>
+                                    }
+                                    else
+                                    {
+                                        <span>Login First</span>
                                     }
                                 </div>
                             </div>
