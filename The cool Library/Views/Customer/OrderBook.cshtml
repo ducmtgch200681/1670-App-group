@@ -1,5 +1,7 @@
 ﻿@model The_cool_Library.Models.Order
-
+@{
+    Layout = null;
+}
 <form asp-controller="Customer" asp-action="OrderBook" method="post">
     Book: @ViewBag.Book_name
     Price: @ViewBag.Price

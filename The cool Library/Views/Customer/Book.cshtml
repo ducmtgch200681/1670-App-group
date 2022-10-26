@@ -28,6 +28,7 @@
         <div class="row">
             @foreach (var book in Model.Books)
             {
+                <a class="btn btn-success" asp-controller="Customer" asp-action="BookDetail" asp-route-id="@book.Id">Detail</a>
                 <div class="el-wrapper">
                     <div class="box-up">
                         <img class="img" src="@book.Book_image" alt="">
@@ -46,8 +47,8 @@
                         <a class="cart" href="#">
                             <span class="price">$@book.Book_price</span>
                             <span class="add-to-cart">
-                                <span class="txt">Add in cart</span>
-                            </span>
+                                <span class="txt">Add in cart</span>                               
+                            </span>             
                         </a>
                     </div>
                 </div>

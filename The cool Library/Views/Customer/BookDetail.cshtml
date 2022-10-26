@@ -1,0 +1,88 @@
+﻿
+@model The_cool_Library.Models.Book
+
+
+@{
+    Layout = null;
+}
+
+
+
+<div>
+    <a type="button" class="btn" style="background:burlywood; color:white" asp-controller="StoreOwner" asp-action="Book">Back</a>
+</div>
+<section style="background-color: #eee;">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <div class="card text-black">
+                    <i class="fab icon-apple fa-lg pt-3 pb-1 px-3"></i>
+                    <img src="@Model.Book_image" class="card-img-top" />
+
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">ID: @Model.Id</h5>
+                            <p class="text-muted mb-4">Name: @Model.Book_name</p>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Author</span><span>@Model.Book_author</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Publisher</span><span>@Model.Book_publisher</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Publisher date</span><span>@Model.Book_date.ToShortDateString()</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Price</span><span>@Model.Book_price</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Quantity</span><span>@Model.Book_quantity</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Genre</span>
+                                    <span>
+                                        <a asp-controller="Genre" asp-action="Detail"
+                                           asp-route-id="@Model.Genre.Id">
+                                            @Model.Genre.Genre_name
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Description</span>
+                                    <span>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                            Enter
+                                        </button>
+                                    </span>
+                                    <span>
+                                      <a class="btn btn-secondary" asp-controller="Customer" asp-action="OrderBook" asp-route-id="@Model.Id">Order</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Description</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @Model.Book_description
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

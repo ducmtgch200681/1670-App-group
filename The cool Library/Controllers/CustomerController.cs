@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Dynamic;
 using System.Linq;
@@ -23,13 +24,21 @@ namespace The_cool_Library.Controllers
             var genre = context.Genres.ToList();
             return View(genre);
         }
-
+        
         public IActionResult Book()
         {
             dynamic allBookwithGenre = new ExpandoObject();
             allBookwithGenre.Genres = context.Genres.ToList();
             allBookwithGenre.Books = context.Books.ToList();
             return View(allBookwithGenre);
+        }
+
+        public IActionResult BookDetail(int id)
+        {
+            var book = context.Books
+                              .Include(b => b.Genre)
+                              .FirstOrDefault(b => b.Id == id);
+            return View(book);
         }
 
         public IActionResult About()
