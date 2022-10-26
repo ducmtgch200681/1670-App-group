@@ -43,7 +43,8 @@ namespace The_cool_Library.Controllers
             if(id == null)
             {
                 return NotFound();
-            } else
+            } 
+            else
             {
                var book = context.Genres
                                     .Include(b => b.Books)
