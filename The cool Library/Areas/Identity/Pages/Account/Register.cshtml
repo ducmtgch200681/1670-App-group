@@ -14,6 +14,8 @@
         <div class="signup-form">
             <h2 class="form-title">Sign up</h2>
             <form asp-route-returnUrl="@Model.ReturnUrl" method="post"  >
+                <div asp-validation-summary="All" class="text-danger"></div>
+
                 <div class="form-group">
                     <label asp-for="Input.Email"><i class="zmdi zmdi-email"></i></label>
                     <input placeholder="Email" asp-for="Input.Email" />
@@ -33,13 +35,11 @@
                     <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" required/>
                     <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service" >Terms of service</a></label>
                 </div>*@
-                @*<div class="form-group form-button">*@
-                    <button type="submit" class="form-submit form-button" style="background:burlywood">Register</button>
-                @*</div>*@
+                <button type="submit" class="btn btn-primary">Register</button>
             </form>
         </div>
         <div class="signup-image">
-            <figure><img src="https://xd.adobe.com/ideas/wp-content/uploads/2020/02/designsprints.png" alt="sing up image"></figure>
+            <figure><img src="https://xd.adobe.com/ideas/wp-content/uploads/2020/02/designsprints.png"></figure>
             <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="signup-image-link"><u>I am already member</u></a>
         </div>
     </div>
