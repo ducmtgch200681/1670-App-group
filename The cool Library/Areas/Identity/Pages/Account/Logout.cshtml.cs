@@ -3,7 +3,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using System.Dynamic;
+using System.Linq;
 using System.Threading.Tasks;
+using The_cool_Library.Data;
+using The_cool_Library.Models;
 
 namespace The_cool_Library.Areas.Identity.Pages.Account
 {

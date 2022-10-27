@@ -33,7 +33,7 @@
             <div class="site-navbar-top">
                 <div class="container py-3">
                     <div class="row align-items-center">
-                        <div class="col-5">
+                        <div class="col-7">
                             <div class="d-flex mr-auto">
                                 <a href="#" class="d-flex align-items-center mr-4">
                                     <span class="icon-envelope mr-2"></span>
@@ -65,7 +65,7 @@
                                     </a>     
                                 }
                         </div>
-                        <div class="col-5">
+                        <div class="col-3">
                             <div class="mr-auto text-right">
                                 <a href="#" class="p-2 pl-0"><span class="icon-person"></span></a>
                                 <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
@@ -118,8 +118,19 @@
                                         @if (User.Identity.IsAuthenticated)
                                         {     
                                             <li>Login Already</li>
-                                           @* <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Logout"><strong>Logout</strong></a></li>*@
-                                        } else {
+                                            <li>
+                                                <a class="nav-link" style="color:white">
+                                                    <form asp-area="Identity" asp-page="/Account/Logout"
+                                                    asp-route-returnUrl="@Url.Action("Index", "Customer", new { area = "" })"
+                                                    >
+                                                    
+                                                        <button type="submit" class="btn btn-link text-white"><strong>Logout</strong></button>
+                                                    </form>
+                                                </a>
+                                            </li>
+                                        } 
+                                        else 
+                                        {
                                             <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
                                             <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>
                                         }
