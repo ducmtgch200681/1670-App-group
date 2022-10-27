@@ -55,13 +55,13 @@
                             @if (User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
                                 {
                                     <a asp-controller="StoreOwner" asp-action="Book">
-                                        <span class="d-none d-md-inline-block" style="color: #ff0000">Store Onwer Site</span>
+                                        <span class="d-none d-md-inline-block" style="color: #6600cc">Store Onwer Site</span>
                                     </a>
                                 }
                             @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
                                 {
                                     <a asp-controller="Admin" asp-action="GenreRequest">
-                                        <span class="d-none d-md-inline-block" style="color: #ff0000">Admin Site</span>
+                                        <span class="d-none d-md-inline-block" style="color: #6600cc">Admin Site</span>
                                     </a>     
                                 }
                         </div>
