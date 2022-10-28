@@ -96,8 +96,23 @@
                                         </li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="ContactUs"><strong>Contact us</strong></a></li>
                                         <li><a class="nav-link" style="color:white" asp-controller="Customer" asp-action="Feedback"><strong>Feedback</strong></a></li>
-                                        <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
-                                        <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            <li>Login Already</li>
+                                            <li>
+                                                <a class="nav-link" style="color:white">
+                                                    <form asp-area="Identity" asp-page="/Account/Logout"
+                                                      asp-route-returnUrl="@Url.Action("Index", "Customer", new { area = "" })">
+                                                        <button type="submit" class="btn btn-link text-white"><strong>Logout</strong></button>
+                                                    </form>
+                                                </a>
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Register"><strong>Sign Up</strong></a></li>
+                                            <li><a class="nav-link" style="color:white" asp-area="Identity" asp-page="/Account/Login"><strong>Sign In</strong></a></li>
+                                        }
                                     </ul>
                                 </div>
                             </nav>
