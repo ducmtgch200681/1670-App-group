@@ -1,4 +1,6 @@
-﻿@model dynamic
+﻿@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using System.Dynamic
+@model dynamic
 
 @{
     Layout = "_LayoutViewBook";
@@ -42,6 +44,17 @@
                     </tr>
                 }
             }
+
+            @*<tr>
+                <td colspan="5">Total bill</td>
+                <td>
+                    @{
+                        dynamic aboutgenre = new ExpandoObject();
+                        int sum = Convert.ToInt32(aboutgenre.Computer("SUM(Bill)", string.Empty));
+                    }
+                </td>
+            </tr>*@
+
         </tbody>
     </table>
 }
