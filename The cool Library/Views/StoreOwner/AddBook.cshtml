@@ -66,6 +66,15 @@
         </div>
 
         <div class="form-group">
+            <label class="h4 text-success">Language</label>
+            <select class="list-group-item" asp-for="@Model.Book_language">
+                <option>German</option>
+                <option>Spanish</option>
+                <option>ThaiLand</option>
+            </select>
+        </div>
+
+        <div class="form-group">
             <label class="h4 text-success">Description</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" asp-for="@Model.Book_description" placeholder="Description"></textarea>
             <span class="text-danger" asp-validation-for="@Model.Book_description"></span>
@@ -75,6 +84,6 @@
             <input type="submit" class="btn btn-success" value="Add" />
             <a class="btn btn-secondary" asp-action="Book" asp-controller="StoreOwner">Cancel</a>
         </div>
- 
+
     </form>
 }
