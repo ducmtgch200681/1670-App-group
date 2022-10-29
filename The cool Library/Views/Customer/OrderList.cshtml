@@ -10,7 +10,6 @@
 <hr />
 
 
-
 @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
 {
     @*@if (Model.Orders.Email == User.Identity.Name && Model.Orders.Count == 0)*@
@@ -64,21 +63,6 @@
                     <td colspan="5">Total bill</td>
                     <td>@(allBill.ToString("n2"))</td>
                 </tr>
-            @*<tr>
-                <td colspan="5">Total bill</td>
-                <td>
-                    @{
-                        dynamic aboutgenre = new ExpandoObject();
-                        int sum = Convert.ToInt32(aboutgenre.Computer("SUM(Bill)", string.Empty));
-                    }
-                </td>
-            </tr>*@
-
-            @*<tr>
-                <td colspan="5">Total bill</td>
-                <td>@order.all</td>
-            </tr>*@
-
         </tbody>
     </table>
     
