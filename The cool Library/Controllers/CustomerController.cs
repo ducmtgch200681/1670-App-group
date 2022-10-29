@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Dynamic;
 using System.Linq;
@@ -116,7 +117,7 @@ namespace The_cool_Library.Controllers
 
         [Authorize(Roles = "Customer")]
         [HttpPost]
-        public IActionResult OrderBook(int id, double price, int quantity)
+        public IActionResult OrderBook(int id, double price, int quantity, Book book)
         {
             var order = new Order();
             order.BookId = id;
@@ -125,6 +126,12 @@ namespace The_cool_Library.Controllers
             order.Price = (price * quantity);
             order.Bill = order.Price * quantity;
             order.Email = User.Identity.Name;
+
+            book = context.Books.Where(b => b.Id == id).FirstOrDefault();
+            book.Book_quantity -= quantity;
+            //book = context.Books.Find(id);
+            context.Books.Update(book);
+
             context.Orders.Add(order);
             context.SaveChanges();
             return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau
@@ -135,12 +142,15 @@ namespace The_cool_Library.Controllers
         [Authorize(Roles = "Customer")]
         public IActionResult OrderList()
         {
+            
             dynamic orders = new ExpandoObject();
             orders.Genres = context.Genres.ToList();
             orders.Books = context.Books.ToList();
             orders.Orders = context.Orders.Include(b => b.Book)
                                           .Where(b => b.BookId == b.Book.Id)
                                           .ToList();
+            orders.Orders = context.Orders.Where(p => p.Email.Contains(User.Identity.Name)).ToList();
+
             return View(orders);
         }
 

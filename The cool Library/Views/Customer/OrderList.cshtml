@@ -4,11 +4,23 @@
 
 @{
     Layout = "_LayoutViewBook";
+    var allBill = 0.0; 
 }
 
 <hr />
+
+
+
 @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
 {
+    @*@if (Model.Orders.Email == User.Identity.Name && Model.Orders.Count == 0)*@
+    @if (Model.Orders.Count == 0)
+    {
+        <h2 class="alert alert-danger">NO order</h2>
+    }
+    else
+    {
+
     <div class="row align-center">
         <div>
             <img src="https://d1bd5u3q1t3nu7.cloudfront.net/icons/180/shopping-cart-icon.png" width="50" height="50">
@@ -30,21 +42,28 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var order in Model.Orders)
-            {
-                if (@order.Email == User.Identity.Name)
+            
+                @foreach (var order in Model.Orders)
                 {
-                    <tr>
-                        <td>@order.Id</td>
-                        <td>@order.OrderDate</td>
-                        <td>@order.Book.Book_name</td>
-                        <td>@order.Quantity</td>
-                        <td>$@order.Price</td>
-                        <td>$@order.Bill</td>
-                    </tr>
-                }
-            }
+                    if (@order.Email == User.Identity.Name)
+                    {
+                        allBill += order.Bill;
+                        <tr>
+                            <td>@order.Id</td>
+                            <td>@order.OrderDate</td>
+                            <td>@order.Book.Book_name</td>
+                            <td>@order.Quantity</td>
+                            <td>$@order.Price</td>
+                            <td>$@order.Bill</td>
+                        </tr>
+                    }
 
+                
+            }
+                <tr>
+                    <td colspan="5">Total bill</td>
+                    <td>@allBill</td>
+                </tr>
             @*<tr>
                 <td colspan="5">Total bill</td>
                 <td>
@@ -55,6 +74,13 @@
                 </td>
             </tr>*@
 
+            @*<tr>
+                <td colspan="5">Total bill</td>
+                <td>@order.all</td>
+            </tr>*@
+
         </tbody>
     </table>
+    
+}
 }

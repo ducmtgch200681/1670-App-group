@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using System.Dynamic;
+using The_cool_Library.Data;
+using System.Linq;
+using System;
 
 namespace The_cool_Library.Areas.Identity.Pages.Account
 {
@@ -14,11 +18,13 @@ namespace The_cool_Library.Areas.Identity.Pages.Account
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IEmailSender _sender;
+        private readonly ApplicationDbContext context;
 
-        public RegisterConfirmationModel(UserManager<IdentityUser> userManager, IEmailSender sender)
+        public RegisterConfirmationModel(UserManager<IdentityUser> userManager, IEmailSender sender, ApplicationDbContext context)
         {
             _userManager = userManager;
             _sender = sender;
+            this.context = context;
         }
 
         public string Email { get; set; }
@@ -29,6 +35,7 @@ namespace The_cool_Library.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnGetAsync(string email, string returnUrl = null)
         {
+
             if (email == null)
             {
                 return RedirectToPage("/Index");
@@ -51,11 +58,12 @@ namespace The_cool_Library.Areas.Identity.Pages.Account
                 EmailConfirmationUrl = Url.Page(
                     "/Account/ConfirmEmail",
                     pageHandler: null,
-                    values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
+                    values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl},
                     protocol: Request.Scheme);
             }
 
             return Page();
         }
+
     }
 }
