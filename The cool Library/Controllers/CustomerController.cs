@@ -123,7 +123,7 @@ namespace The_cool_Library.Controllers
             order.BookId = id;
             order.OrderDate = DateTime.Now.Date;
             order.Quantity = quantity;
-            order.Price = (price * quantity);
+            order.Price = price;
             order.Bill = order.Price * quantity;
             order.Email = User.Identity.Name;
 
