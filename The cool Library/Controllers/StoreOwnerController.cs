@@ -23,14 +23,10 @@ namespace The_cool_Library.Controllers
 
         public IActionResult Book()
         {
-<<<<<<< Updated upstream
             dynamic indexgenre = new ExpandoObject();
             indexgenre.Genres = context.Genres.ToList();
             indexgenre.Books = context.Books.OrderByDescending(p => p.Id).ToList();
             return View(indexgenre);
-=======
-            return View(context.Books.OrderByDescending(p => p.Id).ToList());
->>>>>>> Stashed changes
         }
 
         //-------------------------------------------------------------------------------------
@@ -146,15 +142,15 @@ namespace The_cool_Library.Controllers
         }
 
         //---------------------------------------------------------------------------------------------
-        public IActionResult GenreWaite(GenreRequest request)
-        {
-            return View(context.GenreRequests.ToList());
-            var count = context.GenreRequests.Where(p => p.Name.Contains(User.Identity.Name)).ToList();
-            var c = request.Status == 0;
+        //public IActionResult GenreWaite(GenreRequest request)
+        //{
+        //    return View(context.GenreRequests.ToList());
+        //    var count = context.GenreRequests.Where(p => p.Name.Contains(User.Identity.Name)).ToList();
+        //    var c = request.Status == 0;
             
            
             
-        }
+        //}
 
         //-----------------------------------------------------------------------------------------------
         public IActionResult DeleteW(int? id, GenreRequest request)

@@ -134,7 +134,7 @@ namespace The_cool_Library.Controllers
 
             context.Orders.Add(order);
             context.SaveChanges();
-            return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau
+            return RedirectToAction("OrderList");
         }
 
         //--------------------------------------------------------------------------------
