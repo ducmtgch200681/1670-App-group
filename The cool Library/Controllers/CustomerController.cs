@@ -6,8 +6,7 @@ using System;
 using System.Dynamic;
 using System.Linq;
 using The_cool_Library.Data;
-using The_cool_Library.Models; //cho chac - DMT
-
+using The_cool_Library.Models; 
 namespace The_cool_Library.Controllers
 {
     public class CustomerController : Controller
@@ -71,7 +70,7 @@ namespace The_cool_Library.Controllers
             return View(aboutgenre);
         }
 
-        public IActionResult Feedback()
+        public IActionResult Feedback() 
         {
             return View();
         }
@@ -129,12 +128,10 @@ namespace The_cool_Library.Controllers
 
             book = context.Books.Where(b => b.Id == id).FirstOrDefault();
             book.Book_quantity -= quantity;
-            //book = context.Books.Find(id);
             context.Books.Update(book);
-
             context.Orders.Add(order);
             context.SaveChanges();
-            return RedirectToAction("OrderList"); //lm bang hien thi list sach da mua sau
+            return RedirectToAction("OrderList"); 
         }
 
         //--------------------------------------------------------------------------------

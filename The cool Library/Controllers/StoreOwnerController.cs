@@ -9,7 +9,7 @@ using The_cool_Library.Models;
 
 namespace The_cool_Library.Controllers
 {
-    [Authorize(Roles = "StoreOwner")]
+    [Authorize(Roles = "StoreOwner")]   
     public class StoreOwnerController : Controller
     {
         private readonly ApplicationDbContext context;
@@ -193,9 +193,6 @@ namespace The_cool_Library.Controllers
 
         public IActionResult Order()
         {
-            //dynamic orders = new ExpandoObject();
-            //orders.Genres = context.Genres.ToList();
-            //orders.Books = context.Books.ToList();
             var orders = context.Orders.Include(b => b.Book)
                                           .Where(b => b.BookId == b.Book.Id)
                                           .ToList();

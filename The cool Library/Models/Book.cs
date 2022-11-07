@@ -33,17 +33,14 @@ namespace The_cool_Library.Models
         [Required(ErrorMessage = "Enter book image link here")]
         public string Book_image { get; set; }
 
-        //------------------
         [Required(ErrorMessage = "Enter book language here")]
         public string Book_language { get; set; }
-        //------------------
 
         [Required(ErrorMessage = "Enter book description here")]
         public string Book_description { get; set; }
 
         [Required(ErrorMessage = "Enter quantity")]
         public int Book_quantity { get; set; }
-
 
         [Required]
         public int GenreId { get; set; }
