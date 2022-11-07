@@ -1,0 +1,109 @@
+﻿@model List<GenreRequest>
+@{
+	Layout =  "_LayoutBookCRUD";
+	var count = 0;
+	
+}
+
+<div class="container-xl">
+	<div class="table-responsive">
+		<div class="table-wrapper">
+			<div class="table-title">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2>Request <b>Genre</b></h2>
+					</div>
+					<div class="col-sm-6">
+						<a class="btn btn-success" asp-controller="StoreOwner" asp-action="MakeRequest"><i class="material-icons">&#xE147;</i> <span>Add New Genre</span></a>
+					</div>
+				</div>
+			</div>
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr>
+
+						<th>ID</th>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Status</th>
+						<th>Menu</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (GenreRequest request in Model)
+					{
+						<tr>
+							<td>@request.Id</td>
+							<td>@request.Name</td>
+							<td>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"> Description </button>
+							</td>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Description</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											w
+											@request.Description
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							@if (request.Status == 0)
+							{
+								<td><h6>Pending</h6></td>
+							}
+							else if (request.Status == 1)
+							{
+								<td><h6>Accept</h6></td>
+							}
+							else if (request.Status == -1)
+							{
+								<td><h6>Reject</h6></td>
+							}
+
+							@if (request.Status == 0)
+							{
+								<td><a class="btn btn-warning" asp-action="DeleteW" asp-controller="StoreOwner" asp-route-id="@request.Id">Delete</a></td>
+							}
+							else if (request.Status == 1)
+							{
+								<td><h6>No Actions</h6></td>
+							}
+							else if (request.Status == -1)
+							{
+								<td><a class="btn btn-warning" asp-action="DeleteW" asp-controller="StoreOwner" asp-route-id="@request.Id">Delete</a></td>
+							}
+							
+						</tr>
+						@if (request.Status == -1)
+						{
+							@(count++)
+						}
+						
+					}
+					<tr>
+						<td>count</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>@count</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

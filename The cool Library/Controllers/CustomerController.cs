@@ -131,7 +131,11 @@ namespace The_cool_Library.Controllers
             context.Books.Update(book);
             context.Orders.Add(order);
             context.SaveChanges();
+<<<<<<< HEAD
             return RedirectToAction("OrderList"); 
+=======
+            return RedirectToAction("OrderList");
+>>>>>>> 42138bbf0a15cb0563d5286cf30519c35f99f04d
         }
 
         //--------------------------------------------------------------------------------
